@@ -6,6 +6,7 @@ from datetime import datetime
 from slack import send_slack_message
 from env import SLACK_WEBHOOK_URL_MY
 from fetch import fetch_arxiv_metadata, parse_arxiv_feed
+from notion import upload_today_csv
 
 # === Mistral API 配置 ===
 API_URL = "http://localhost:8000/v1/chat/completions"
@@ -134,3 +135,7 @@ if __name__ == "__main__":
             writer.writerow(row)
 
     print(f"\n✅ Saved {len(results)} relevant papers to {csv_file}")
+
+    # === 上传到 Notion 数据库 ===
+    notion_database_id = upload_today_csv(csv_file)
+
