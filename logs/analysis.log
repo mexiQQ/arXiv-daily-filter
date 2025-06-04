@@ -1,0 +1,129 @@
+🔍 Fetching arXiv papers...
+✅ Fetched 617 papers from arXiv cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG.
+
+--- Processing Paper 1 ---
+Title: Rethinking Machine Unlearning in Image Generation Models
+Authors: Renyang Liu, Wenjie Feng, Tianwei Zhang, Wei Zhou, Xueqi Cheng, See-Kiong Ng
+Published: 2025-06-03T11:25:14Z
+PDF: http://arxiv.org/pdf/2506.02761v1
+Summary: With the surge and widespread application of image generation models, data
+privacy and content safety have become major concerns and attracted great
+attention from users, service providers, and policymakers. Machine unlearning
+(MU) is recognized as a cost-effective and promising means to address the ...
+
+🚫 Not relevant
+
+--- Processing Paper 2 ---
+Title: A Mousetrap: Fooling Large Reasoning Models for Jailbreak with Chain of
+  Iterative Chaos
+Authors: Yang Yao, Xuan Tong, Ruofan Wang, Yixu Wang, Lujundong Li, Liang Liu, Yan Teng, Yingchun Wang
+Published: 2025-02-19T07:23:36Z
+PDF: http://arxiv.org/pdf/2502.15806v2
+Summary: Large Reasoning Models (LRMs) have significantly advanced beyond traditional
+Large Language Models (LLMs) with their exceptional logical reasoning
+capabilities, yet these improvements introduce heightened safety risks. When
+subjected to jailbreak attacks, their ability to generate more targeted and
+ ...
+
+
+--- Processing Paper 3 ---
+Title: MAEBE: Multi-Agent Emergent Behavior Framework
+Authors: Sinem Erisken, Timothy Gothard, Martin Leitgab, Ram Potham
+Published: 2025-06-03T16:33:47Z
+PDF: http://arxiv.org/pdf/2506.03053v1
+Summary: Traditional AI safety evaluations on isolated LLMs are insufficient as
+multi-agent AI ensembles become prevalent, introducing novel emergent risks.
+This paper introduces the Multi-Agent Emergent Behavior Evaluation (MAEBE)
+framework to systematically assess such risks. Using MAEBE with the Greatest
+ ...
+
+
+--- Processing Paper 4 ---
+Title: Chain-of-Jailbreak Attack for Image Generation Models via Editing Step
+  by Step
+Authors: Wenxuan Wang, Kuiyi Gao, Youliang Yuan, Jen-tse Huang, Qiuzhi Liu, Shuai Wang, Wenxiang Jiao, Zhaopeng Tu
+Published: 2024-10-04T19:04:43Z
+PDF: http://arxiv.org/pdf/2410.03869v2
+Summary: Text-based image generation models, such as Stable Diffusion and DALL-E 3,
+hold significant potential in content creation and publishing workflows, making
+them the focus in recent years. Despite their remarkable capability to generate
+diverse and vivid images, considerable efforts are being made to  ...
+
+🚫 Not relevant
+
+--- Processing Paper 5 ---
+Title: Generative Emotion Cause Explanation in Multimodal Conversations
+Authors: Lin Wang, Xiaocui Yang, Shi Feng, Daling Wang, Yifei Zhang, Zhitao Zhang
+Published: 2024-11-01T09:16:30Z
+PDF: http://arxiv.org/pdf/2411.02430v2
+Summary: Multimodal conversation, a crucial form of human communication, carries rich
+emotional content, making the exploration of the causes of emotions within it a
+research endeavor of significant importance. However, existing research on the
+causes of emotions typically employs an utterance selection meth ...
+
+🚫 Not relevant
+
+--- Processing Paper 6 ---
+Title: Diving into Self-Evolving Training for Multimodal Reasoning
+Authors: Wei Liu, Junlong Li, Xiwen Zhang, Fan Zhou, Yu Cheng, Junxian He
+Published: 2024-12-23T10:18:41Z
+PDF: http://arxiv.org/pdf/2412.17451v2
+Summary: Self-evolving trainin--where models iteratively learn from their own
+outputs--has emerged as a key approach for complex reasoning tasks, addressing
+the scarcity of high-quality chain-of-thought data. However, its effectiveness
+in multimodal reasoning, a domain more intricate than text-only reasoning ...
+
+🚫 Not relevant
+
+--- Processing Paper 7 ---
+Title: Combining Threat Intelligence with IoT Scanning to Predict Cyber Attack
+Authors: Jubin Abhishek Soni, Amit Anand, Rajesh Kumar Pandey, Aniket Abhishek Soni
+Published: 2024-11-26T23:00:51Z
+PDF: http://arxiv.org/pdf/2411.17931v4
+Summary: While the Web has become a global platform for communication, malicious
+actors, including hackers and hacktivist groups, often disseminate ideological
+content and coordinate activities through the "Dark Web", an obscure
+counterpart of the conventional web. Presently, challenges such as information
+o ...
+
+🚫 Not relevant
+
+--- Processing Paper 8 ---
+Title: Beyond Prompt Engineering: Robust Behavior Control in LLMs via Steering
+  Target Atoms
+Authors: Mengru Wang, Ziwen Xu, Shengyu Mao, Shumin Deng, Zhaopeng Tu, Huajun Chen, Ningyu Zhang
+Published: 2025-05-23T17:59:18Z
+PDF: http://arxiv.org/pdf/2505.20322v2
+Summary: Precise control over language model generation is vital for ensuring both
+safety and reliability. Although prompt engineering and steering are commonly
+used to intervene in model behaviors, the vast number of parameters in models
+often results in highly intertwined internal representations. This
+int ...
+
+
+--- Processing Paper 9 ---
+Title: Datasheets Aren't Enough: DataRubrics for Automated Quality Metrics and
+  Accountability
+Authors: Genta Indra Winata, David Anugraha, Emmy Liu, Alham Fikri Aji, Shou-Yi Hung, Aditya Parashar, Patrick Amadeus Irawan, Ruochen Zhang, Zheng-Xin Yong, Jan Christian Blaise Cruz, Niklas Muennighoff, Seungone Kim, Hanyang Zhao, Sudipta Kar, Kezia Erina Suryoraharjo, M. Farid Adilazuarda, En-Shiun Annie Lee, Ayu Purwarianti, Derry Tanti Wijaya, Monojit Choudhury
+Published: 2025-06-02T15:31:52Z
+PDF: http://arxiv.org/pdf/2506.01789v2
+Summary: High-quality datasets are fundamental to training and evaluating machine
+learning models, yet their creation-especially with accurate human
+annotations-remains a significant challenge. Many dataset paper submissions
+lack originality, diversity, or rigorous quality control, and these
+shortcomings are ...
+
+🚫 Not relevant
+
+--- Processing Paper 10 ---
+Title: SATA: A Paradigm for LLM Jailbreak via Simple Assistive Task Linkage
+Authors: Xiaoning Dong, Wenbo Hu, Wei Xu, Tianxing He
+Published: 2024-12-19T05:57:37Z
+PDF: http://arxiv.org/pdf/2412.15289v3
+Summary: Large language models (LLMs) have made significant advancements across
+various tasks, but their safety alignment remain a major concern. Exploring
+jailbreak prompts can expose LLMs' vulnerabilities and guide efforts to secure
+them. Existing methods primarily design sophisticated instructions for the ...
+
+
+✅ Saved 4 relevant papers to ./archive/llm_alignment_papers_20250604.csv
