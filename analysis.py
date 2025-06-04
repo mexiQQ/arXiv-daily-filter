@@ -66,7 +66,7 @@ if __name__ == "__main__":
     results = []
     print(f"✅ Fetched {len(papers)} papers from arXiv cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG.")
 
-    for i, paper in enumerate(papers[:10], start=1):
+    for i, paper in enumerate(papers, start=1):
         print(f"\n--- Processing Paper {i} ---")
         print("Title:", paper['title'])
         print("Authors:", ", ".join(paper['authors']))
@@ -115,10 +115,10 @@ if __name__ == "__main__":
             results.append(paper)
 
             # === 发送 Slack 通知（可选） ===
-            try:
-                send_slack_message(paper, SLACK_WEBHOOK_URL_MY)
-            except Exception as e:
-                print(f"❌ Failed to send Slack message: {e}")
+            # try:
+            #     send_slack_message(paper, SLACK_WEBHOOK_URL_MY)
+            # except Exception as e:
+            #     print(f"❌ Failed to send Slack message: {e}")
         else:
             print("🚫 Not relevant")
 
