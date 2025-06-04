@@ -1,8 +1,5 @@
 import requests
-
-# 👉 替换为你自己的 Slack Webhook URL
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
-SLACK_WEBHOOK_URL_MY = "https://hooks.slack.com/services/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"
+from env import SLACK_WEBHOOK_URL, SLACK_WEBHOOK_URL_MY
 
 def format_paper_message(paper: dict, webhook_url=SLACK_WEBHOOK_URL) -> str:
     """

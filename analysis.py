@@ -3,7 +3,8 @@ import json
 import csv
 from time import sleep
 from datetime import datetime
-from slack import send_slack_message, SLACK_WEBHOOK_URL_MY
+from slack import send_slack_message
+from env import SLACK_WEBHOOK_URL_MY
 from fetch import fetch_arxiv_metadata, parse_arxiv_feed
 
 # === Mistral API 配置 ===
