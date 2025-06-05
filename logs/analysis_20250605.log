@@ -1,0 +1,7 @@
+🔍 Fetching arXiv papers...
+Traceback (most recent call last):
+  File "/home/jli265/webspace/arXiv-daily-filter/analysis.py", line 63, in <module>
+    papers = parse_arxiv_feed(xml_data)
+  File "/home/jli265/webspace/arXiv-daily-filter/fetch.py", line 54, in parse_arxiv_feed
+    title = title.replace("\n", "").replace("\r", "").strip()
+AttributeError: 'tuple' object has no attribute 'replace'

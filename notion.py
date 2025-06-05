@@ -65,7 +65,7 @@ def upload_csv_to_database(csv_path, database_id):
             page = {
                 "parent": {"database_id": database_id},
                 "properties": {
-                    "Title": {"title": [{"text": {"content": row["Title"][:200]}}]},
+                    "Title": {"title": [{"text": {"content": row["Title"].replace("\n", "").replace("\r", "").strip()[:200]}}]},
                     "Authors": {"rich_text": [{"text": {"content": row["Authors"]}}]},
                     "Published": {"date": {"start": row["Published"]}},
                     "One_Sentence_Summary": {"rich_text": [{"text": {"content": row.get("One_Sentence_Summary", "")[:1000]}}]},
