@@ -115,10 +115,10 @@ if __name__ == "__main__":
             results.append(paper)
 
             # === 发送 Slack 通知（可选） ===
-            # try:
-            #     send_slack_message(paper, SLACK_WEBHOOK_URL_MY)
-            # except Exception as e:
-            #     print(f"❌ Failed to send Slack message: {e}")
+            try:
+                send_slack_message(paper, SLACK_WEBHOOK_URL_MY)
+            except Exception as e:
+                print(f"❌ Failed to send Slack message: {e}")
         else:
             print("🚫 Not relevant")
 

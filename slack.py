@@ -22,26 +22,26 @@ def format_paper_message(paper: dict, webhook_url=SLACK_WEBHOOK_URL) -> str:
             f"*📌 New Paper on arXiv:*\n"
             f"*{title}*\n\n"
             f"*Authors:* {authors}\n"
-            f"*Published:* {published}\n"
-            f"*Model Type:* `{model_type}` | *HHH:* `{hhh_focus}`\n"
+            f"*Model Type:* `{model_type}` | *HHH:* `{hhh_focus}` | *Published:* `{published}` \n"
             f"*Keywords:* {keywords}\n\n"
             f"*One Sentence Summary:* {one_sentence_summary}\n\n"
-            f"*Abstract_en:* {abstract_en}\n\n"
-            f"*Abstract_zh:* {abstract_zh}\n\n"
+            # f"*Abstract_en:* {abstract_en}\n\n"
+            # f"*Abstract_zh:* {abstract_zh}\n\n"
             f"*🔗 PDF Link:* <{link}|Click here>"
             "\n\n━━━━━━━━━━━━━━━━━━━━━━"
         )
     elif webhook_url == SLACK_WEBHOOK_URL:
         message = (
+            "━━━━━━━━━━━━━━━━━━━━━━\n\n"
             f"*📌 New Paper on arXiv:*\n"
             f"*{title}*\n\n"
             f"*Authors:* {authors}\n"
-            f"*Published:* {published}\n"
-            f"*Model Type:* `{model_type}` | *HHH:* `{hhh_focus}`\n"
+            f"*Model Type:* `{model_type}` | *HHH:* `{hhh_focus}` | *Published:* `{published}` \n"
             f"*Keywords:* {keywords}\n\n"
             f"*One Sentence Summary:* {one_sentence_summary}\n\n"
-            f"*Abstract_en:* {abstract_en}\n\n"
+            # f"*Abstract_en:* {abstract_en}\n\n"
             f"*🔗 PDF Link:* <{link}|Click here>"
+            "\n\n━━━━━━━━━━━━━━━━━━━━━━"
         ) 
     return message
 

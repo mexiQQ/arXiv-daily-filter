@@ -50,9 +50,11 @@ def parse_arxiv_feed(xml_data):
     root = ET.fromstring(xml_data)
     papers = []
     for entry in root.findall('atom:entry', namespace):
+        title = entry.find('atom:title', namespace).text.strip(),
+        title = title.replace("\n", "").replace("\r", "").strip()
         paper = {
             'id': entry.find('atom:id', namespace).text,
-            'title': entry.find('atom:title', namespace).text.strip(),
+            'title': title, 
             'summary': entry.find('atom:summary', namespace).text.strip(),
             'published': entry.find('atom:published', namespace).text,
             'updated': entry.find('atom:updated', namespace).text,
