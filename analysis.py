@@ -4,7 +4,7 @@ import csv
 from time import sleep
 from datetime import datetime
 from slack import send_slack_message, send_slack_banner, send_slack_compressed_message
-from env import SLACK_WEBHOOK_URL_GROUP, SLACK_WEBHOOK_URL_MY_GROUP, SLACK_WEBHOOK_URL_MY
+from env import SLACK_WEBHOOK_URL_GROUP, SLACK_WEBHOOK_URL_MY_GROUP, SLACK_WEBHOOK_URL_MY, SLACK_WEBHOOK_URL_Prof
 from fetch import fetch_arxiv_metadata, parse_arxiv_feed
 from notion import upload_today_csv
 
@@ -142,6 +142,7 @@ if __name__ == "__main__":
 
     # === 发送 Slack 压缩消息 ===
     send_slack_compressed_message(results, SLACK_WEBHOOK_URL_MY)
+    send_slack_compressed_message(results, SLACK_WEBHOOK_URL_Prof)
     # send_slack_compressed_message(results, SLACK_WEBHOOK_URL_GROUP)
  
 
