@@ -3,10 +3,10 @@ import json
 import csv
 from time import sleep
 from datetime import datetime
-from slack import send_slack_message, send_slack_banner, send_slack_compressed_message
+from alignment_slack import send_slack_message, send_slack_banner, send_slack_compressed_message
 from env import SLACK_WEBHOOK_URL_GROUP, SLACK_WEBHOOK_URL_MY_GROUP, SLACK_WEBHOOK_URL_MY, SLACK_WEBHOOK_URL_Prof
 from fetch import fetch_arxiv_metadata, parse_arxiv_feed
-from notion import upload_today_csv
+from alignment_notion import upload_today_csv
 
 # === Mistral API 配置 ===
 API_URL = "http://localhost:8000/v1/chat/completions"
@@ -58,7 +58,7 @@ def query_mistral(prompt):
 
 # === 主执行流程
 if __name__ == "__main__":
-    print("🔍 Fetching arXiv papers...")
+    print("🔍 Fetching arXiv alignment papers...")
     xml_data = fetch_arxiv_metadata("cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG")
     papers = parse_arxiv_feed(xml_data)
 
@@ -113,6 +113,7 @@ if __name__ == "__main__":
                 "Keywords": keywords
             }
             results.append(paper)
+            break
         else:
             print("🚫 Not relevant")
 

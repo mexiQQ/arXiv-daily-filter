@@ -1,7 +1,7 @@
 import csv
 import requests
 from datetime import datetime
-from env import NOTION_TOKEN, PARENT_PAGE_ID
+from env import NOTION_TOKEN, ALIGNMENT_PARENT_PAGE_ID
 
 NOTION_HEADERS = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
@@ -13,7 +13,7 @@ NOTION_HEADERS = {
 def create_page_for_day(today_str):
     page_title = f"Papers_{today_str}"
     payload = {
-        "parent": {"type": "page_id", "page_id": PARENT_PAGE_ID},
+        "parent": {"type": "page_id", "page_id": ALIGNMENT_PARENT_PAGE_ID},
         "properties": {
             "title": [{"type": "text", "text": {"content": page_title}}]
         },
@@ -29,11 +29,11 @@ def create_page_for_day(today_str):
 
 
 # === 在指定页面下创建数据库 ===
-def create_daily_database(parent_page_id, today_str):
+def create_daily_database(ALIGNMENT_PARENT_PAGE_ID, today_str):
     title = f"Papers_{today_str}"
 
     payload = {
-        "parent": {"type": "page_id", "page_id": parent_page_id},
+        "parent": {"type": "page_id", "page_id": ALIGNMENT_PARENT_PAGE_ID},
         "title": [{"type": "text", "text": {"content": title}}],
         "properties": {
             "Title": {"title": {}},

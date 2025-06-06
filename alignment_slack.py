@@ -3,6 +3,8 @@ import pyfiglet
 from datetime import datetime
 import random
 
+NOTION_LINK = "https://www.notion.so/arXiv-daily-alignment-papers-2086a18b889080978b3ec4312a41d300?source=copy_link"
+
 def format_paper_message(paper: dict) -> str:
     """
     将论文信息格式化为 Slack markdown 消息
@@ -72,7 +74,6 @@ def send_slack_banner(webhook_url: str):
         )
 
 
-NOTION_LINK = "https://www.notion.so/arXiv-daily-papers-2086a18b889080978b3ec4312a41d300?source=copy_link"
 def format_paper_digest_summary(papers: list) -> str:
     """
     随机挑选 10 篇论文，生成简洁 Slack 消息摘要（用于 Digest 预览）
