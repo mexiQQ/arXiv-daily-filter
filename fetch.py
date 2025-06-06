@@ -19,7 +19,7 @@ def get_previous_day_range_utc_for_la():
 def get_previous_day_range_utc_for_ny():
     ny = ZoneInfo("America/New_York")
     now_ny = datetime.now(ny)
-    yesterday = (now_ny - timedelta(days=2)).date()
+    yesterday = (now_ny - timedelta(days=1)).date()
 
     # 昨天纽约时间的 00:00 到 23:59
     start_ny = datetime.combine(yesterday, datetime.min.time(), tzinfo=ny)
