@@ -113,7 +113,6 @@ if __name__ == "__main__":
                 "Keywords": keywords
             }
             results.append(paper)
-            break
         else:
             print("🚫 Not relevant")
 

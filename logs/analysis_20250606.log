@@ -1,0 +1,3600 @@
+🔍 Fetching arXiv alignment papers...
+✅ Fetched 756 papers from arXiv cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG.
+
+--- Processing Paper 1 ---
+Title: Children's Voice Privacy: First Steps And Emerging Challenges
+Authors: Ajinkya Kulkarni, Francisco Teixeira, Enno Hermann, Thomas Rolland, Isabel Trancoso, Mathew Magimai Doss
+Published: 2025-05-30T13:21:18Z
+PDF: http://arxiv.org/pdf/2506.00100v2
+Summary: Children are one of the most under-represented groups in speech technologies,
+as well as one of the most vulnerable in terms of privacy. Despite this,
+anonymization techniques targeting this population have received little
+attention. In this study, we seek to bridge this gap, and establish a baselin ...
+
+🚫 Not relevant
+
+--- Processing Paper 2 ---
+Title: AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in
+  LLM-Based Agents
+Authors: Akshat Naik, Patrick Quinn, Guillermo Bosch, Emma Gouné, Francisco Javier Campos Zabala, Jason Ross Brown, Edward James Young
+Published: 2025-06-04T14:46:47Z
+PDF: http://arxiv.org/pdf/2506.04018v1
+Summary: As Large Language Model (LLM) agents become more widespread, associated
+misalignment risks increase. Prior work has examined agents' ability to enact
+misaligned behaviour (misalignment capability) and their compliance with
+harmful instructions (misuse propensity). However, the likelihood of agents
+a ...
+
+
+✅ Saved 1 relevant papers to ./archive/llm_alignment_papers_20250606.csv
+
+📦 Processing CSV: ./archive/llm_alignment_papers_20250606.csv
+✅ Created Notion page: Papers_20250606
+✅ Created Notion database inside page: Papers_20250606
+✅ Uploaded: AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in
+  LLM-Based Agents
+✅ Added 12 blocks.
+
+🎉 All done! View your full page in Notion.
+🔍 Fetching arXiv backdoor papers...
+✅ Fetched 756 papers.
+
+--- Processing Paper 1 ---
+Title: Children's Voice Privacy: First Steps And Emerging Challenges
+Summary (EN): Children are one of the most under-represented groups in speech technologies,
+as well as one of the most vulnerable in terms of privacy. Despite this,
+anonymization techniques targeting this population have received little
+attention. In this study, we seek to bridge this gap, and establish a baselin ...
+🚫 Not backdoor related.
+
+--- Processing Paper 2 ---
+Title: AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in
+  LLM-Based Agents
+Summary (EN): As Large Language Model (LLM) agents become more widespread, associated
+misalignment risks increase. Prior work has examined agents' ability to enact
+misaligned behaviour (misalignment capability) and their compliance with
+harmful instructions (misuse propensity). However, the likelihood of agents
+a ...
+🚫 Not backdoor related.
+
+--- Processing Paper 3 ---
+Title: VLMs Can Aggregate Scattered Training Patches
+Summary (EN): One way to mitigate risks in vision-language models (VLMs) is to remove
+dangerous samples in their training data. However, such data moderation can be
+easily bypassed when harmful images are split into small, benign-looking
+patches, scattered across many training samples. VLMs may then learn to piec ...
+🚫 Not backdoor related.
+
+--- Processing Paper 4 ---
+Title: TurboFuzzLLM: Turbocharging Mutation-based Fuzzing for Effectively
+  Jailbreaking Large Language Models in Practice
+Summary (EN): Jailbreaking large-language models (LLMs) involves testing their robustness
+against adversarial prompts and evaluating their ability to withstand prompt
+attacks that could elicit unauthorized or malicious responses. In this paper,
+we present TurboFuzzLLM, a mutation-based fuzzing technique for effic ...
+🚫 Not backdoor related.
+
+--- Processing Paper 5 ---
+Title: Think Like a Person Before Responding: A Multi-Faceted Evaluation of
+  Persona-Guided LLMs for Countering Hate
+Summary (EN): Automated counter-narratives (CN) offer a promising strategy for mitigating
+online hate speech, yet concerns about their affective tone, accessibility, and
+ethical risks remain. We propose a framework for evaluating Large Language
+Model (LLM)-generated CNs across four dimensions: persona framing, ve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 6 ---
+Title: Multimodal Tabular Reasoning with Privileged Structured Information
+Summary (EN): Tabular reasoning involves multi-step information extraction and logical
+inference over tabular data. While recent advances have leveraged large
+language models (LLMs) for reasoning over structured tables, such high-quality
+textual representations are often unavailable in real-world settings, where
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 7 ---
+Title: Advancing Multimodal Reasoning: From Optimized Cold Start to Staged
+  Reinforcement Learning
+Summary (EN): Inspired by the remarkable reasoning capabilities of Deepseek-R1 in complex
+textual tasks, many works attempt to incentivize similar capabilities in
+Multimodal Large Language Models (MLLMs) by directly applying reinforcement
+learning (RL). However, they still struggle to activate complex reasoning.  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 8 ---
+Title: MMedPO: Aligning Medical Vision-Language Models with Clinical-Aware
+  Multimodal Preference Optimization
+Summary (EN): The advancement of Large Vision-Language Models (LVLMs) has propelled their
+application in the medical field. However, Medical LVLMs (Med-LVLMs) encounter
+factuality challenges due to modality misalignment, where the models prioritize
+textual knowledge over visual input, leading to hallucinations th ...
+🚫 Not backdoor related.
+
+--- Processing Paper 9 ---
+Title: Contrastive Visual Data Augmentation
+Summary (EN): Large multimodal models (LMMs) often struggle to recognize novel concepts, as
+they rely on pre-trained knowledge and have limited ability to capture subtle
+visual details. Domain-specific knowledge gaps in training also make them prone
+to confusing visually similar, commonly misrepresented, or low-r ...
+🚫 Not backdoor related.
+
+--- Processing Paper 10 ---
+Title: ReXVQA: A Large-scale Visual Question Answering Benchmark for Generalist
+  Chest X-ray Understanding
+Summary (EN): We present ReXVQA, the largest and most comprehensive benchmark for visual
+question answering (VQA) in chest radiology, comprising approximately 696,000
+questions paired with 160,000 chest X-rays studies across training, validation,
+and test sets. Unlike prior efforts that rely heavily on template b ...
+🚫 Not backdoor related.
+
+--- Processing Paper 11 ---
+Title: ChatWise: A Strategy-Guided Chatbot for Enhancing Cognitive Support in
+  Older Adults
+Summary (EN): Cognitive health in older adults presents a growing challenge. Although
+conversational interventions show feasibility in improving cognitive wellness,
+human caregiver resources remain overloaded. AI-based chatbots have shown
+promise, yet existing work is often limited to implicit strategies or heavi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 12 ---
+Title: Aligned but Blind: Alignment Increases Implicit Bias by Reducing
+  Awareness of Race
+Summary (EN): Although value-aligned language models (LMs) appear unbiased in explicit bias
+evaluations, they often exhibit stereotypes in implicit word association tasks,
+raising concerns about their fair usage. We investigate the mechanisms behind
+this discrepancy and find that alignment surprisingly amplifies  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 13 ---
+Title: Hanging in the Balance: Pivotal Moments in Crisis Counseling
+  Conversations
+Summary (EN): During a conversation, there can come certain moments where its outcome hangs
+in the balance. In these pivotal moments, how one responds can put the
+conversation on substantially different trajectories leading to significantly
+different outcomes. Systems that can detect when such moments arise could ...
+🚫 Not backdoor related.
+
+--- Processing Paper 14 ---
+Title: Representation Surgery: Theory and Practice of Affine Steering
+Summary (EN): Language models often exhibit undesirable behavior, e.g., generating toxic or
+gender-biased text. In the case of neural language models, an encoding of the
+undesirable behavior is often present in the model's representations. Thus, one
+natural (and common) approach to prevent the model from exhibiti ...
+🚫 Not backdoor related.
+
+--- Processing Paper 15 ---
+Title: Quantifying Prediction Consistency Under Fine-Tuning Multiplicity in
+  Tabular LLMs
+Summary (EN): Fine-tuning LLMs on tabular classification tasks can lead to the phenomenon
+of fine-tuning multiplicity where equally well-performing models make
+conflicting predictions on the same input. Fine-tuning multiplicity can arise
+due to variations in the training process, e.g., seed, weight initialization ...
+🚫 Not backdoor related.
+
+--- Processing Paper 16 ---
+Title: Intersectional Bias in Pre-Trained Image Recognition Models
+Summary (EN): Deep Learning models have achieved remarkable success. Training them is often
+accelerated by building on top of pre-trained models which poses the risk of
+perpetuating encoded biases. Here, we investigate biases in the representations
+of commonly used ImageNet classifiers for facial images while con ...
+🚫 Not backdoor related.
+
+--- Processing Paper 17 ---
+Title: Watermarking Degrades Alignment in Language Models: Analysis and
+  Mitigation
+Summary (EN): Watermarking techniques for large language models (LLMs) can significantly
+impact output quality, yet their effects on truthfulness, safety, and
+helpfulness remain critically underexamined. This paper presents a systematic
+analysis of how two popular watermarking approaches-Gumbel and KGW-affect the ...
+🚫 Not backdoor related.
+
+--- Processing Paper 18 ---
+Title: Safety Tax: Safety Alignment Makes Your Large Reasoning Models Less
+  Reasonable
+Summary (EN): Safety alignment is an important procedure before the official deployment of
+a Large Language Model (LLM). While safety alignment has been extensively
+studied for LLM, there is still a large research gap for Large Reasoning Models
+(LRMs) that equip with improved reasoning capability. We in this pape ...
+🚫 Not backdoor related.
+
+--- Processing Paper 19 ---
+Title: TracLLM: A Generic Framework for Attributing Long Context LLMs
+Summary (EN): Long context large language models (LLMs) are deployed in many real-world
+applications such as RAG, agent, and broad LLM-integrated applications. Given
+an instruction and a long context (e.g., documents, PDF files, webpages), a
+long context LLM can generate an output grounded in the provided context ...
+🚫 Not backdoor related.
+
+--- Processing Paper 20 ---
+Title: Learning to Diagnose Privately: DP-Powered LLMs for Radiology Report
+  Classification
+Summary (EN): Purpose: This study proposes a framework for fine-tuning large language
+models (LLMs) with differential privacy (DP) to perform multi-abnormality
+classification on radiology report text. By injecting calibrated noise during
+fine-tuning, the framework seeks to mitigate the privacy risks associated wi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 21 ---
+Title: AI and the Dynamic Supply of Training Data
+Summary (EN): Artificial intelligence (AI) systems rely heavily on human-generated data,
+yet the people behind that data are often overlooked. Human behavior can play a
+major role in AI training datasets, be it in limiting access to existing works
+or in deciding which types of new works to create or whether to cr ...
+🚫 Not backdoor related.
+
+--- Processing Paper 22 ---
+Title: A Survey on (M)LLM-Based GUI Agents
+Summary (EN): Graphical User Interface (GUI) Agents have emerged as a transformative
+paradigm in human-computer interaction, evolving from rule-based automation
+scripts to sophisticated AI-driven systems capable of understanding and
+executing complex interface operations. This survey provides a comprehensive
+exam ...
+🚫 Not backdoor related.
+
+--- Processing Paper 23 ---
+Title: BiMa: Towards Biases Mitigation for Text-Video Retrieval via Scene
+  Element Guidance
+Summary (EN): Text-video retrieval (TVR) systems often suffer from visual-linguistic biases
+present in datasets, which cause pre-trained vision-language models to overlook
+key details. To address this, we propose BiMa, a novel framework designed to
+mitigate biases in both visual and textual representations. Our a ...
+🚫 Not backdoor related.
+
+--- Processing Paper 24 ---
+Title: HSSBench: Benchmarking Humanities and Social Sciences Ability for
+  Multimodal Large Language Models
+Summary (EN): Multimodal Large Language Models (MLLMs) have demonstrated significant
+potential to advance a broad range of domains. However, current benchmarks for
+evaluating MLLMs primarily emphasize general knowledge and vertical
+step-by-step reasoning typical of STEM disciplines, while overlooking the
+distinct ...
+🚫 Not backdoor related.
+
+--- Processing Paper 25 ---
+Title: Mitigating Hallucinations in Large Vision-Language Models via
+  Entity-Centric Multimodal Preference Optimization
+Summary (EN): Large Visual Language Models (LVLMs) have demonstrated impressive
+capabilities across multiple tasks. However, their trustworthiness is often
+challenged by hallucinations, which can be attributed to the modality
+misalignment and the inherent hallucinations of their underlying Large Language
+Models ( ...
+🚫 Not backdoor related.
+
+--- Processing Paper 26 ---
+Title: Investigating Distributions of Telecom Adapted Sentence Embeddings for
+  Document Retrieval
+Summary (EN): A plethora of sentence embedding models makes it challenging to choose one,
+especially for technical domains rich with specialized vocabulary. In this
+work, we domain adapt embeddings using telecom data for question answering. We
+evaluate embeddings obtained from publicly available models and their
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 27 ---
+Title: What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A
+  Gradient Perspective
+Summary (EN): What makes a difference in the post-training of LLMs? We investigate the
+training patterns of different layers in large language models (LLMs) through
+the lens of the gradient. We are specifically interested in how fast vs. slow
+thinking affects the layer-wise gradients, given the recent popularity  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 28 ---
+Title: Sleepless Nights, Sugary Days: Creating Synthetic Users with Health
+  Conditions for Realistic Coaching Agent Interactions
+Summary (EN): We present an end-to-end framework for generating synthetic users for
+evaluating interactive agents designed to encourage positive behavior changes,
+such as in health and lifestyle coaching. The synthetic users are grounded in
+health and lifestyle conditions, specifically sleep and diabetes manageme ...
+🚫 Not backdoor related.
+
+--- Processing Paper 29 ---
+Title: Sliding Window Attention Training for Efficient Large Language Models
+Summary (EN): Recent advances in transformer-based Large Language Models (LLMs) have
+demonstrated remarkable capabilities across various tasks. However, their
+quadratic computational complexity concerning sequence length remains a
+significant bottleneck for processing long documents. As a result, many efforts
+lik ...
+🚫 Not backdoor related.
+
+--- Processing Paper 30 ---
+Title: ATLaS: Agent Tuning via Learning Critical Steps
+Summary (EN): Large Language Model (LLM) agents have demonstrated remarkable generalization
+capabilities across multi-domain tasks. Existing agent tuning approaches
+typically employ supervised finetuning on entire expert trajectories. However,
+behavior-cloning of full trajectories can introduce expert bias and we ...
+🚫 Not backdoor related.
+
+--- Processing Paper 31 ---
+Title: PFDial: A Structured Dialogue Instruction Fine-tuning Method Based on
+  UML Flowcharts
+Summary (EN): Process-driven dialogue systems, which operate under strict predefined
+process constraints, are essential in customer service and equipment
+maintenance scenarios. Although Large Language Models (LLMs) have shown
+remarkable progress in dialogue and reasoning, they still struggle to solve
+these strict ...
+🚫 Not backdoor related.
+
+--- Processing Paper 32 ---
+Title: Revisiting Uncertainty Quantification Evaluation in Language Models:
+  Spurious Interactions with Response Length Bias Results
+Summary (EN): Uncertainty Quantification (UQ) in Language Models (LMs) is key to improving
+their safety and reliability. Evaluations often use metrics like AUROC to
+assess how well UQ methods (e.g., negative sequence probabilities) correlate
+with task correctness functions (e.g., ROUGE-L). We show that mutual
+bia ...
+🚫 Not backdoor related.
+
+--- Processing Paper 33 ---
+Title: Rethinking the Role of Prompting Strategies in LLM Test-Time Scaling: A
+  Perspective of Probability Theory
+Summary (EN): Recently, scaling test-time compute on Large Language Models (LLM) has
+garnered wide attention. However, there has been limited investigation of how
+various reasoning prompting strategies perform as scaling. In this paper, we
+focus on a standard and realistic scaling setting: majority voting. We
+sys ...
+🚫 Not backdoor related.
+
+--- Processing Paper 34 ---
+Title: SUS backprop: linear backpropagation algorithm for long inputs in
+  transformers
+Summary (EN): It is straightforward to design an unbiased gradient estimator that
+stochastically cuts the backpropagation flow through any part of a
+computational graph. By cutting the parts that have little effect on the
+computation, one can potentially save a significant amount of backpropagation
+computation in ...
+🚫 Not backdoor related.
+
+--- Processing Paper 35 ---
+Title: MetaGen Blended RAG: Unlocking Zero-Shot Precision for Specialized
+  Domain Question-Answering
+Summary (EN): Retrieval-Augmented Generation (RAG) struggles with domain-specific
+enterprise datasets, often isolated behind firewalls and rich in complex,
+specialized terminology unseen by LLMs during pre-training. Semantic
+variability across domains like medicine, networking, or law hampers RAG's
+context precis ...
+🚫 Not backdoor related.
+
+--- Processing Paper 36 ---
+Title: POSS: Position Specialist Generates Better Draft for Speculative
+  Decoding
+Summary (EN): Speculative decoding accelerates Large Language Model (LLM) inference by
+using a small draft model to predict multiple tokens, and a large target model
+to verify these tokens in parallel. Recent studies leverage the hidden state of
+the target model to enhance draft model prediction accuracy. However ...
+🚫 Not backdoor related.
+
+--- Processing Paper 37 ---
+Title: RewardAnything: Generalizable Principle-Following Reward Models
+Summary (EN): Reward Models, essential for guiding Large Language Model optimization, are
+typically trained on fixed preference datasets, resulting in rigid alignment to
+single, implicit preference distributions. This prevents adaptation to diverse
+real-world needs-from conciseness in one task to detailed explana ...
+🚫 Not backdoor related.
+
+--- Processing Paper 38 ---
+Title: AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment
+Summary (EN): As a part of an embodied agent, Large Language Models (LLMs) are typically
+used for behavior planning given natural language instructions from the user.
+However, dealing with ambiguous instructions in real-world environments remains
+a challenge for LLMs. Various methods for task ambiguity detection  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 39 ---
+Title: CLAIM: An Intent-Driven Multi-Agent Framework for Analyzing Manipulation
+  in Courtroom Dialogues
+Summary (EN): Courtrooms are places where lives are determined and fates are sealed, yet
+they are not impervious to manipulation. Strategic use of manipulation in legal
+jargon can sway the opinions of judges and affect the decisions. Despite the
+growing advancements in NLP, its application in detecting and analyz ...
+🚫 Not backdoor related.
+
+--- Processing Paper 40 ---
+Title: Behavioural vs. Representational Systematicity in End-to-End Models: An
+  Opinionated Survey
+Summary (EN): A core aspect of compositionality, systematicity is a desirable property in
+ML models as it enables strong generalization to novel contexts. This has led
+to numerous studies proposing benchmarks to assess systematic generalization,
+as well as models and training regimes designed to enhance it. Many  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 41 ---
+Title: Clustering and Median Aggregation Improve Differentially Private
+  Inference
+Summary (EN): Differentially private (DP) language model inference is an approach for
+generating private synthetic text. A sensitive input example is used to prompt
+an off-the-shelf large language model (LLM) to produce a similar example.
+Multiple examples can be aggregated together to formally satisfy the DP
+gua ...
+🚫 Not backdoor related.
+
+--- Processing Paper 42 ---
+Title: Safe: Enhancing Mathematical Reasoning in Large Language Models via
+  Retrospective Step-aware Formal Verification
+Summary (EN): Chain-of-Thought (CoT) prompting has become the de facto method to elicit
+reasoning capabilities from large language models (LLMs). However, to mitigate
+hallucinations in CoT that are notoriously difficult to detect, current methods
+such as process reward models (PRMs) or self-consistency operate as ...
+🚫 Not backdoor related.
+
+--- Processing Paper 43 ---
+Title: WizardMath: Empowering Mathematical Reasoning for Large Language Models
+  via Reinforced Evol-Instruct
+Summary (EN): Large language models (LLMs), such as GPT-4, have shown remarkable
+performance in natural language processing (NLP) tasks, including challenging
+mathematical reasoning. However, most existing open-source models are only
+pre-trained on large-scale internet data and without math-related optimization.
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 44 ---
+Title: Token-Driven GammaTune: Adaptive Calibration for Enhanced Speculative
+  Decoding
+Summary (EN): Speculative decoding accelerates large language model (LLM) inference by
+using a smaller draft model to propose tokens, which are then verified by a
+larger target model. However, selecting an optimal speculation length is
+critical for maximizing speedup while minimizing wasted computation. We
+introd ...
+🚫 Not backdoor related.
+
+--- Processing Paper 45 ---
+Title: Linear Representation Transferability Hypothesis: Leveraging Small
+  Models to Steer Large Models
+Summary (EN): It has been hypothesized that neural networks with similar architectures
+trained on similar data learn shared representations relevant to the learning
+task. We build on this idea by extending the conceptual framework where
+representations learned across models trained on the same data can be express ...
+🚫 Not backdoor related.
+
+--- Processing Paper 46 ---
+Title: EuroLLM-9B: Technical Report
+Summary (EN): This report presents EuroLLM-9B, a large language model trained from scratch
+to support the needs of European citizens by covering all 24 official European
+Union languages and 11 additional languages. EuroLLM addresses the issue of
+European languages being underrepresented and underserved in existin ...
+🚫 Not backdoor related.
+
+--- Processing Paper 47 ---
+Title: TextAtari: 100K Frames Game Playing with Language Agents
+Summary (EN): We present TextAtari, a benchmark for evaluating language agents on very
+long-horizon decision-making tasks spanning up to 100,000 steps. By translating
+the visual state representations of classic Atari games into rich textual
+descriptions, TextAtari creates a challenging test bed that bridges seque ...
+🚫 Not backdoor related.
+
+--- Processing Paper 48 ---
+Title: MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at
+  Scale
+Summary (EN): We introduce MedAgentGYM, the first publicly available training environment
+designed to enhance coding-based medical reasoning capabilities in large
+language model (LLM) agents. MedAgentGYM comprises 72,413 task instances across
+129 categories derived from authentic real-world biomedical scenarios.  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 49 ---
+Title: LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning
+Summary (EN): In this work, we introduce LLaDA-V, a purely diffusion-based Multimodal Large
+Language Model (MLLM) that integrates visual instruction tuning with masked
+diffusion models, representing a departure from the autoregressive paradigms
+dominant in current multimodal approaches. Built upon LLaDA, a repres ...
+🚫 Not backdoor related.
+
+--- Processing Paper 50 ---
+Title: DECASTE: Unveiling Caste Stereotypes in Large Language Models through
+  Multi-Dimensional Bias Analysis
+Summary (EN): Recent advancements in large language models (LLMs) have revolutionized
+natural language processing (NLP) and expanded their applications across
+diverse domains. However, despite their impressive capabilities, LLMs have been
+shown to reflect and perpetuate harmful societal biases, including those ba ...
+🚫 Not backdoor related.
+
+--- Processing Paper 51 ---
+Title: Facts are Harder Than Opinions -- A Multilingual, Comparative Analysis
+  of LLM-Based Fact-Checking Reliability
+Summary (EN): The proliferation of misinformation necessitates scalable, automated
+fact-checking solutions. Yet, current benchmarks often overlook multilingual
+and topical diversity. This paper introduces a novel, dynamically extensible
+data set that includes 61,514 claims in multiple languages and topics,
+extend ...
+🚫 Not backdoor related.
+
+--- Processing Paper 52 ---
+Title: Words of Warmth: Trust and Sociability Norms for over 26k English Words
+Summary (EN): Social psychologists have shown that Warmth (W) and Competence (C) are the
+primary dimensions along which we assess other people and groups. These
+dimensions impact various aspects of our lives from social competence and
+emotion regulation to success in the work place and how we view the world. More ...
+🚫 Not backdoor related.
+
+--- Processing Paper 53 ---
+Title: Understanding and Meeting Practitioner Needs When Measuring
+  Representational Harms Caused by LLM-Based Systems
+Summary (EN): The NLP research community has made publicly available numerous instruments
+for measuring representational harms caused by large language model (LLM)-based
+systems. These instruments have taken the form of datasets, metrics, tools, and
+more. In this paper, we examine the extent to which such instrum ...
+🚫 Not backdoor related.
+
+--- Processing Paper 54 ---
+Title: Data-Juicer Sandbox: A Feedback-Driven Suite for Multimodal Data-Model
+  Co-development
+Summary (EN): The emergence of multimodal large models has advanced artificial
+intelligence, introducing unprecedented levels of performance and
+functionality. However, optimizing these models remains challenging due to
+historically isolated paths of model-centric and data-centric developments,
+leading to subopti ...
+🚫 Not backdoor related.
+
+--- Processing Paper 55 ---
+Title: Objective drives the consistency of representational similarity across
+  datasets
+Summary (EN): The Platonic Representation Hypothesis claims that recent foundation models
+are converging to a shared representation space as a function of their
+downstream task performance, irrespective of the objectives and data modalities
+used to train these models (Huh et al., 2024). Representational similarit ...
+🚫 Not backdoor related.
+
+--- Processing Paper 56 ---
+Title: Uncovering Memorization Effect in the Presence of Spurious Correlations
+Summary (EN): Machine learning models often rely on simple spurious features -- patterns in
+training data that correlate with targets but are not causally related to them,
+like image backgrounds in foreground classification. This reliance typically
+leads to imbalanced test performance across minority and majority ...
+🚫 Not backdoor related.
+
+--- Processing Paper 57 ---
+Title: SpargeAttention: Accurate and Training-free Sparse Attention
+  Accelerating Any Model Inference
+Summary (EN): An efficient attention implementation is essential for large models due to
+its quadratic time complexity. Fortunately, attention commonly exhibits
+sparsity, i.e., many values in the attention map are near zero, allowing for
+the omission of corresponding computations. Many studies have utilized the
+s ...
+🚫 Not backdoor related.
+
+--- Processing Paper 58 ---
+Title: CARL: Camera-Agnostic Representation Learning for Spectral Image
+  Analysis
+Summary (EN): Spectral imaging offers promising applications across diverse domains,
+including medicine and urban scene understanding, and is already established as
+a critical modality in remote sensing. However, variability in channel
+dimensionality and captured wavelengths among spectral cameras impede the
+deve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 59 ---
+Title: Implicit Inversion turns CLIP into a Decoder
+Summary (EN): CLIP is a discriminative model trained to align images and text in a shared
+embedding space. Due to its multimodal structure, it serves as the backbone of
+many generative pipelines, where a decoder is trained to map from the shared
+space back to images. In this work, we show that image synthesis is
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 60 ---
+Title: ViTSGMM: A Robust Semi-Supervised Image Recognition Network Using Sparse
+  Labels
+Summary (EN): We present ViTSGMM, an image recognition network that leverages
+semi-supervised learning in a highly efficient manner. Existing works often
+rely on complex training techniques and architectures, while their
+generalization ability when dealing with extremely limited labeled data remains
+to be improve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 61 ---
+Title: How PARTs assemble into wholes: Learning the relative composition of
+  images
+Summary (EN): The composition of objects and their parts, along with object-object
+positional relationships, provides a rich source of information for
+representation learning. Hence, spatial-aware pretext tasks have been actively
+explored in self-supervised learning. Existing works commonly start from a grid
+stru ...
+🚫 Not backdoor related.
+
+--- Processing Paper 62 ---
+Title: Pseudo-Simulation for Autonomous Driving
+Summary (EN): Existing evaluation paradigms for Autonomous Vehicles (AVs) face critical
+limitations. Real-world evaluation is often challenging due to safety concerns
+and a lack of reproducibility, whereas closed-loop simulation can face
+insufficient realism or high computational costs. Open-loop evaluation, whil ...
+🚫 Not backdoor related.
+
+--- Processing Paper 63 ---
+Title: HMAR: Efficient Hierarchical Masked Auto-Regressive Image Generation
+Summary (EN): Visual Auto-Regressive modeling (VAR) has shown promise in bridging the speed
+and quality gap between autoregressive image models and diffusion models. VAR
+reformulates autoregressive modeling by decomposing an image into successive
+resolution scales. During inference, an image is generated by predi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 64 ---
+Title: Scaling Laws for Robust Comparison of Open Foundation Language-Vision
+  Models and Datasets
+Summary (EN): In studies of transferable learning, scaling laws are obtained for various
+important foundation models to predict their properties and performance at
+larger scales. We show here how scaling law derivation can also be used for
+model and dataset comparison, allowing to decide which procedure is to be
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 65 ---
+Title: HashEvict: A Pre-Attention KV Cache Eviction Strategy using
+  Locality-Sensitive Hashing
+Summary (EN): Transformer-based large language models (LLMs) use the key-value (KV) cache
+to significantly accelerate inference by storing the key and value embeddings
+of past tokens. However, this cache consumes significant GPU memory. In this
+work, we introduce HashEvict, an algorithm that uses locality-sensiti ...
+🚫 Not backdoor related.
+
+--- Processing Paper 66 ---
+Title: D2S-FLOW: Automated Parameter Extraction from Datasheets for SPICE Model
+  Generation Using Large Language Models
+Summary (EN): In electronic design, engineers often manually search through extensive
+documents to retrieve component parameters required for constructing SPICE
+models, a process that is both labor-intensive and time-consuming. To address
+this challenge, we present an automated framework called D2S-FLOW that
+leve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 67 ---
+Title: Misalignment or misuse? The AGI alignment tradeoff
+Summary (EN): Creating systems that are aligned with our goals is seen as a leading
+approach to create safe and beneficial AI in both leading AI companies and the
+academic field of AI safety. We defend the view that misaligned AGI - future,
+generally intelligent (robotic) AI agents - poses catastrophic risks. At  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 68 ---
+Title: Hearing Anywhere in Any Environment
+Summary (EN): In mixed reality applications, a realistic acoustic experience in spatial
+environments is as crucial as the visual experience for achieving true
+immersion. Despite recent advances in neural approaches for Room Impulse
+Response (RIR) estimation, most existing methods are limited to the single
+environ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 69 ---
+Title: Retrieval-Augmented Generation as Noisy In-Context Learning: A Unified
+  Theory and Risk Bounds
+Summary (EN): Retrieval-augmented generation (RAG) has seen many empirical successes in
+recent years by aiding the LLM with external knowledge. However, its
+theoretical aspect has remained mostly unexplored. In this paper, we propose
+the first finite-sample generalization bound for RAG in in-context linear
+regres ...
+🚫 Not backdoor related.
+
+--- Processing Paper 70 ---
+Title: Privacy and Security Threat for OpenAI GPTs
+Summary (EN): Large language models (LLMs) demonstrate powerful information handling
+capabilities and are widely integrated into chatbot applications. OpenAI
+provides a platform for developers to construct custom GPTs, extending
+ChatGPT's functions and integrating external services. Since its release in
+November  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 71 ---
+Title: Through the Stealth Lens: Rethinking Attacks and Defenses in RAG
+Summary (EN): Retrieval-augmented generation (RAG) systems are vulnerable to attacks that
+inject poisoned passages into the retrieved set, even at low corruption rates.
+We show that existing attacks are not designed to be stealthy, allowing
+reliable detection and mitigation. We formalize stealth using a
+distingui ...
+🚫 Not backdoor related.
+
+--- Processing Paper 72 ---
+Title: BESA: Boosting Encoder Stealing Attack with Perturbation Recovery
+Summary (EN): To boost the encoder stealing attack under the perturbation-based defense
+that hinders the attack performance, we propose a boosting encoder stealing
+attack with perturbation recovery named BESA. It aims to overcome
+perturbation-based defenses. The core of BESA consists of two modules:
+perturbation  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 73 ---
+Title: The Cognitive Foundations of Economic Exchange: A Modular Framework
+  Grounded in Behavioral Evidence
+Summary (EN): The origins of economic behavior remain unresolved-not only in the social
+sciences but also in AI, where dominant theories often rely on predefined
+incentives or institutional assumptions. Contrary to the longstanding myth of
+barter as the foundation of exchange, converging evidence from early human ...
+🚫 Not backdoor related.
+
+--- Processing Paper 74 ---
+Title: Unveiling Client Privacy Leakage from Public Dataset Usage in Federated
+  Distillation
+Summary (EN): Federated Distillation (FD) has emerged as a popular federated training
+framework, enabling clients to collaboratively train models without sharing
+private data. Public Dataset-Assisted Federated Distillation (PDA-FD), which
+leverages public datasets for knowledge sharing, has become widely adopted. ...
+🚫 Not backdoor related.
+
+--- Processing Paper 75 ---
+Title: Evaluating Apple Intelligence's Writing Tools for Privacy Against Large
+  Language Model-Based Inference Attacks: Insights from Early Datasets
+Summary (EN): The misuse of Large Language Models (LLMs) to infer emotions from text for
+malicious purposes, known as emotion inference attacks, poses a significant
+threat to user privacy. In this paper, we investigate the potential of Apple
+Intelligence's writing tools, integrated across iPhone, iPad, and MacBoo ...
+🚫 Not backdoor related.
+
+--- Processing Paper 76 ---
+Title: Object-centric 3D Motion Field for Robot Learning from Human Videos
+Summary (EN): Learning robot control policies from human videos is a promising direction
+for scaling up robot learning. However, how to extract action knowledge (or
+action representations) from videos for policy learning remains a key
+challenge. Existing action representations such as video frames, pixelflow, and ...
+🚫 Not backdoor related.
+
+--- Processing Paper 77 ---
+Title: Understanding challenges to the interpretation of disaggregated
+  evaluations of algorithmic fairness
+Summary (EN): Disaggregated evaluation across subgroups is critical for assessing the
+fairness of machine learning models, but its uncritical use can mislead
+practitioners. We show that equal performance across subgroups is an unreliable
+measure of fairness when data are representative of the relevant populations ...
+🚫 Not backdoor related.
+
+--- Processing Paper 78 ---
+Title: REAL: Response Embedding-based Alignment for LLMs
+Summary (EN): Aligning large language models (LLMs) to human preferences is a crucial step
+in building helpful and safe AI tools, which usually involve training on
+supervised datasets. Popular algorithms such as Direct Preference Optimization
+(DPO) rely on pairs of AI-generated responses ranked according to human ...
+🚫 Not backdoor related.
+
+--- Processing Paper 79 ---
+Title: LoGU: Long-form Generation with Uncertainty Expressions
+Summary (EN): While Large Language Models (LLMs) demonstrate impressive capabilities, they
+still struggle with generating factually incorrect content (i.e.,
+hallucinations). A promising approach to mitigate this issue is enabling models
+to express uncertainty when unsure. Previous research on uncertainty modeling ...
+🚫 Not backdoor related.
+
+--- Processing Paper 80 ---
+Title: A Survey of Event Causality Identification: Taxonomy, Challenges,
+  Assessment, and Prospects
+Summary (EN): Event Causality Identification (ECI) has emerged as a pivotal task in natural
+language processing (NLP), aimed at automatically detecting causal
+relationships between events in text. In this comprehensive survey, we
+systematically elucidate the foundational principles and technical frameworks
+of ECI ...
+🚫 Not backdoor related.
+
+--- Processing Paper 81 ---
+Title: Data Laundering: Artificially Boosting Benchmark Results through
+  Knowledge Distillation
+Summary (EN): In this paper, we show that knowledge distillation can be subverted to
+manipulate language model benchmark scores, revealing a critical vulnerability
+in current evaluation practices. We introduce "Data Laundering," a process that
+enables the covert transfer of benchmark-specific knowledge through se ...
+🚫 Not backdoor related.
+
+--- Processing Paper 82 ---
+Title: Empowering LLMs with Logical Reasoning: A Comprehensive Survey
+Summary (EN): Large language models (LLMs) have achieved remarkable successes on various
+tasks. However, recent studies have found that there are still significant
+challenges to the logical reasoning abilities of LLMs, which can be categorized
+into the following two aspects: (1) Logical question answering: LLMs o ...
+🚫 Not backdoor related.
+
+--- Processing Paper 83 ---
+Title: Implicit Cross-Lingual Rewarding for Efficient Multilingual Preference
+  Alignment
+Summary (EN): Direct Preference Optimization (DPO) has become a prominent method for
+aligning Large Language Models (LLMs) with human preferences. While DPO has
+enabled significant progress in aligning English LLMs, multilingual preference
+alignment is hampered by data scarcity. To address this, we propose a nove ...
+🚫 Not backdoor related.
+
+--- Processing Paper 84 ---
+Title: SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning
+  Logical Reasoning and Beyond
+Summary (EN): Recent advances such as OpenAI-o1 and DeepSeek R1 have demonstrated the
+potential of Reinforcement Learning (RL) to enhance reasoning abilities in
+Large Language Models (LLMs). While open-source replication efforts have
+primarily focused on mathematical and coding domains, methods and resources for
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 85 ---
+Title: Trans-EnV: A Framework for Evaluating the Linguistic Robustness of LLMs
+  Against English Varieties
+Summary (EN): Large Language Models (LLMs) are predominantly evaluated on Standard American
+English (SAE), often overlooking the diversity of global English varieties.
+This narrow focus may raise fairness concerns as degraded performance on
+non-standard varieties can lead to unequal benefits for users worldwide.
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 86 ---
+Title: The Arabic AI Fingerprint: Stylometric Analysis and Detection of Large
+  Language Models Text
+Summary (EN): Large Language Models (LLMs) have achieved unprecedented capabilities in
+generating human-like text, posing subtle yet significant challenges for
+information integrity across critical domains, including education, social
+media, and academia, enabling sophisticated misinformation campaigns,
+compromis ...
+🚫 Not backdoor related.
+
+--- Processing Paper 87 ---
+Title: Let's Reason Formally: Natural-Formal Hybrid Reasoning Enhances LLM's
+  Math Capability
+Summary (EN): Enhancing the mathematical reasoning capabilities of LLMs has garnered
+significant attention in both the mathematical and computer science
+communities. Recent works have made substantial progress in both Natural
+Language (NL) reasoning and Formal Language (FL) reasoning by leveraging the
+potential o ...
+🚫 Not backdoor related.
+
+--- Processing Paper 88 ---
+Title: Bench4KE: Benchmarking Automated Competency Question Generation
+Summary (EN): The availability of Large Language Models (LLMs) presents a unique
+opportunity to reinvigorate research on Knowledge Engineering (KE) automation,
+a trend already evident in recent efforts developing LLM-based methods and
+tools for the automatic generation of Competency Questions (CQs). However, the
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 89 ---
+Title: Tug-of-war between idiom's figurative and literal meanings in LLMs
+Summary (EN): Idioms present a unique challenge for language models due to their
+non-compositional figurative meanings, which often strongly diverge from the
+idiom's literal interpretation. This duality requires a model to learn
+representing and deciding between the two meanings to interpret an idiom in a
+figurat ...
+🚫 Not backdoor related.
+
+--- Processing Paper 90 ---
+Title: Comparative Analysis of AI Agent Architectures for Entity Relationship
+  Classification
+Summary (EN): Entity relationship classification remains a challenging task in information
+extraction, especially in scenarios with limited labeled data and complex
+relational structures. In this study, we conduct a comparative analysis of
+three distinct AI agent architectures designed to perform relation
+classif ...
+🚫 Not backdoor related.
+
+--- Processing Paper 91 ---
+Title: Demystifying Reasoning Dynamics with Mutual Information: Thinking Tokens
+  are Information Peaks in LLM Reasoning
+Summary (EN): Large reasoning models (LRMs) have demonstrated impressive capabilities in
+complex problem-solving, yet their internal reasoning mechanisms remain poorly
+understood. In this paper, we investigate the reasoning trajectories of LRMs
+from an information-theoretic perspective. By tracking how mutual inf ...
+🚫 Not backdoor related.
+
+--- Processing Paper 92 ---
+Title: Critique-GRPO: Advancing LLM Reasoning with Natural Language and
+  Numerical Feedback
+Summary (EN): Recent advances in reinforcement learning (RL) with numerical feedback, such
+as scalar rewards, have significantly enhanced the complex reasoning
+capabilities of large language models (LLMs). Despite this success, we identify
+three key challenges encountered by RL with solely numerical feedback:
+per ...
+🚫 Not backdoor related.
+
+--- Processing Paper 93 ---
+Title: KG-BiLM: Knowledge Graph Embedding via Bidirectional Language Models
+Summary (EN): Recent advances in knowledge representation learning (KRL) highlight the
+urgent necessity to unify symbolic knowledge graphs (KGs) with language models
+(LMs) for richer semantic understanding. However, existing approaches typically
+prioritize either graph structure or textual semantics, leaving a ga ...
+🚫 Not backdoor related.
+
+--- Processing Paper 94 ---
+Title: Auto prompt sql: a resource-efficient architecture for text-to-sql
+  translation in constrained environments
+Summary (EN): Using the best Text-to-SQL methods in resource-constrained environments is
+challenging due to their reliance on resource-intensive open-source models.
+This paper introduces Auto Prompt SQL(AP-SQL), a novel architecture designed to
+bridge the gap between resource-efficient small open-source models an ...
+🚫 Not backdoor related.
+
+--- Processing Paper 95 ---
+Title: Robustness of Prompting: Enhancing Robustness of Large Language Models
+  Against Prompting Attacks
+Summary (EN): Large Language Models (LLMs) have demonstrated remarkable performance across
+various tasks by effectively utilizing a prompting strategy. However, they are
+highly sensitive to input perturbations, such as typographical errors or slight
+character order errors, which can substantially degrade their pe ...
+🚫 Not backdoor related.
+
+--- Processing Paper 96 ---
+Title: Verbalized Confidence Triggers Self-Verification: Emergent Behavior
+  Without Explicit Reasoning Supervision
+Summary (EN): Uncertainty calibration is essential for the safe deployment of large
+language models (LLMs), particularly when users rely on verbalized confidence
+estimates. While prior work has focused on classifiers or short-form
+generation, confidence calibration for chain-of-thought (CoT) reasoning remains
+lar ...
+🚫 Not backdoor related.
+
+--- Processing Paper 97 ---
+Title: AhaKV: Adaptive Holistic Attention-Driven KV Cache Eviction for
+  Efficient Inference of Large Language Models
+Summary (EN): Large Language Models (LLMs) have significantly advanced the field of
+Artificial Intelligence. However, their deployment is resource-intensive, not
+only due to the large number of model parameters but also because the
+(Key-Value) KV cache consumes a lot of memory during inference. While several
+work ...
+🚫 Not backdoor related.
+
+--- Processing Paper 98 ---
+Title: RadialRouter: Structured Representation for Efficient and Robust Large
+  Language Models Routing
+Summary (EN): The rapid advancements in large language models (LLMs) have led to the
+emergence of routing techniques, which aim to efficiently select the optimal
+LLM from diverse candidates to tackle specific tasks, optimizing performance
+while reducing costs. Current LLM routing methods are limited in effectiven ...
+🚫 Not backdoor related.
+
+--- Processing Paper 99 ---
+Title: Graph Counselor: Adaptive Graph Exploration via Multi-Agent Synergy to
+  Enhance LLM Reasoning
+Summary (EN): Graph Retrieval Augmented Generation (GraphRAG) effectively enhances external
+knowledge integration capabilities by explicitly modeling knowledge
+relationships, thereby improving the factual accuracy and generation quality of
+Large Language Models (LLMs) in specialized domains. However, existing met ...
+🚫 Not backdoor related.
+
+--- Processing Paper 100 ---
+Title: Lacuna Inc. at SemEval-2025 Task 4: LoRA-Enhanced Influence-Based
+  Unlearning for LLMs
+Summary (EN): This paper describes LIBU (LoRA enhanced influence-based unlearning), an
+algorithm to solve the task of unlearning - removing specific knowledge from a
+large language model without retraining from scratch and compromising its
+overall utility (SemEval-2025 Task 4: Unlearning sensitive content from La ...
+🚫 Not backdoor related.
+
+--- Processing Paper 101 ---
+Title: Explainability-Based Token Replacement on LLM-Generated Text
+Summary (EN): Generative models, especially large language models (LLMs), have shown
+remarkable progress in producing text that appears human-like. However, they
+often exhibit patterns that make their output easier to detect than text
+written by humans. In this paper, we investigate how explainable AI (XAI)
+metho ...
+🚫 Not backdoor related.
+
+--- Processing Paper 102 ---
+Title: High Accuracy, Less Talk (HALT): Reliable LLMs through
+  Capability-Aligned Finetuning
+Summary (EN): Large Language Models (LLMs) currently respond to every prompt. However, they
+can produce incorrect answers when they lack knowledge or capability -- a
+problem known as hallucination. We instead propose post-training an LLM to
+generate content only when confident in its correctness and to otherwise
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 103 ---
+Title: LLMEval-Med: A Real-world Clinical Benchmark for Medical LLMs with
+  Physician Validation
+Summary (EN): Evaluating large language models (LLMs) in medicine is crucial because
+medical applications require high accuracy with little room for error. Current
+medical benchmarks have three main types: medical exam-based, comprehensive
+medical, and specialized assessments. However, these benchmarks have
+limit ...
+🚫 Not backdoor related.
+
+--- Processing Paper 104 ---
+Title: Does Thinking More always Help? Understanding Test-Time Scaling in
+  Reasoning Models
+Summary (EN): Recent trends in test-time scaling for reasoning models (e.g., OpenAI o1,
+DeepSeek R1) have led to a popular belief that extending thinking traces using
+prompts like "Wait" or "Let me rethink" can improve performance. This raises a
+natural question: Does thinking more at test-time truly lead to bett ...
+🚫 Not backdoor related.
+
+--- Processing Paper 105 ---
+Title: Efficient Knowledge Editing via Minimal Precomputation
+Summary (EN): Knowledge editing methods like MEMIT are able to make data and compute
+efficient updates of factual knowledge by using a single sentence to update
+facts and their consequences. However, what is often overlooked is a
+"precomputation step", which requires a one-time but significant computational
+cost. ...
+🚫 Not backdoor related.
+
+--- Processing Paper 106 ---
+Title: Mechanistic Decomposition of Sentence Representations
+Summary (EN): Sentence embeddings are central to modern NLP and AI systems, yet little is
+known about their internal structure. While we can compare these embeddings
+using measures such as cosine similarity, the contributing features are not
+human-interpretable, and the content of an embedding seems untraceable,  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 107 ---
+Title: MELABenchv1: Benchmarking Large Language Models against Smaller
+  Fine-Tuned Models for Low-Resource Maltese NLP
+Summary (EN): Large Language Models (LLMs) have demonstrated remarkable performance across
+various Natural Language Processing (NLP) tasks, largely due to their
+generalisability and ability to perform tasks without additional training.
+However, their effectiveness for low-resource languages remains limited. In
+th ...
+🚫 Not backdoor related.
+
+--- Processing Paper 108 ---
+Title: Unpacking Let Alone: Human-Scale Models Generalize to a Rare
+  Construction in Form but not Meaning
+Summary (EN): Humans have a remarkable ability to acquire and understand grammatical
+phenomena that are seen rarely, if ever, during childhood. Recent evidence
+suggests that language models with human-scale pretraining data may possess a
+similar ability by generalizing from frequent to rare constructions. However ...
+🚫 Not backdoor related.
+
+--- Processing Paper 109 ---
+Title: Empaths at SemEval-2025 Task 11: Retrieval-Augmented Approach to
+  Perceived Emotions Prediction
+Summary (EN): This paper describes EmoRAG, a system designed to detect perceived emotions
+in text for SemEval-2025 Task 11, Subtask A: Multi-label Emotion Detection. We
+focus on predicting the perceived emotions of the speaker from a given text
+snippet, labeling it with emotions such as joy, sadness, fear, anger, ...
+🚫 Not backdoor related.
+
+--- Processing Paper 110 ---
+Title: Is It JUST Semantics? A Case Study of Discourse Particle Understanding
+  in LLMs
+Summary (EN): Discourse particles are crucial elements that subtly shape the meaning of
+text. These words, often polyfunctional, give rise to nuanced and often quite
+disparate semantic/discourse effects, as exemplified by the diverse uses of the
+particle "just" (e.g., exclusive, temporal, emphatic). This work inv ...
+🚫 Not backdoor related.
+
+--- Processing Paper 111 ---
+Title: SSA-COMET: Do LLMs Outperform Learned Metrics in Evaluating MT for
+  Under-Resourced African Languages?
+Summary (EN): Evaluating machine translation (MT) quality for under-resourced African
+languages remains a significant challenge, as existing metrics often suffer
+from limited language coverage and poor performance in low-resource settings.
+While recent efforts, such as AfriCOMET, have addressed some of the issues ...
+🚫 Not backdoor related.
+
+--- Processing Paper 112 ---
+Title: Reasoning or Overthinking: Evaluating Large Language Models on Financial
+  Sentiment Analysis
+Summary (EN): We investigate the effectiveness of large language models (LLMs), including
+reasoning-based and non-reasoning models, in performing zero-shot financial
+sentiment analysis. Using the Financial PhraseBank dataset annotated by domain
+experts, we evaluate how various LLMs and prompting strategies align  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 113 ---
+Title: SUCEA: Reasoning-Intensive Retrieval for Adversarial Fact-checking
+  through Claim Decomposition and Editing
+Summary (EN): Automatic fact-checking has recently received more attention as a means of
+combating misinformation. Despite significant advancements, fact-checking
+systems based on retrieval-augmented language models still struggle to tackle
+adversarial claims, which are intentionally designed by humans to challen ...
+🚫 Not backdoor related.
+
+--- Processing Paper 114 ---
+Title: AlignMMBench: Evaluating Chinese Multimodal Alignment in Large
+  Vision-Language Models
+Summary (EN): Evaluating the alignment capabilities of large Vision-Language Models (VLMs)
+is essential for determining their effectiveness as helpful assistants.
+However, existing benchmarks primarily focus on basic abilities using nonverbal
+methods, such as yes-no and multiple-choice questions. In this paper, w ...
+🚫 Not backdoor related.
+
+--- Processing Paper 115 ---
+Title: MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at
+  Scale
+Summary (EN): Open-source multimodal large language models (MLLMs) have shown significant
+potential in a broad range of multimodal tasks. However, their reasoning
+capabilities remain constrained by existing instruction-tuning datasets, which
+were predominately repurposed from academic datasets such as VQA, AI2D,  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 116 ---
+Title: SemEval-2025 Task 1: AdMIRe -- Advancing Multimodal Idiomaticity
+  Representation
+Summary (EN): Idiomatic expressions present a unique challenge in NLP, as their meanings
+are often not directly inferable from their constituent words. Despite recent
+advancements in Large Language Models (LLMs), idiomaticity remains a
+significant obstacle to robust semantic representation. We present datasets an ...
+🚫 Not backdoor related.
+
+--- Processing Paper 117 ---
+Title: ROSA: Addressing text understanding challenges in photographs via
+  ROtated SAmpling
+Summary (EN): Visually impaired people could benefit from Visual Question Answering (VQA)
+systems to interpret text in their surroundings. However, current models often
+struggle with recognizing text in the photos taken by this population. Through
+in-depth interviews with visually impaired individuals, we identif ...
+🚫 Not backdoor related.
+
+--- Processing Paper 118 ---
+Title: Kinship in Speech: Leveraging Linguistic Relatedness for Zero-Shot TTS
+  in Indian Languages
+Summary (EN): Text-to-speech (TTS) systems typically require high-quality studio data and
+accurate transcriptions for training. India has 1369 languages, with 22
+official using 13 scripts. Training a TTS system for all these languages, most
+of which have no digital resources, seems a Herculean task. Our work focu ...
+🚫 Not backdoor related.
+
+--- Processing Paper 119 ---
+Title: DynTok: Dynamic Compression of Visual Tokens for Efficient and Effective
+  Video Understanding
+Summary (EN): Typical video modeling methods, such as LLava, represent videos as sequences
+of visual tokens, which are then processed by the LLM backbone for effective
+video understanding. However, this approach leads to a massive number of visual
+tokens, especially for long videos. A practical solution is to fir ...
+🚫 Not backdoor related.
+
+--- Processing Paper 120 ---
+Title: Seeing What Tastes Good: Revisiting Multimodal Distributional Semantics
+  in the Billion Parameter Era
+Summary (EN): Human learning and conceptual representation is grounded in sensorimotor
+experience, in contrast to state-of-the-art foundation models. In this paper,
+we investigate how well such large-scale models, trained on vast quantities of
+data, represent the semantic feature norms of concrete object concepts ...
+🚫 Not backdoor related.
+
+--- Processing Paper 121 ---
+Title: MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in
+  Videos
+Summary (EN): The sequential structure of videos poses a challenge to the ability of
+multimodal large language models (MLLMs) to locate multi-frame evidence and
+conduct multimodal reasoning. However, existing video benchmarks mainly focus
+on understanding tasks, which only require models to match frames mentioned ...
+🚫 Not backdoor related.
+
+--- Processing Paper 122 ---
+Title: Failure Modes of LLMs for Causal Reasoning on Narratives
+Summary (EN): In this work, we investigate the causal reasoning abilities of large language
+models (LLMs) through the representative problem of inferring causal
+relationships from narratives. We find that even state-of-the-art language
+models rely on unreliable shortcuts, both in terms of the narrative
+presentati ...
+🚫 Not backdoor related.
+
+--- Processing Paper 123 ---
+Title: SAEBench: A Comprehensive Benchmark for Sparse Autoencoders in Language
+  Model Interpretability
+Summary (EN): Sparse autoencoders (SAEs) are a popular technique for interpreting language
+model activations, and there is extensive recent work on improving SAE
+effectiveness. However, most prior work evaluates progress using unsupervised
+proxy metrics with unclear practical relevance. We introduce SAEBench, a
+c ...
+🚫 Not backdoor related.
+
+--- Processing Paper 124 ---
+Title: $K$-MSHC: Unmasking Minimally Sufficient Head Circuits in Large Language
+  Models with Experiments on Syntactic Classification Tasks
+Summary (EN): Understanding which neural components drive specific capabilities in
+mid-sized language models ($\leq$10B parameters) remains a key challenge. We
+introduce the $(\bm{K}, \epsilon)$-Minimum Sufficient Head Circuit ($K$-MSHC),
+a methodology to identify minimal sets of attention heads crucial for
+class ...
+🚫 Not backdoor related.
+
+--- Processing Paper 125 ---
+Title: EnsemW2S: Enhancing Weak-to-Strong Generalization with Large Language
+  Model Ensembles
+Summary (EN): With Large Language Models (LLMs) rapidly approaching and potentially
+surpassing human-level performance, it has become imperative to develop
+approaches capable of effectively supervising and enhancing these powerful
+models using smaller, human-level models exposed to only human-level data. We
+addre ...
+🚫 Not backdoor related.
+
+--- Processing Paper 126 ---
+Title: Curse of High Dimensionality Issue in Transformer for Long-context
+  Modeling
+Summary (EN): Transformer-based large language models (LLMs) excel in natural language
+processing tasks by capturing long-range dependencies through self-attention
+mechanisms. However, long-context modeling faces significant computational
+inefficiencies due to \textit{redundant} attention computations: while
+atte ...
+🚫 Not backdoor related.
+
+--- Processing Paper 127 ---
+Title: Spectral Insights into Data-Oblivious Critical Layers in Large Language
+  Models
+Summary (EN): Understanding how feature representations evolve across layers in large
+language models (LLMs) is key to improving their interpretability and
+robustness. While recent studies have identified critical layers linked to
+specific functions or behaviors, these efforts typically rely on data-dependent
+ana ...
+🚫 Not backdoor related.
+
+--- Processing Paper 128 ---
+Title: Unleashing the Reasoning Potential of Pre-trained LLMs by Critique
+  Fine-Tuning on One Problem
+Summary (EN): We have witnessed that strong LLMs like Qwen-Math, MiMo, and Phi-4 possess
+immense reasoning potential inherited from the pre-training stage. With
+reinforcement learning (RL), these models can improve dramatically on reasoning
+tasks. Recent studies have shown that even RL on a single problem can unl ...
+🚫 Not backdoor related.
+
+--- Processing Paper 129 ---
+Title: Prompt Candidates, then Distill: A Teacher-Student Framework for
+  LLM-driven Data Annotation
+Summary (EN): Recently, Large Language Models (LLMs) have demonstrated significant
+potential for data annotation, markedly reducing the labor costs associated
+with downstream applications. However, existing methods mostly adopt an
+aggressive strategy by prompting LLM to determine a single gold label for each
+unla ...
+🚫 Not backdoor related.
+
+--- Processing Paper 130 ---
+Title: When Fairness Isn't Statistical: The Limits of Machine Learning in
+  Evaluating Legal Reasoning
+Summary (EN): Legal decisions are increasingly evaluated for fairness, consistency, and
+bias using machine learning (ML) techniques. In high-stakes domains like
+refugee adjudication, such methods are often applied to detect disparities in
+outcomes. Yet it remains unclear whether statistical methods can meaningful ...
+🚫 Not backdoor related.
+
+--- Processing Paper 131 ---
+Title: Structured Pruning for Diverse Best-of-N Reasoning Optimization
+Summary (EN): Model pruning in transformer-based language models, traditionally viewed as a
+means of achieving computational savings, can enhance the model's reasoning
+capabilities. In this work, we uncover a surprising phenomenon: the selective
+pruning of certain attention heads leads to improvements in reasonin ...
+🚫 Not backdoor related.
+
+--- Processing Paper 132 ---
+Title: GEM: Empowering LLM for both Embedding Generation and Language
+  Understanding
+Summary (EN): Large decoder-only language models (LLMs) have achieved remarkable success in
+generation and reasoning tasks, where they generate text responses given
+instructions. However, many applications, e.g., retrieval augmented generation
+(RAG), still rely on separate embedding models to generate text embedd ...
+🚫 Not backdoor related.
+
+--- Processing Paper 133 ---
+Title: Hierarchical Text Classification Using Contrastive Learning Informed
+  Path Guided Hierarchy
+Summary (EN): Hierarchical Text Classification (HTC) has recently gained traction given the
+ability to handle complex label hierarchy. This has found applications in
+domains like E- commerce, customer care and medicine industry among other
+real-world applications. Existing HTC models either encode label hierarchy ...
+🚫 Not backdoor related.
+
+--- Processing Paper 134 ---
+Title: Building a Few-Shot Cross-Domain Multilingual NLU Model for Customer
+  Care
+Summary (EN): Customer care is an essential pillar of the e-commerce shopping experience
+with companies spending millions of dollars each year, employing automation and
+human agents, across geographies (like US, Canada, Mexico, Chile), channels
+(like Chat, Interactive Voice Response (IVR)), and languages (like En ...
+🚫 Not backdoor related.
+
+--- Processing Paper 135 ---
+Title: Towards Trustworthy Federated Learning with Untrusted Participants
+Summary (EN): Resilience against malicious participants and data privacy are essential for
+trustworthy federated learning, yet achieving both with good utility typically
+requires the strong assumption of a trusted central server. This paper shows
+that a significantly weaker assumption suffices: each pair of parti ...
+🚫 Not backdoor related.
+
+--- Processing Paper 136 ---
+Title: Dropout-Robust Mechanisms for Differentially Private and Fully
+  Decentralized Mean Estimation
+Summary (EN): Achieving differentially private computations in decentralized settings poses
+significant challenges, particularly regarding accuracy, communication cost,
+and robustness against information leakage. While cryptographic solutions offer
+promise, they often suffer from high communication overhead or re ...
+🚫 Not backdoor related.
+
+--- Processing Paper 137 ---
+Title: Prescribing the Right Remedy: Mitigating Hallucinations in Large
+  Vision-Language Models via Targeted Instruction Tuning
+Summary (EN): Despite achieving outstanding performance on various cross-modal tasks,
+current large vision-language models (LVLMs) still suffer from hallucination
+issues, manifesting as inconsistencies between their generated responses and
+the corresponding images. Prior research has implicated that the low quali ...
+🚫 Not backdoor related.
+
+--- Processing Paper 138 ---
+Title: Your Turn: At Home Turning Angle Estimation for Parkinson's Disease
+  Severity Assessment
+Summary (EN): People with Parkinson's Disease (PD) often experience progressively worsening
+gait, including changes in how they turn around, as the disease progresses.
+Existing clinical rating tools are not capable of capturing hour-by-hour
+variations of PD symptoms, as they are confined to brief assessments with ...
+🚫 Not backdoor related.
+
+--- Processing Paper 139 ---
+Title: RAC3: Retrieval-Augmented Corner Case Comprehension for Autonomous
+  Driving with Vision-Language Models
+Summary (EN): Understanding and addressing corner cases is essential for ensuring the
+safety and reliability of autonomous driving systems. Vision-language models
+(VLMs) play a crucial role in enhancing scenario comprehension, yet they face
+significant challenges, such as hallucination and insufficient real-world ...
+🚫 Not backdoor related.
+
+--- Processing Paper 140 ---
+Title: OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal
+  Models on Visual Text Localization and Reasoning
+Summary (EN): Scoring the Optical Character Recognition (OCR) capabilities of Large
+Multimodal Models (LMMs) has witnessed growing interest. Existing benchmarks
+have highlighted the impressive performance of LMMs in text recognition;
+however, their abilities in certain challenging tasks, such as text
+localization ...
+🚫 Not backdoor related.
+
+--- Processing Paper 141 ---
+Title: MM-IQ: Benchmarking Human-Like Abstraction and Reasoning in Multimodal
+  Models
+Summary (EN): IQ testing has served as a foundational methodology for evaluating human
+cognitive capabilities, deliberately decoupling assessment from linguistic
+background, language proficiency, or domain-specific knowledge to isolate core
+competencies in abstraction and reasoning. Yet, artificial intelligence
+r ...
+🚫 Not backdoor related.
+
+--- Processing Paper 142 ---
+Title: Visual Attention Never Fades: Selective Progressive Attention
+  ReCalibration for Detailed Image Captioning in Multimodal Large Language
+  Models
+Summary (EN): Detailed image captioning is essential for tasks like data generation and
+aiding visually impaired individuals. High-quality captions require a balance
+between precision and recall, which remains challenging for current multimodal
+large language models (MLLMs). In this work, we hypothesize that this ...
+🚫 Not backdoor related.
+
+--- Processing Paper 143 ---
+Title: Contrastive Representation Distillation via Multi-Scale Feature
+  Decoupling
+Summary (EN): Knowledge distillation is a technique aimed at enhancing the performance of a
+small student network without increasing its parameter size by transferring
+knowledge from a large, pre-trained teacher network. In the feature space,
+different local regions within an individual global feature map often e ...
+🚫 Not backdoor related.
+
+--- Processing Paper 144 ---
+Title: The Role of Visual Modality in Multimodal Mathematical Reasoning:
+  Challenges and Insights
+Summary (EN): Recent research has increasingly focused on multimodal mathematical
+reasoning, particularly emphasizing the creation of relevant datasets and
+benchmarks. Despite this, the role of visual information in reasoning has been
+underexplored. Our findings show that existing multimodal mathematical models
+m ...
+🚫 Not backdoor related.
+
+--- Processing Paper 145 ---
+Title: SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical
+  Codebook for Multimodal Understanding and Generation
+Summary (EN): In this paper, we introduce SemHiTok, a unified image Tokenizer via
+Semantic-Guided Hierarchical codebook that provides consistent discrete
+representations for multimodal understanding and generation. Recently, unified
+image tokenizers have sparked exploration within research community, which is
+des ...
+🚫 Not backdoor related.
+
+--- Processing Paper 146 ---
+Title: Flow-GRPO: Training Flow Matching Models via Online RL
+Summary (EN): We propose Flow-GRPO, the first method integrating online reinforcement
+learning (RL) into flow matching models. Our approach uses two key strategies:
+(1) an ODE-to-SDE conversion that transforms a deterministic Ordinary
+Differential Equation (ODE) into an equivalent Stochastic Differential Equation ...
+🚫 Not backdoor related.
+
+--- Processing Paper 147 ---
+Title: Comparing the Effects of Persistence Barcodes Aggregation and Feature
+  Concatenation on Medical Imaging
+Summary (EN): In medical image analysis, feature engineering plays an important role in the
+design and performance of machine learning models. Persistent homology (PH),
+from the field of topological data analysis (TDA), demonstrates robustness and
+stability to data perturbations and addresses the limitation from  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 148 ---
+Title: Grid-LOGAT: Grid Based Local and Global Area Transcription for Video
+  Question Answering
+Summary (EN): In this paper, we propose a Grid-based Local and Global Area Transcription
+(Grid-LoGAT) system for Video Question Answering (VideoQA). The system operates
+in two phases. First, extracting text transcripts from video frames using a
+Vision-Language Model (VLM). Next, processing questions using these t ...
+🚫 Not backdoor related.
+
+--- Processing Paper 149 ---
+Title: MedEBench: Revisiting Text-instructed Image Editing on Medical Domain
+Summary (EN): Text-guided image editing has seen rapid progress in natural image domains,
+but its adaptation to medical imaging remains limited and lacks standardized
+evaluation. Clinically, such editing holds promise for simulating surgical
+outcomes, creating personalized teaching materials, and enhancing patien ...
+🚫 Not backdoor related.
+
+--- Processing Paper 150 ---
+Title: Flexiffusion: Training-Free Segment-Wise Neural Architecture Search for
+  Efficient Diffusion Models
+Summary (EN): Diffusion models (DMs) are powerful generative models capable of producing
+high-fidelity images but are constrained by high computational costs due to
+iterative multi-step inference. While Neural Architecture Search (NAS) can
+optimize DMs, existing methods are hindered by retraining requirements,
+ex ...
+🚫 Not backdoor related.
+
+--- Processing Paper 151 ---
+Title: High Performance Space Debris Tracking in Complex Skylight Backgrounds
+  with a Large-Scale Dataset
+Summary (EN): With the rapid development of space exploration, space debris has attracted
+more attention due to its potential extreme threat, leading to the need for
+real-time and accurate debris tracking. However, existing methods are mainly
+based on traditional signal processing, which cannot effectively proces ...
+🚫 Not backdoor related.
+
+--- Processing Paper 152 ---
+Title: FOLIAGE: Towards Physical Intelligence World Models Via Unbounded
+  Surface Evolution
+Summary (EN): Physical intelligence -- anticipating and shaping the world from partial,
+multisensory observations -- is critical for next-generation world models. We
+propose FOLIAGE, a physics-informed multimodal world model for unbounded
+accretive surface growth. In its Action-Perception loop, a unified context
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 153 ---
+Title: DiagNet: Detecting Objects using Diagonal Constraints on Adjacency
+  Matrix of Graph Neural Network
+Summary (EN): We propose DaigNet, a new approach to object detection with which we can
+detect an object bounding box using diagonal constraints on adjacency matrix of
+a graph convolutional network (GCN). We propose two diagonalization algorithms
+based on hard and soft constraints on adjacency matrix and two loss  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 154 ---
+Title: Negative-Guided Subject Fidelity Optimization for Zero-Shot
+  Subject-Driven Generation
+Summary (EN): We present Subject Fidelity Optimization (SFO), a novel comparative learning
+framework for zero-shot subject-driven generation that enhances subject
+fidelity. Beyond supervised fine-tuning methods that rely only on positive
+targets and use the diffusion loss as in the pre-training stage, SFO introdu ...
+🚫 Not backdoor related.
+
+--- Processing Paper 155 ---
+Title: Spatial Understanding from Videos: Structured Prompts Meet Simulation
+  Data
+Summary (EN): Visual-spatial understanding, the ability to infer object relationships and
+layouts from visual input, is fundamental to downstream tasks such as robotic
+navigation and embodied interaction. However, existing methods face spatial
+uncertainty and data scarcity, limiting the 3D spatial reasoning capab ...
+🚫 Not backdoor related.
+
+--- Processing Paper 156 ---
+Title: Accelerating SfM-based Pose Estimation with Dominating Set
+Summary (EN): This paper introduces a preprocessing technique to speed up
+Structure-from-Motion (SfM) based pose estimation, which is critical for
+real-time applications like augmented reality (AR), virtual reality (VR), and
+robotics. Our method leverages the concept of a dominating set from graph
+theory to prepr ...
+🚫 Not backdoor related.
+
+--- Processing Paper 157 ---
+Title: OSGNet @ Ego4D Episodic Memory Challenge 2025
+Summary (EN): In this report, we present our champion solutions for the three egocentric
+video localization tracks of the Ego4D Episodic Memory Challenge at CVPR 2025.
+All tracks require precise localization of the interval within an untrimmed
+egocentric video. Previous unified video localization approaches often ...
+🚫 Not backdoor related.
+
+--- Processing Paper 158 ---
+Title: ComRoPE: Scalable and Robust Rotary Position Embedding Parameterized by
+  Trainable Commuting Angle Matrices
+Summary (EN): The Transformer architecture has revolutionized various regions since it was
+proposed, and its effectiveness largely depends on the ability to encode
+positional information. Traditional position encoding methods exhibit
+significant limitations due to lack of robustness and flexibility of position.
+T ...
+🚫 Not backdoor related.
+
+--- Processing Paper 159 ---
+Title: SAAT: Synergistic Alternating Aggregation Transformer for Image
+  Super-Resolution
+Summary (EN): Single image super-resolution is a well-known downstream task which aims to
+restore low-resolution images into high-resolution images. At present, models
+based on Transformers have shone brightly in the field of super-resolution due
+to their ability to capture long-term dependencies in information.  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 160 ---
+Title: JointSplat: Probabilistic Joint Flow-Depth Optimization for Sparse-View
+  Gaussian Splatting
+Summary (EN): Reconstructing 3D scenes from sparse viewpoints is a long-standing challenge
+with wide applications. Recent advances in feed-forward 3D Gaussian sparse-view
+reconstruction methods provide an efficient solution for real-time novel view
+synthesis by leveraging geometric priors learned from large-scale ...
+🚫 Not backdoor related.
+
+--- Processing Paper 161 ---
+Title: DiffCAP: Diffusion-based Cumulative Adversarial Purification for Vision
+  Language Models
+Summary (EN): Vision Language Models (VLMs) have shown remarkable capabilities in
+multimodal understanding, yet their susceptibility to perturbations poses a
+significant threat to their reliability in real-world applications. Despite
+often being imperceptible to humans, these perturbations can drastically alter
+m ...
+🚫 Not backdoor related.
+
+--- Processing Paper 162 ---
+Title: Person Re-Identification System at Semantic Level based on Pedestrian
+  Attributes Ontology
+Summary (EN): Person Re-Identification (Re-ID) is a very important task in video
+surveillance systems such as tracking people, finding people in public places,
+or analysing customer behavior in supermarkets. Although there have been many
+works to solve this problem, there are still remaining challenges such as
+la ...
+🚫 Not backdoor related.
+
+--- Processing Paper 163 ---
+Title: Evaluating MLLMs with Multimodal Multi-image Reasoning Benchmark
+Summary (EN): With enhanced capabilities and widespread applications, Multimodal Large
+Language Models (MLLMs) are increasingly required to process and reason over
+multiple images simultaneously. However, existing MLLM benchmarks focus either
+on single-image visual reasoning or on multi-image understanding tasks  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 164 ---
+Title: Puck Localization Using Contextual Cues
+Summary (EN): Puck detection in ice hockey broadcast videos poses significant challenges
+due to the puck's small size, frequent occlusions, motion blur, broadcast
+artifacts, and scale inconsistencies due to varying camera zoom and broadcast
+camera viewpoints. Prior works focus on appearance-based or motion-based  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 165 ---
+Title: Enabling LLM Knowledge Analysis via Extensive Materialization
+Summary (EN): Large language models (LLMs) have majorly advanced NLP and AI, and next to
+their ability to perform a wide range of procedural tasks, a major success
+factor is their internalized factual knowledge. Since Petroni et al. (2019),
+analyzing this knowledge has gained attention. However, most approaches
+i ...
+🚫 Not backdoor related.
+
+--- Processing Paper 166 ---
+Title: ROGRAG: A Robustly Optimized GraphRAG Framework
+Summary (EN): Large language models (LLMs) commonly struggle with specialized or emerging
+topics which are rarely seen in the training corpus. Graph-based
+retrieval-augmented generation (GraphRAG) addresses this by structuring domain
+knowledge as a graph for dynamic retrieval. However, existing pipelines involve
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 167 ---
+Title: CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG
+Summary (EN): Multimodal Retrieval-Augmented Generation (MMRAG) has been introduced to
+enhance Multimodal Large Language Models by incorporating externally retrieved
+multimodal knowledge, but it introduces two challenges: Parametric-Retrieved
+Knowledge Inconsistency (PRKI), where discrepancies between parametric  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 168 ---
+Title: Tone recognition in low-resource languages of North-East India: peeling
+  the layers of SSL-based speech models
+Summary (EN): This study explores the use of self-supervised learning (SSL) models for tone
+recognition in three low-resource languages from North Eastern India: Angami,
+Ao, and Mizo. We evaluate four Wav2vec2.0 base models that were pre-trained on
+both tonal and non-tonal languages. We analyze tone-wise performa ...
+🚫 Not backdoor related.
+
+--- Processing Paper 169 ---
+Title: Generating Pedagogically Meaningful Visuals for Math Word Problems: A
+  New Benchmark and Analysis of Text-to-Image Models
+Summary (EN): Visuals are valuable tools for teaching math word problems (MWPs), helping
+young learners interpret textual descriptions into mathematical expressions
+before solving them. However, creating such visuals is labor-intensive and
+there is a lack of automated methods to support this process. In this pape ...
+🚫 Not backdoor related.
+
+--- Processing Paper 170 ---
+Title: Multi-objective Aligned Bidword Generation Model for E-commerce Search
+  Advertising
+Summary (EN): Retrieval systems primarily address the challenge of matching user queries
+with the most relevant advertisements, playing a crucial role in e-commerce
+search advertising. The diversity of user needs and expressions often produces
+massive long-tail queries that cannot be matched with merchant bidword ...
+🚫 Not backdoor related.
+
+--- Processing Paper 171 ---
+Title: VisCoder: Fine-Tuning LLMs for Executable Python Visualization Code
+  Generation
+Summary (EN): Large language models (LLMs) often struggle with visualization tasks like
+plotting diagrams, charts, where success depends on both code correctness and
+visual semantics. Existing instruction-tuning datasets lack execution-grounded
+supervision and offer limited support for iterative code correction,  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 172 ---
+Title: Matter-of-Fact: A Benchmark for Verifying the Feasibility of
+  Literature-Supported Claims in Materials Science
+Summary (EN): Contemporary approaches to assisted scientific discovery use language models
+to automatically generate large numbers of potential hypothesis to test, while
+also automatically generating code-based experiments to test those hypotheses.
+While hypotheses can be comparatively inexpensive to generate, au ...
+🚫 Not backdoor related.
+
+--- Processing Paper 173 ---
+Title: EPIC: Graph Augmentation with Edit Path Interpolation via Learnable Cost
+Summary (EN): Data augmentation plays a critical role in improving model performance across
+various domains, but it becomes challenging with graph data due to their
+complex and irregular structure. To address this issue, we propose EPIC (Edit
+Path Interpolation via learnable Cost), a novel interpolation-based met ...
+🚫 Not backdoor related.
+
+--- Processing Paper 174 ---
+Title: Pushing Large Language Models to the 6G Edge: Vision, Challenges, and
+  Opportunities
+Summary (EN): Large language models (LLMs), which have shown remarkable capabilities, are
+revolutionizing AI development and potentially shaping our future. However,
+given their multimodality, the status quo cloud-based deployment faces some
+critical challenges: 1) long response time; 2) high bandwidth costs; and ...
+🚫 Not backdoor related.
+
+--- Processing Paper 175 ---
+Title: LDMol: A Text-to-Molecule Diffusion Model with Structurally Informative
+  Latent Space Surpasses AR Models
+Summary (EN): With the emergence of diffusion models as a frontline generative model, many
+researchers have proposed molecule generation techniques with conditional
+diffusion models. However, the unavoidable discreteness of a molecule makes it
+difficult for a diffusion model to connect raw data with highly comple ...
+🚫 Not backdoor related.
+
+--- Processing Paper 176 ---
+Title: Expand and Compress: Exploring Tuning Principles for Continual
+  Spatio-Temporal Graph Forecasting
+Summary (EN): The widespread deployment of sensing devices leads to a surge in data for
+spatio-temporal forecasting applications such as traffic flow, air quality, and
+wind energy. Although spatio-temporal graph neural networks have achieved
+success in modeling various static spatio-temporal forecasting scenarios ...
+🚫 Not backdoor related.
+
+--- Processing Paper 177 ---
+Title: The Disparate Benefits of Deep Ensembles
+Summary (EN): Ensembles of Deep Neural Networks, Deep Ensembles, are widely used as a
+simple way to boost predictive performance. However, their impact on
+algorithmic fairness is not well understood yet. Algorithmic fairness examines
+how a model's performance varies across socially relevant groups defined by
+prot ...
+🚫 Not backdoor related.
+
+--- Processing Paper 178 ---
+Title: Beyond Position: the emergence of wavelet-like properties in
+  Transformers
+Summary (EN): This paper studies how Transformer models with Rotary Position Embeddings
+(RoPE) develop emergent, wavelet-like properties that compensate for the
+positional encoding's theoretical limitations. Through an analysis spanning
+model scales, architectures, and training checkpoints, we show that attention ...
+🚫 Not backdoor related.
+
+--- Processing Paper 179 ---
+Title: A Large Recurrent Action Model: xLSTM enables Fast Inference for
+  Robotics Tasks
+Summary (EN): In recent years, there has been a trend in the field of Reinforcement
+Learning (RL) towards large action models trained offline on large-scale
+datasets via sequence modeling. Existing models are primarily based on the
+Transformer architecture, which result in powerful agents. However, due to slow
+in ...
+🚫 Not backdoor related.
+
+--- Processing Paper 180 ---
+Title: Engagement-Driven Content Generation with Large Language Models
+Summary (EN): Large Language Models (LLMs) demonstrate significant persuasive capabilities
+in one-on-one interactions, but their influence within social networks, where
+interconnected users and complex opinion dynamics pose unique challenges,
+remains underexplored. This paper addresses the research question: \emp ...
+🚫 Not backdoor related.
+
+--- Processing Paper 181 ---
+Title: Representations Shape Weak-to-Strong Generalization: Theoretical
+  Insights and Empirical Predictions
+Summary (EN): Weak-to-Strong Generalization (W2SG), where a weak model supervises a
+stronger one, serves as an important analogy for understanding how humans might
+guide superhuman intelligence in the future. Promising empirical results
+revealed that a strong model can surpass its weak supervisor. While recent wo ...
+🚫 Not backdoor related.
+
+--- Processing Paper 182 ---
+Title: CurvGAD: Leveraging Curvature for Enhanced Graph Anomaly Detection
+Summary (EN): Does the intrinsic curvature of complex networks hold the key to unveiling
+graph anomalies that conventional approaches overlook? Reconstruction-based
+graph anomaly detection (GAD) methods overlook such geometric outliers,
+focusing only on structural and attribute-level anomalies. To this end, we
+pr ...
+🚫 Not backdoor related.
+
+--- Processing Paper 183 ---
+Title: Anomaly Detection in Complex Dynamical Systems: A Systematic Framework
+  Using Embedding Theory and Physics-Inspired Consistency
+Summary (EN): Anomaly detection in complex dynamical systems is essential for ensuring
+reliability, safety, and efficiency in industrial and cyber-physical
+infrastructures. Predictive maintenance helps prevent costly failures, while
+cybersecurity monitoring has become critical as digitized systems face growing
+th ...
+🚫 Not backdoor related.
+
+--- Processing Paper 184 ---
+Title: Knowledge Retention for Continual Model-Based Reinforcement Learning
+Summary (EN): We propose DRAGO, a novel approach for continual model-based reinforcement
+learning aimed at improving the incremental development of world models across
+a sequence of tasks that differ in their reward functions but not the state
+space or dynamics. DRAGO comprises two key components: Synthetic Exper ...
+🚫 Not backdoor related.
+
+--- Processing Paper 185 ---
+Title: Language-Enhanced Representation Learning for Single-Cell
+  Transcriptomics
+Summary (EN): Single-cell RNA sequencing (scRNA-seq) offers detailed insights into cellular
+heterogeneity. Recent advancements leverage single-cell large language models
+(scLLMs) for effective representation learning. These models focus exclusively
+on transcriptomic data, neglecting complementary biological knowl ...
+🚫 Not backdoor related.
+
+--- Processing Paper 186 ---
+Title: Can Large Reasoning Models do Analogical Reasoning under Perceptual
+  Uncertainty?
+Summary (EN): This work presents a first evaluation of two state-of-the-art Large Reasoning
+Models (LRMs), OpenAI's o3-mini and DeepSeek R1, on analogical reasoning,
+focusing on well-established nonverbal human IQ tests based on Raven's
+progressive matrices. We benchmark with the I-RAVEN dataset and its extension ...
+🚫 Not backdoor related.
+
+--- Processing Paper 187 ---
+Title: Addressing Concept Mislabeling in Concept Bottleneck Models Through
+  Preference Optimization
+Summary (EN): Concept Bottleneck Models (CBMs) propose to enhance the trustworthiness of AI
+systems by constraining their decisions on a set of human-understandable
+concepts. However, CBMs typically assume that datasets contain accurate concept
+labels-an assumption often violated in practice, which we show can
+si ...
+🚫 Not backdoor related.
+
+--- Processing Paper 188 ---
+Title: Polar Sparsity: High Throughput Batched LLM Inferencing with Scalable
+  Contextual Sparsity
+Summary (EN): Accelerating large language model (LLM) inference is critical for real-world
+deployments requiring high throughput and low latency. Contextual sparsity,
+where each token dynamically activates only a small subset of the model
+parameters, shows promise but does not scale to large batch sizes due to un ...
+🚫 Not backdoor related.
+
+--- Processing Paper 189 ---
+Title: DreamPRM: Domain-Reweighted Process Reward Model for Multimodal
+  Reasoning
+Summary (EN): Reasoning has improved the performance of large language models (LLMs) on
+complicated tasks. Central to the current reasoning studies, Process Reward
+Models (PRMs) offer a fine-grained evaluation of intermediate reasoning steps
+and guide the reasoning process. However, extending PRMs to multimodal l ...
+🚫 Not backdoor related.
+
+--- Processing Paper 190 ---
+Title: Adversarial bandit optimization for approximately linear functions
+Summary (EN): We consider a bandit optimization problem for nonconvex and non-smooth
+functions, where in each trial the loss function is the sum of a linear
+function and a small but arbitrary perturbation chosen after observing the
+player's choice. We give both expected and high probability regret bounds for
+the  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 191 ---
+Title: Policy Induction: Predicting Startup Success via Explainable
+  Memory-Augmented In-Context Learning
+Summary (EN): Early-stage startup investment is a high-risk endeavor characterized by
+scarce data and uncertain outcomes. Traditional machine learning approaches
+often require large, labeled datasets and extensive fine-tuning, yet remain
+opaque and difficult for domain experts to interpret or improve. In this pap ...
+🚫 Not backdoor related.
+
+--- Processing Paper 192 ---
+Title: ADG: Ambient Diffusion-Guided Dataset Recovery for Corruption-Robust
+  Offline Reinforcement Learning
+Summary (EN): Real-world datasets collected from sensors or human inputs are prone to noise
+and errors, posing significant challenges for applying offline reinforcement
+learning (RL). While existing methods have made progress in addressing
+corrupted actions and rewards, they remain insufficient for handling corru ...
+🚫 Not backdoor related.
+
+--- Processing Paper 193 ---
+Title: AReaL: A Large-Scale Asynchronous Reinforcement Learning System for
+  Language Reasoning
+Summary (EN): Reinforcement learning (RL) has become a dominant paradigm for training large
+language models (LLMs), particularly for reasoning tasks. Effective RL for LLMs
+requires massive parallelization and poses an urgent need for efficient
+training systems. Most existing large-scale RL systems for LLMs are
+sy ...
+🚫 Not backdoor related.
+
+--- Processing Paper 194 ---
+Title: ReCalKV: Low-Rank KV Cache Compression via Head Reordering and Offline
+  Calibration
+Summary (EN): Large language models (LLMs) have achieved remarkable performance, yet their
+capability on long-context reasoning is often constrained by the excessive
+memory required to store the Key-Value (KV) cache. This makes KV cache
+compression an essential step toward enabling efficient long-context reasonin ...
+🚫 Not backdoor related.
+
+--- Processing Paper 195 ---
+Title: Object Centric Concept Bottlenecks
+Summary (EN): Developing high-performing, yet interpretable models remains a critical
+challenge in modern AI. Concept-based models (CBMs) attempt to address this by
+extracting human-understandable concepts from a global encoding (e.g., image
+encoding) and then applying a linear classifier on the resulting concept ...
+🚫 Not backdoor related.
+
+--- Processing Paper 196 ---
+Title: Optimizing Sensory Neurons: Nonlinear Attention Mechanisms for
+  Accelerated Convergence in Permutation-Invariant Neural Networks for
+  Reinforcement Learning
+Summary (EN): Training reinforcement learning (RL) agents often requires significant
+computational resources and extended training times. To address this, we build
+upon the foundation laid by Google Brain's Sensory Neuron, which introduced a
+novel neural architecture for reinforcement learning tasks that maintain ...
+🚫 Not backdoor related.
+
+--- Processing Paper 197 ---
+Title: GCFL: A Gradient Correction-based Federated Learning Framework for
+  Privacy-preserving CPSS
+Summary (EN): Federated learning, as a distributed architecture, shows great promise for
+applications in Cyber-Physical-Social Systems (CPSS). In order to mitigate the
+privacy risks inherent in CPSS, the integration of differential privacy with
+federated learning has attracted considerable attention. Existing res ...
+🚫 Not backdoor related.
+
+--- Processing Paper 198 ---
+Title: Scaling CrossQ with Weight Normalization
+Summary (EN): Reinforcement learning has achieved significant milestones, but sample
+efficiency remains a bottleneck for real-world applications. Recently, CrossQ
+has demonstrated state-of-the-art sample efficiency with a low update-to-data
+(UTD) ratio of 1. In this work, we explore CrossQ's scaling behavior with ...
+🚫 Not backdoor related.
+
+--- Processing Paper 199 ---
+Title: Causality-Aware Contrastive Learning for Robust Multivariate Time-Series
+  Anomaly Detection
+Summary (EN): Utilizing the complex inter-variable causal relationships within multivariate
+time-series provides a promising avenue toward more robust and reliable
+multivariate time-series anomaly detection (MTSAD) but remains an underexplored
+area of research. This paper proposes Causality-Aware contrastive lear ...
+🚫 Not backdoor related.
+
+--- Processing Paper 200 ---
+Title: CARL: Causality-guided Architecture Representation Learning for an
+  Interpretable Performance Predictor
+Summary (EN): Performance predictors have emerged as a promising method to accelerate the
+evaluation stage of neural architecture search (NAS). These predictors estimate
+the performance of unseen architectures by learning from the correlation
+between a small set of trained architectures and their performance. How ...
+🚫 Not backdoor related.
+
+--- Processing Paper 201 ---
+Title: Interpretability by Design for Efficient Multi-Objective Reinforcement
+  Learning
+Summary (EN): Multi-objective reinforcement learning (MORL) aims at optimising several,
+often conflicting goals in order to improve flexibility and reliability of RL
+in practical tasks. This can be achieved by finding diverse policies that are
+optimal for some objective preferences and non-dominated by optimal po ...
+🚫 Not backdoor related.
+
+--- Processing Paper 202 ---
+Title: Horizon Reduction Makes RL Scalable
+Summary (EN): In this work, we study the scalability of offline reinforcement learning (RL)
+algorithms. In principle, a truly scalable offline RL algorithm should be able
+to solve any given problem, regardless of its complexity, given sufficient
+data, compute, and model capacity. We investigate if and how current ...
+🚫 Not backdoor related.
+
+--- Processing Paper 203 ---
+Title: MACS: Multi-Agent Reinforcement Learning for Optimization of Crystal
+  Structures
+Summary (EN): Geometry optimization of atomic structures is a common and crucial task in
+computational chemistry and materials design. Following the learning to
+optimize paradigm, we propose a new multi-agent reinforcement learning method
+called Multi-Agent Crystal Structure optimization (MACS) to address periodi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 204 ---
+Title: Automated Skill Discovery for Language Agents through Exploration and
+  Iterative Feedback
+Summary (EN): Training large language model (LLM) agents to acquire necessary skills and
+perform diverse tasks within an environment is gaining interest as a means to
+enable open-endedness. However, creating the training dataset for their skill
+acquisition faces several challenges. Manual trajectory collection re ...
+🚫 Not backdoor related.
+
+--- Processing Paper 205 ---
+Title: AUTOCT: Automating Interpretable Clinical Trial Prediction with LLM
+  Agents
+Summary (EN): Clinical trials are critical for advancing medical treatments but remain
+prohibitively expensive and time-consuming. Accurate prediction of clinical
+trial outcomes can significantly reduce research and development costs and
+accelerate drug discovery. While recent deep learning models have shown prom ...
+🚫 Not backdoor related.
+
+--- Processing Paper 206 ---
+Title: Bridging the Performance Gap Between Target-Free and Target-Based
+  Reinforcement Learning With Iterated Q-Learning
+Summary (EN): In value-based reinforcement learning, removing the target network is
+tempting as the boostrapped target would be built from up-to-date estimates,
+and the spared memory occupied by the target network could be reallocated to
+expand the capacity of the online network. However, eliminating the target
+n ...
+🚫 Not backdoor related.
+
+--- Processing Paper 207 ---
+Title: Classifying Dental Care Providers Through Machine Learning with Features
+  Ranking
+Summary (EN): This study investigates the application of machine learning (ML) models for
+classifying dental providers into two categories - standard rendering providers
+and safety net clinic (SNC) providers - using a 2018 dataset of 24,300
+instances with 20 features. The dataset, characterized by high missing va ...
+🚫 Not backdoor related.
+
+--- Processing Paper 208 ---
+Title: Comparative performance of ensemble models in predicting dental provider
+  types: insights from fee-for-service data
+Summary (EN): Dental provider classification plays a crucial role in optimizing healthcare
+resource allocation and policy planning. Effective categorization of providers,
+such as standard rendering providers and safety net clinic (SNC) providers,
+enhances service delivery to underserved populations. This study ai ...
+🚫 Not backdoor related.
+
+--- Processing Paper 209 ---
+Title: ViewFusion: Learning Composable Diffusion Models for Novel View
+  Synthesis
+Summary (EN): Deep learning is providing a wealth of new approaches to the problem of novel
+view synthesis, from Neural Radiance Field (NeRF) based approaches to
+end-to-end style architectures. Each approach offers specific strengths but
+also comes with limitations in their applicability. This work introduces
+Vie ...
+🚫 Not backdoor related.
+
+--- Processing Paper 210 ---
+Title: LEMoN: Label Error Detection using Multimodal Neighbors
+Summary (EN): Large repositories of image-caption pairs are essential for the development
+of vision-language models. However, these datasets are often extracted from
+noisy data scraped from the web, and contain many mislabeled instances. In
+order to improve the reliability of downstream models, it is important to ...
+🚫 Not backdoor related.
+
+--- Processing Paper 211 ---
+Title: Diffusing DeBias: Synthetic Bias Amplification for Model Debiasing
+Summary (EN): Deep learning model effectiveness in classification tasks is often challenged
+by the quality and quantity of training data whenever they are affected by
+strong spurious correlations between specific attributes and target labels.
+This results in a form of bias affecting training data, which typically ...
+🚫 Not backdoor related.
+
+--- Processing Paper 212 ---
+Title: FlexTok: Resampling Images into 1D Token Sequences of Flexible Length
+Summary (EN): Image tokenization has enabled major advances in autoregressive image
+generation by providing compressed, discrete representations that are more
+efficient to process than raw pixels. While traditional approaches use 2D grid
+tokenization, recent methods like TiTok have shown that 1D tokenization can
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 213 ---
+Title: VCT: Training Consistency Models with Variational Noise Coupling
+Summary (EN): Consistency Training (CT) has recently emerged as a strong alternative to
+diffusion models for image generation. However, non-distillation CT often
+suffers from high variance and instability, motivating ongoing research into
+its training dynamics. We propose Variational Consistency Training (VCT), a ...
+🚫 Not backdoor related.
+
+--- Processing Paper 214 ---
+Title: Graph Flow Matching: Enhancing Image Generation with Neighbor-Aware Flow
+  Fields
+Summary (EN): Flow matching casts sample generation as learning a continuous-time velocity
+field that transports noise to data. Existing flow matching networks typically
+predict each point's velocity independently, considering only its location and
+time along its flow trajectory, and ignoring neighboring points.  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 215 ---
+Title: Optimal Transport-based Domain Alignment as a Preprocessing Step for
+  Federated Learning
+Summary (EN): Federated learning (FL) is a subfield of machine learning that avoids sharing
+local data with a central server, which can enhance privacy and scalability.
+The inability to consolidate data leads to a unique problem called dataset
+imbalance, where agents in a network do not have equal representation  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 216 ---
+Title: You Only Train Once
+Summary (EN): The title of this paper is perhaps an overclaim. Of course, the process of
+creating and optimizing a learned model inevitably involves multiple training
+runs which potentially feature different architectural designs, input and
+output encodings, and losses. However, our method, You Only Train Once (Y ...
+🚫 Not backdoor related.
+
+--- Processing Paper 217 ---
+Title: StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher
+  Distillation
+Summary (EN): Model merging has emerged as a promising solution to accommodate multiple
+large models within constrained memory budgets. We present StatsMerging, a
+novel lightweight learning-based model merging method guided by weight
+distribution statistics without requiring ground truth labels or test samples.
+S ...
+🚫 Not backdoor related.
+
+--- Processing Paper 218 ---
+Title: Exploring bidirectional bounds for minimax-training of Energy-based
+  models
+Summary (EN): Energy-based models (EBMs) estimate unnormalized densities in an elegant
+framework, but they are generally difficult to train. Recent work has linked
+EBMs to generative adversarial networks, by noting that they can be trained
+through a minimax game using a variational lower bound. To avoid the
+insta ...
+🚫 Not backdoor related.
+
+--- Processing Paper 219 ---
+Title: Improving Regulatory Oversight in Online Content Moderation
+Summary (EN): The European Union introduced the Digital Services Act (DSA) to address the
+risks associated with digital platforms and promote a safer online environment.
+However, despite the potential of components such as the Transparency Database,
+Transparency Reports, and Article 40 of the DSA to improve platf ...
+🚫 Not backdoor related.
+
+--- Processing Paper 220 ---
+Title: Enduring Disparities in the Workplace: A Pilot Study in the AI Community
+Summary (EN): In efforts toward achieving responsible artificial intelligence (AI),
+fostering a culture of workplace transparency, diversity, and inclusion can
+breed innovation, trust, and employee contentment. In AI and Machine Learning
+(ML), such environments correlate with higher standards of responsible
+devel ...
+🚫 Not backdoor related.
+
+--- Processing Paper 221 ---
+Title: A Framework for Auditing Chatbots for Dialect-Based Quality-of-Service
+  Harms
+Summary (EN): Increasingly, individuals who engage in online activities are expected to
+interact with large language model (LLM)-based chatbots. Prior work has shown
+that LLMs can display dialect bias, which occurs when they produce harmful
+responses when prompted with text written in minoritized dialects. Howeve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 222 ---
+Title: Skill-Driven Certification Pathways: Measuring Industry Training Impact
+  on Graduate Employability
+Summary (EN): Australia faces a critical technology skills shortage, requiring
+approximately $52,000$ new technology professionals annually by 2030, while
+confronting a widening gap between employer requirements and graduate
+capabilities. With only $1\%$ of technology graduates considered immediately
+work-ready,  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 223 ---
+Title: Scaling Laws for Floating Point Quantization Training
+Summary (EN): Low-precision training is considered an effective strategy for reducing both
+training and downstream inference costs. Previous scaling laws for precision
+mainly focus on integer quantization, which pay less attention to the
+constituents in floating-point (FP) quantization, and thus cannot well fit t ...
+🚫 Not backdoor related.
+
+--- Processing Paper 224 ---
+Title: PAST: Phonetic-Acoustic Speech Tokenizer
+Summary (EN): We present PAST, a novel end-to-end framework that jointly models phonetic
+information alongside signal reconstruction, eliminating the need for external
+pretrained models. Unlike previous approaches that rely on pretrained
+self-supervised models, PAST employs supervised phonetic data, directly
+inte ...
+🚫 Not backdoor related.
+
+--- Processing Paper 225 ---
+Title: CETBench: A Novel Dataset constructed via Transformations over Programs
+  for Benchmarking LLMs for Code-Equivalence Checking
+Summary (EN): LLMs have been extensively used for the task of automated code generation. In
+this work, we examine the applicability of LLMs for the related but relatively
+unexplored task of code-equivalence checking, i.e., given two programs, whether
+they are functionally equivalent or not. This is an important p ...
+🚫 Not backdoor related.
+
+--- Processing Paper 226 ---
+Title: Estimating Total Lung Volume from Pixel-level Thickness Maps of Chest
+  Radiographs Using Deep Learning
+Summary (EN): Purpose: To estimate the total lung volume (TLV) from real and synthetic
+frontal chest radiographs (CXR) on a pixel level using lung thickness maps
+generated by a U-Net deep learning model. Methods: This retrospective study
+included 5,959 chest CT scans from two public datasets: the lung nodule
+anal ...
+🚫 Not backdoor related.
+
+--- Processing Paper 227 ---
+Title: Generating by Understanding: Neural Visual Generation with Logical
+  Symbol Groundings
+Summary (EN): Making neural visual generative models controllable by logical reasoning
+systems is promising for improving faithfulness, transparency, and
+generalizability. We propose the Abductive visual Generation (AbdGen) approach
+to build such logic-integrated models. A vector-quantized symbol grounding
+mechan ...
+🚫 Not backdoor related.
+
+--- Processing Paper 228 ---
+Title: SEM: Enhancing Spatial Understanding for Robust Robot Manipulation
+Summary (EN): A key challenge in robot manipulation lies in developing policy models with
+strong spatial understanding, the ability to reason about 3D geometry, object
+relations, and robot embodiment. Existing methods often fall short: 3D point
+cloud models lack semantic abstraction, while 2D image encoders strug ...
+🚫 Not backdoor related.
+
+--- Processing Paper 229 ---
+Title: Towards generating more interpretable counterfactuals via concept
+  vectors: a preliminary study on chest X-rays
+Summary (EN): An essential step in deploying medical imaging models is ensuring alignment
+with clinical knowledge and interpretability. We focus on mapping clinical
+concepts into the latent space of generative models to identify Concept
+Activation Vectors (CAVs). Using a simple reconstruction autoencoder, we link ...
+🚫 Not backdoor related.
+
+--- Processing Paper 230 ---
+Title: A Diffusion-Driven Temporal Super-Resolution and Spatial Consistency
+  Enhancement Framework for 4D MRI imaging
+Summary (EN): In medical imaging, 4D MRI enables dynamic 3D visualization, yet the
+trade-off between spatial and temporal resolution requires prolonged scan time
+that can compromise temporal fidelity--especially during rapid, large-amplitude
+motion. Traditional approaches typically rely on registration-based
+inte ...
+🚫 Not backdoor related.
+
+--- Processing Paper 231 ---
+Title: A Comprehensive Study on Medical Image Segmentation using Deep Neural
+  Networks
+Summary (EN): Over the past decade, Medical Image Segmentation (MIS) using Deep Neural
+Networks (DNNs) has achieved significant performance improvements and holds
+great promise for future developments. This paper presents a comprehensive
+study on MIS based on DNNs. Intelligent Vision Systems are often evaluated
+b ...
+🚫 Not backdoor related.
+
+--- Processing Paper 232 ---
+Title: Recent Advances in Medical Image Classification
+Summary (EN): Medical image classification is crucial for diagnosis and treatment,
+benefiting significantly from advancements in artificial intelligence. The
+paper reviews recent progress in the field, focusing on three levels of
+solutions: basic, specific, and applied. It highlights advances in traditional
+metho ...
+🚫 Not backdoor related.
+
+--- Processing Paper 233 ---
+Title: SSIMBaD: Sigma Scaling with SSIM-Guided Balanced Diffusion for AnimeFace
+  Colorization
+Summary (EN): We propose a novel diffusion-based framework for automatic colorization of
+Anime-style facial sketches. Our method preserves the structural fidelity of
+the input sketch while effectively transferring stylistic attributes from a
+reference image. Unlike traditional approaches that rely on predefined n ...
+🚫 Not backdoor related.
+
+--- Processing Paper 234 ---
+Title: RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language
+  Models for Robotics
+Summary (EN): Spatial referring is a fundamental capability of embodied robots to interact
+with the 3D physical world. However, even with the powerful pretrained vision
+language models (VLMs), recent approaches are still not qualified to accurately
+understand the complex 3D scenes and dynamically reason about the ...
+🚫 Not backdoor related.
+
+--- Processing Paper 235 ---
+Title: Visualizing and Controlling Cortical Responses Using Voxel-Weighted
+  Activation Maximization
+Summary (EN): Deep neural networks (DNNs) trained on visual tasks develop feature
+representations that resemble those in the human visual system. Although
+DNN-based encoding models can accurately predict brain responses to visual
+stimuli, they offer limited insight into the specific features driving these
+respons ...
+🚫 Not backdoor related.
+
+--- Processing Paper 236 ---
+Title: A Comparative Study of Conventional and Tripolar EEG for
+  High-Performance Reach-to-Grasp BCI Systems
+Summary (EN): This study aims to enhance BCI applications for individuals with motor
+impairments by comparing the effectiveness of tripolar EEG (tEEG) with
+conventional EEG. The focus is on interpreting and decoding various grasping
+movements, such as power grasp and precision grasp. The goal is to determine
+whic ...
+🚫 Not backdoor related.
+
+--- Processing Paper 237 ---
+Title: AdaptSFL: Adaptive Split Federated Learning in Resource-constrained Edge
+  Networks
+Summary (EN): The increasing complexity of deep neural networks poses significant barriers
+to democratizing them to resource-limited edge devices. To address this
+challenge, split federated learning (SFL) has emerged as a promising solution
+by of floading the primary training workload to a server via model partit ...
+🚫 Not backdoor related.
+
+--- Processing Paper 238 ---
+Title: CatNet: Controlling the False Discovery Rate in LSTM with SHAP Feature
+  Importance and Gaussian Mirrors
+Summary (EN): We introduce CatNet, an algorithm that effectively controls False Discovery
+Rate (FDR) and selects significant features in LSTM. CatNet employs the
+derivative of SHAP values to quantify the feature importance, and constructs a
+vector-formed mirror statistic for FDR control with the Gaussian Mirror
+a ...
+🚫 Not backdoor related.
+
+--- Processing Paper 239 ---
+Title: Functional relevance based on the continuous Shapley value
+Summary (EN): The presence of artificial intelligence (AI) in our society is increasing,
+which brings with it the need to understand the behavior of AI mechanisms,
+including machine learning predictive algorithms fed with tabular data, text or
+images, among others. This work focuses on interpretability of predict ...
+🚫 Not backdoor related.
+
+--- Processing Paper 240 ---
+Title: CAdam: Confidence-Based Optimization for Online Learning
+Summary (EN): Modern recommendation systems frequently employ online learning to
+dynamically update their models with freshly collected data. The most commonly
+used optimizer for updating neural networks in these contexts is the Adam
+optimizer, which integrates momentum ($m_t$) and adaptive learning rate
+($v_t$). ...
+🚫 Not backdoor related.
+
+--- Processing Paper 241 ---
+Title: Understanding Impact of Human Feedback via Influence Functions
+Summary (EN): In Reinforcement Learning from Human Feedback (RLHF), it is crucial to learn
+suitable reward models from human feedback to align large language models
+(LLMs) with human intentions. However, human feedback can often be noisy,
+inconsistent, or biased, especially when evaluating complex responses. Such ...
+🚫 Not backdoor related.
+
+--- Processing Paper 242 ---
+Title: Spectro-Riemannian Graph Neural Networks
+Summary (EN): Can integrating spectral and curvature signals unlock new potential in graph
+representation learning? Non-Euclidean geometries, particularly Riemannian
+manifolds such as hyperbolic (negative curvature) and spherical (positive
+curvature), offer powerful inductive biases for embedding complex graph
+st ...
+🚫 Not backdoor related.
+
+--- Processing Paper 243 ---
+Title: The Built-In Robustness of Decentralized Federated Averaging to Bad Data
+Summary (EN): Decentralized federated learning (DFL) enables devices to collaboratively
+train models over complex network topologies without relying on a central
+controller. In this setting, local data remains private, but its quality and
+quantity can vary significantly across nodes. The extent to which a fully
+d ...
+🚫 Not backdoor related.
+
+--- Processing Paper 244 ---
+Title: VecTrans: Enhancing Compiler Auto-Vectorization through LLM-Assisted
+  Code Transformations
+Summary (EN): Auto-vectorization is a fundamental optimization for modern compilers to
+exploit SIMD parallelism. However, state-of-the-art approaches still struggle
+to handle intricate code patterns, often requiring manual hints or
+domain-specific expertise. Large language models (LLMs), with their ability to
+cap ...
+🚫 Not backdoor related.
+
+--- Processing Paper 245 ---
+Title: FactsR: A Safer Method for Producing High Quality Healthcare
+  Documentation
+Summary (EN): There are now a multitude of AI-scribing solutions for healthcare promising
+the utilization of large language models for ambient documentation. However,
+these AI scribes still rely on one-shot, or few-shot prompts for generating
+notes after the consultation has ended, employing little to no reasonin ...
+🚫 Not backdoor related.
+
+--- Processing Paper 246 ---
+Title: Balancing Profit and Fairness in Risk-Based Pricing Markets
+Summary (EN): Dynamic, risk-based pricing can systematically exclude vulnerable consumer
+groups from essential resources such as health insurance and consumer credit.
+We show that a regulator can realign private incentives with social objectives
+through a learned, interpretable tax schedule. First, we provide a f ...
+🚫 Not backdoor related.
+
+--- Processing Paper 247 ---
+Title: It Takes a Good Model to Train a Good Model: Generalized Gaussian Priors
+  for Optimized LLMs
+Summary (EN): Despite rapid advancements in the research and deployment of large language
+models (LLMs), the statistical distribution of model parameters, as well as
+their influence on initialization, training dynamics, and downstream
+efficiency, has received surprisingly little attention. A recent work
+introduce ...
+🚫 Not backdoor related.
+
+--- Processing Paper 248 ---
+Title: A Class Inference Scheme With Dempster-Shafer Theory for Learning
+  Fuzzy-Classifier Systems
+Summary (EN): The decision-making process significantly influences the predictions of
+machine learning models. This is especially important in rule-based systems
+such as Learning Fuzzy-Classifier Systems (LFCSs) where the selection and
+application of rules directly determine prediction accuracy and reliability.
+L ...
+🚫 Not backdoor related.
+
+--- Processing Paper 249 ---
+Title: Purifying Shampoo: Investigating Shampoo's Heuristics by Decomposing its
+  Preconditioner
+Summary (EN): The recent success of Shampoo in the AlgoPerf contest has sparked renewed
+interest in Kronecker-factorization-based optimization algorithms for training
+neural networks. Despite its success, Shampoo relies heavily on several
+heuristics such as learning rate grafting and stale preconditioning to achi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 250 ---
+Title: Adapting Rule Representation With Four-Parameter Beta Distribution for
+  Learning Classifier Systems
+Summary (EN): Rule representations significantly influence the search capabilities and
+decision boundaries within the search space of Learning Classifier Systems
+(LCSs), a family of rule-based machine learning systems that evolve
+interpretable models through evolutionary processes. However, it is very
+difficult t ...
+🚫 Not backdoor related.
+
+--- Processing Paper 251 ---
+Title: When Does Closeness in Distribution Imply Representational Similarity?
+  An Identifiability Perspective
+Summary (EN): When and why representations learned by different deep neural networks are
+similar is an active research topic. We choose to address these questions from
+the perspective of identifiability theory, which suggests that a measure of
+representational similarity should be invariant to transformations tha ...
+🚫 Not backdoor related.
+
+--- Processing Paper 252 ---
+Title: HTSC-2025: A Benchmark Dataset of Ambient-Pressure High-Temperature
+  Superconductors for AI-Driven Critical Temperature Prediction
+Summary (EN): The discovery of high-temperature superconducting materials holds great
+significance for human industry and daily life. In recent years, research on
+predicting superconducting transition temperatures using artificial
+intelligence~(AI) has gained popularity, with most of these tools claiming to
+achie ...
+🚫 Not backdoor related.
+
+--- Processing Paper 253 ---
+Title: HtFLlib: A Comprehensive Heterogeneous Federated Learning Library and
+  Benchmark
+Summary (EN): As AI evolves, collaboration among heterogeneous models helps overcome data
+scarcity by enabling knowledge transfer across institutions and devices.
+Traditional Federated Learning (FL) only supports homogeneous models, limiting
+collaboration among clients with heterogeneous model architectures. To a ...
+🚫 Not backdoor related.
+
+--- Processing Paper 254 ---
+Title: TransClean: Finding False Positives in Multi-Source Entity Matching
+  under Real-World Conditions via Transitive Consistency
+Summary (EN): We present TransClean, a method for detecting false positive predictions of
+entity matching algorithms under real-world conditions characterized by
+large-scale, noisy, and unlabeled multi-source datasets that undergo
+distributional shifts. TransClean is explicitly designed to operate with
+multiple d ...
+🚫 Not backdoor related.
+
+--- Processing Paper 255 ---
+Title: SLAC: Simulation-Pretrained Latent Action Space for Whole-Body
+  Real-World RL
+Summary (EN): Building capable household and industrial robots requires mastering the
+control of versatile, high-degree-of-freedom (DoF) systems such as mobile
+manipulators. While reinforcement learning (RL) holds promise for autonomously
+acquiring robot control policies, scaling it to high-DoF embodiments remain ...
+🚫 Not backdoor related.
+
+--- Processing Paper 256 ---
+Title: Thinking Beyond Visibility: A Near-Optimal Policy Framework for Locally
+  Interdependent Multi-Agent MDPs
+Summary (EN): Decentralized Partially Observable Markov Decision Processes (Dec-POMDPs) are
+known to be NEXP-Complete and intractable to solve. However, for problems such
+as cooperative navigation, obstacle avoidance, and formation control, basic
+assumptions can be made about local visibility and local dependenci ...
+🚫 Not backdoor related.
+
+--- Processing Paper 257 ---
+Title: Knowledge-guided Contextual Gene Set Analysis Using Large Language
+  Models
+Summary (EN): Gene set analysis (GSA) is a foundational approach for interpreting genomic
+data of diseases by linking genes to biological processes. However,
+conventional GSA methods overlook clinical context of the analyses, often
+generating long lists of enriched pathways with redundant, nonspecific, or
+irrelev ...
+🚫 Not backdoor related.
+
+--- Processing Paper 258 ---
+Title: Unsupervised Meta-Testing with Conditional Neural Processes for Hybrid
+  Meta-Reinforcement Learning
+Summary (EN): We introduce Unsupervised Meta-Testing with Conditional Neural Processes
+(UMCNP), a novel hybrid few-shot meta-reinforcement learning (meta-RL) method
+that uniquely combines, yet distinctly separates, parameterized policy
+gradient-based (PPG) and task inference-based few-shot meta-RL. Tailored for
+s ...
+🚫 Not backdoor related.
+
+--- Processing Paper 259 ---
+Title: Grokking and Generalization Collapse: Insights from \texttt{HTSR} theory
+Summary (EN): We study the well-known grokking phenomena in neural networks (NNs) using a
+3-layer MLP trained on 1 k-sample subset of MNIST, with and without weight
+decay, and discover a novel third phase -- \emph{anti-grokking} -- that occurs
+very late in training and resembles but is distinct from the familiar
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 260 ---
+Title: The Latent Space Hypothesis: Toward Universal Medical Representation
+  Learning
+Summary (EN): Medical data range from genomic sequences and retinal photographs to
+structured laboratory results and unstructured clinical narratives. Although
+these modalities appear disparate, many encode convergent information about a
+single underlying physiological state. The Latent Space Hypothesis frames ea ...
+🚫 Not backdoor related.
+
+--- Processing Paper 261 ---
+Title: NOBLE -- Neural Operator with Biologically-informed Latent Embeddings to
+  Capture Experimental Variability in Biological Neuron Models
+Summary (EN): Characterizing the diverse computational properties of human neurons via
+multimodal electrophysiological, transcriptomic, and morphological data
+provides the foundation for constructing and validating bio-realistic neuron
+models that can advance our understanding of fundamental mechanisms underlying ...
+🚫 Not backdoor related.
+
+--- Processing Paper 262 ---
+Title: hdl2v: A Code Translation Dataset for Enhanced LLM Verilog Generation
+Summary (EN): Large language models (LLMs) are playing an increasingly large role in
+domains such as code generation, including hardware code generation, where
+Verilog is the key language. However, the amount of publicly available Verilog
+code pales in comparison to the amount of code available for software langu ...
+🚫 Not backdoor related.
+
+--- Processing Paper 263 ---
+Title: Photoreal Scene Reconstruction from an Egocentric Device
+Summary (EN): In this paper, we investigate the challenges associated with using egocentric
+devices to photorealistic reconstruct the scene in high dynamic range. Existing
+methodologies typically assume using frame-rate 6DoF pose estimated from the
+device's visual-inertial odometry system, which may neglect cruci ...
+🚫 Not backdoor related.
+
+--- Processing Paper 264 ---
+Title: Cyber-Physical Security Vulnerabilities Identification and
+  Classification in Smart Manufacturing -- A Defense-in-Depth Driven Framework
+  and Taxonomy
+Summary (EN): The increasing cybersecurity threats to critical manufacturing infrastructure
+necessitate proactive strategies for vulnerability identification,
+classification, and assessment. Traditional approaches, which define
+vulnerabilities as weaknesses in computational logic or information systems,
+often ove ...
+🚫 Not backdoor related.
+
+--- Processing Paper 265 ---
+Title: Web Execution Bundles: Reproducible, Accurate, and Archivable Web
+  Measurements
+Summary (EN): Recently, reproducibility has become a cornerstone in the security and
+privacy research community, including artifact evaluations and even a new
+symposium topic. However, Web measurements lack tools that can be reused across
+many measurement tasks without modification, while being robust to
+circumve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 266 ---
+Title: Adopt a PET! An Exploration of PETs, Policy, and Practicalities for
+  Industry in Canada
+Summary (EN): Privacy is an instance of a social norm formed through legal, technical, and
+cultural dimensions. Institutions such as regulators, industry, and researchers
+act as societal agents that both influence and respond to evolving norms.
+Attempts to promote privacy are often ineffective unless they account ...
+🚫 Not backdoor related.
+
+--- Processing Paper 267 ---
+Title: EPSpatial: Achieving Efficient and Private Statistical Analytics of
+  Geospatial Data
+Summary (EN): Geospatial data statistics involve the aggregation and analysis of location
+data to derive the distribution of clients within geospatial. The need for
+privacy protection in geospatial data analysis has become paramount due to
+concerns over the misuse or unauthorized access of client location informa ...
+🚫 Not backdoor related.
+
+--- Processing Paper 268 ---
+Title: A Threat Intelligence Event Extraction Conceptual Model for Cyber Threat
+  Intelligence Feeds
+Summary (EN): In response to the escalating cyber threats, the efficiency of Cyber Threat
+Intelligence (CTI) data collection has become paramount in ensuring robust
+cybersecurity. However, existing works encounter significant challenges in
+preprocessing large volumes of multilingual threat data, leading to
+ineffi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 269 ---
+Title: Client-Side Zero-Shot LLM Inference for Comprehensive In-Browser URL
+  Analysis
+Summary (EN): Malicious websites and phishing URLs pose an ever-increasing cybersecurity
+risk, with phishing attacks growing by 40% in a single year. Traditional
+detection approaches rely on machine learning classifiers or rule-based
+scanners operating in the cloud, but these face significant challenges in
+genera ...
+🚫 Not backdoor related.
+
+--- Processing Paper 270 ---
+Title: Prediction Inconsistency Helps Achieve Generalizable Detection of
+  Adversarial Examples
+Summary (EN): Adversarial detection protects models from adversarial attacks by refusing
+suspicious test samples. However, current detection methods often suffer from
+weak generalization: their effectiveness tends to degrade significantly when
+applied to adversarially trained models rather than naturally trained  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 271 ---
+Title: Hello, won't you tell me your name?: Investigating Anonymity Abuse in
+  IPFS
+Summary (EN): The InterPlanetary File System~(IPFS) offers a decentralized approach to file
+storage and sharing, promising resilience and efficiency while also realizing
+the Web3 paradigm. Simultaneously, the offered anonymity raises significant
+questions about potential misuse. In this study, we explore methods  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 272 ---
+Title: The Hashed Fractal Key Recovery (HFKR) Problem: From Symbolic Path
+  Inversion to Post-Quantum Cryptographic Keys
+Summary (EN): Classical cryptographic systems rely heavily on structured algebraic
+problems, such as factorization, discrete logarithms, or lattice-based
+assumptions, which are increasingly vulnerable to quantum attacks and
+structural cryptanalysis. In response, this work introduces the Hashed Fractal
+Key Recover ...
+🚫 Not backdoor related.
+
+--- Processing Paper 273 ---
+Title: Neural Path Guiding with Distribution Factorization
+Summary (EN): In this paper, we present a neural path guiding method to aid with Monte
+Carlo (MC) integration in rendering. Existing neural methods utilize
+distribution representations that are either fast or expressive, but not both.
+We propose a simple, but effective, representation that is sufficiently
+express ...
+🚫 Not backdoor related.
+
+--- Processing Paper 274 ---
+Title: FlySearch: Exploring how vision-language models explore
+Summary (EN): The real world is messy and unstructured. Uncovering critical information
+often requires active, goal-driven exploration. It remains to be seen whether
+Vision-Language Models (VLMs), which recently emerged as a popular zero-shot
+tool in many difficult tasks, can operate effectively in such condition ...
+🚫 Not backdoor related.
+
+--- Processing Paper 275 ---
+Title: Dreaming up scale invariance via inverse renormalization group
+Summary (EN): We explore how minimal neural networks can invert the renormalization group
+(RG) coarse-graining procedure in the two-dimensional Ising model, effectively
+"dreaming up" microscopic configurations from coarse-grained states. This
+task-formally impossible at the level of configurations-can be approach ...
+🚫 Not backdoor related.
+
+--- Processing Paper 276 ---
+Title: Gradient Inversion Attacks on Parameter-Efficient Fine-Tuning
+Summary (EN): Federated learning (FL) allows multiple data-owners to collaboratively train
+machine learning models by exchanging local gradients, while keeping their
+private data on-device. To simultaneously enhance privacy and training
+efficiency, recently parameter-efficient fine-tuning (PEFT) of large-scale
+pr ...
+🚫 Not backdoor related.
+
+--- Processing Paper 277 ---
+Title: Simple Calibration via Geodesic Kernels
+Summary (EN): Deep discriminative approaches, such as decision forests and deep neural
+networks, have recently found applications in many important real-world
+scenarios. However, deploying these learning algorithms in safety-critical
+applications raises concerns, particularly when it comes to ensuring
+calibration ...
+🚫 Not backdoor related.
+
+--- Processing Paper 278 ---
+Title: Improving thermal state preparation of Sachdev-Ye-Kitaev model with
+  reinforcement learning on quantum hardware
+Summary (EN): The Sachdev-Ye-Kitaev (SYK) model, known for its strong quantum correlations
+and chaotic behavior, serves as a key platform for quantum gravity studies.
+However, variationally preparing thermal states on near-term quantum processors
+for large systems ($N>12$, where $N$ is the number of Majorana ferm ...
+🚫 Not backdoor related.
+
+--- Processing Paper 279 ---
+Title: Analytical Lyapunov Function Discovery: An RL-based Generative Approach
+Summary (EN): Despite advances in learning-based methods, finding valid Lyapunov functions
+for nonlinear dynamical systems remains challenging. Current neural network
+approaches face two main issues: challenges in scalable verification and
+limited interpretability. To address these, we propose an end-to-end frame ...
+🚫 Not backdoor related.
+
+--- Processing Paper 280 ---
+Title: Physics-Constrained Flow Matching: Sampling Generative Models with Hard
+  Constraints
+Summary (EN): Deep generative models have recently been applied to physical systems
+governed by partial differential equations (PDEs), offering scalable simulation
+and uncertainty-aware inference. However, enforcing physical constraints, such
+as conservation laws (linear and nonlinear) and physical consistencies, ...
+🚫 Not backdoor related.
+
+--- Processing Paper 281 ---
+Title: Higher-Order Group Synchronization
+Summary (EN): Group synchronization is the problem of determining reliable global estimates
+from noisy local measurements on networks. The typical task for group
+synchronization is to assign elements of a group to the nodes of a graph in a
+way that respects group elements given on the edges which encode informati ...
+🚫 Not backdoor related.
+
+--- Processing Paper 282 ---
+Title: SplArt: Articulation Estimation and Part-Level Reconstruction with 3D
+  Gaussian Splatting
+Summary (EN): Reconstructing articulated objects prevalent in daily environments is crucial
+for applications in augmented/virtual reality and robotics. However, existing
+methods face scalability limitations (requiring 3D supervision or costly
+annotations), robustness issues (being susceptible to local optima), an ...
+🚫 Not backdoor related.
+
+--- Processing Paper 283 ---
+Title: Sounding that Object: Interactive Object-Aware Image to Audio Generation
+Summary (EN): Generating accurate sounds for complex audio-visual scenes is challenging,
+especially in the presence of multiple objects and sound sources. In this
+paper, we propose an {\em interactive object-aware audio generation} model that
+grounds sound generation in user-selected visual objects within images. ...
+🚫 Not backdoor related.
+
+--- Processing Paper 284 ---
+Title: Gradient flow in parameter space is equivalent to linear interpolation
+  in output space
+Summary (EN): We prove that the standard gradient flow in parameter space that underlies
+many training algorithms in deep learning can be continuously deformed into an
+adapted gradient flow which yields (constrained) Euclidean gradient flow in
+output space. Moreover, for the $L^{2}$ loss, if the Jacobian of the o ...
+🚫 Not backdoor related.
+
+--- Processing Paper 285 ---
+Title: What Drives Team Success? Large-Scale Evidence on the Role of the Team
+  Player Effect
+Summary (EN): Effective teamwork is essential in structured, performance-driven
+environments, from professional organizations to high-stakes competitive
+settings. As tasks grow more complex, achieving high performance requires not
+only technical proficiency but also strong interpersonal skills that allow
+individu ...
+🚫 Not backdoor related.
+
+--- Processing Paper 286 ---
+Title: Mosaic-IT: Cost-Free Compositional Data Synthesis for Instruction Tuning
+Summary (EN): Finetuning large language models with a variety of instruction-response pairs
+has enhanced their capability to understand and follow instructions. Current
+instruction tuning primarily relies on teacher models or human intervention to
+generate and refine the instructions and responses for training, w ...
+🚫 Not backdoor related.
+
+--- Processing Paper 287 ---
+Title: UBench: Benchmarking Uncertainty in Large Language Models with Multiple
+  Choice Questions
+Summary (EN): Despite recent progress in systematic evaluation frameworks, benchmarking the
+uncertainty of large language models (LLMs) remains a highly challenging task.
+Existing methods for benchmarking the uncertainty of LLMs face three key
+challenges: the need for internal model access, additional training, o ...
+🚫 Not backdoor related.
+
+--- Processing Paper 288 ---
+Title: An Exploration of Self-Supervised Mutual Information Alignment for
+  Multi-Task Settings
+Summary (EN): There is a growing need for pluralistic alignment methods that can steer
+language models towards individual attributes and preferences. One such method,
+Self-Supervised Alignment with Mutual Information (SAMI), uses conditional
+mutual information to encourage the connection between behavioral prefer ...
+🚫 Not backdoor related.
+
+--- Processing Paper 289 ---
+Title: RULEBREAKERS: Challenging LLMs at the Crossroads between Formal Logic
+  and Human-like Reasoning
+Summary (EN): Formal logic enables computers to reason in natural language by representing
+sentences in symbolic forms and applying rules to derive conclusions. However,
+in what our study characterizes as "rulebreaker" scenarios, this method can
+lead to conclusions that are typically not inferred or accepted by h ...
+🚫 Not backdoor related.
+
+--- Processing Paper 290 ---
+Title: DynaSaur: Large Language Agents Beyond Predefined Actions
+Summary (EN): Existing LLM agent systems typically select actions from a fixed and
+predefined set at every step. While this approach is effective in closed,
+narrowly scoped environments, it presents two major challenges for real-world,
+open-ended scenarios: (1) it significantly restricts the planning and acting
+c ...
+🚫 Not backdoor related.
+
+--- Processing Paper 291 ---
+Title: How Does A Text Preprocessing Pipeline Affect Ontology Syntactic
+  Matching?
+Summary (EN): The classic text preprocessing pipeline, comprising Tokenisation,
+Normalisation, Stop Words Removal, and Stemming/Lemmatisation, has been
+implemented in many systems for syntactic ontology matching (OM). However, the
+lack of standardisation in text preprocessing creates diversity in mapping
+results. ...
+🚫 Not backdoor related.
+
+--- Processing Paper 292 ---
+Title: ConSim: Measuring Concept-Based Explanations' Effectiveness with
+  Automated Simulatability
+Summary (EN): Concept-based explanations work by mapping complex model computations to
+human-understandable concepts. Evaluating such explanations is very difficult,
+as it includes not only the quality of the induced space of possible concepts
+but also how effectively the chosen concepts are communicated to users ...
+🚫 Not backdoor related.
+
+--- Processing Paper 293 ---
+Title: Through the Prism of Culture: Evaluating LLMs' Understanding of Indian
+  Subcultures and Traditions
+Summary (EN): Large Language Models (LLMs) have shown remarkable advancements but also
+raise concerns about cultural bias, often reflecting dominant narratives at the
+expense of under-represented subcultures. In this study, we evaluate the
+capacity of LLMs to recognize and accurately respond to the Little Traditi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 294 ---
+Title: On the Robust Approximation of ASR Metrics
+Summary (EN): Recent advances in speech foundation models are largely driven by scaling
+both model size and data, enabling them to perform a wide range of tasks,
+including speech recognition. Traditionally, ASR models are evaluated using
+metrics like Word Error Rate (WER) and Character Error Rate (CER), which dep ...
+🚫 Not backdoor related.
+
+--- Processing Paper 295 ---
+Title: Lost in Transcription, Found in Distribution Shift: Demystifying
+  Hallucination in Speech Foundation Models
+Summary (EN): Speech foundation models trained at a massive scale, both in terms of model
+and data size, result in robust systems capable of performing multiple speech
+tasks, including automatic speech recognition (ASR). These models transcend
+language and domain barriers, yet effectively measuring their performa ...
+🚫 Not backdoor related.
+
+--- Processing Paper 296 ---
+Title: Refining Sentence Embedding Model through Ranking Sentences Generation
+  with Large Language Models
+Summary (EN): Sentence embedding is essential for many NLP tasks, with contrastive learning
+methods achieving strong performance using annotated datasets like NLI. Yet,
+the reliance on manual labels limits scalability. Recent studies leverage large
+language models (LLMs) to generate sentence pairs, reducing annot ...
+🚫 Not backdoor related.
+
+--- Processing Paper 297 ---
+Title: A Survey on Data Contamination for Large Language Models
+Summary (EN): Recent advancements in Large Language Models (LLMs) have demonstrated
+significant progress in various areas, such as text generation and code
+synthesis. However, the reliability of performance evaluation has come under
+scrutiny due to data contamination-the unintended overlap between training and
+te ...
+🚫 Not backdoor related.
+
+--- Processing Paper 298 ---
+Title: Large Language Models Struggle to Describe the Haystack without Human
+  Help: Human-in-the-loop Evaluation of Topic Models
+Summary (EN): A common use of NLP is to facilitate the understanding of large document
+collections, with a shift from using traditional topic models to Large Language
+Models. Yet the effectiveness of using LLM for large corpus understanding in
+real-world applications remains under-explored. This study measures th ...
+🚫 Not backdoor related.
+
+--- Processing Paper 299 ---
+Title: LSC-Eval: A General Framework to Evaluate Methods for Assessing
+  Dimensions of Lexical Semantic Change Using LLM-Generated Synthetic Data
+Summary (EN): Lexical Semantic Change (LSC) provides insight into cultural and social
+dynamics. Yet, the validity of methods for measuring different kinds of LSC
+remains unestablished due to the absence of historical benchmark datasets. To
+address this gap, we propose LSC-Eval, a novel three-stage general-purpose ...
+🚫 Not backdoor related.
+
+--- Processing Paper 300 ---
+Title: An Expanded Massive Multilingual Dataset for High-Performance Language
+  Technologies (HPLT)
+Summary (EN): Training state-of-the-art large language models requires vast amounts of
+clean and diverse textual data. However, building suitable multilingual
+datasets remains a challenge. In this work, we present HPLT v2, a collection of
+high-quality multilingual monolingual and parallel corpora, extending prior ...
+🚫 Not backdoor related.
+
+--- Processing Paper 301 ---
+Title: Probing LLMs for Multilingual Discourse Generalization Through a Unified
+  Label Set
+Summary (EN): Discourse understanding is essential for many NLP tasks, yet most existing
+work remains constrained by framework-dependent discourse representations. This
+work investigates whether large language models (LLMs) capture discourse
+knowledge that generalizes across languages and frameworks. We address t ...
+🚫 Not backdoor related.
+
+--- Processing Paper 302 ---
+Title: SCORE: Story Coherence and Retrieval Enhancement for AI Narratives
+Summary (EN): Large Language Models (LLMs) can generate creative and engaging narratives
+from user-specified input, but maintaining coherence and emotional depth
+throughout these AI-generated stories remains a challenge. In this work, we
+propose SCORE, a framework for Story Coherence and Retrieval Enhancement,
+de ...
+🚫 Not backdoor related.
+
+--- Processing Paper 303 ---
+Title: Rubrik's Cube: Testing a New Rubric for Evaluating Explanations on the
+  CUBE dataset
+Summary (EN): The performance and usability of Large-Language Models (LLMs) are driving
+their use in explanation generation tasks. However, despite their widespread
+adoption, LLM explanations have been found to be unreliable, making it
+difficult for users to distinguish good from bad explanations. To address this ...
+🚫 Not backdoor related.
+
+--- Processing Paper 304 ---
+Title: CARE: Assessing the Impact of Multilingual Human Preference Learning on
+  Cultural Awareness
+Summary (EN): Language Models (LMs) are typically tuned with human preferences to produce
+helpful responses, but the impact of preference tuning on the ability to handle
+culturally diverse queries remains understudied. In this paper, we
+systematically analyze how native human cultural preferences can be
+incorpora ...
+🚫 Not backdoor related.
+
+--- Processing Paper 305 ---
+Title: Identifying Aspects in Peer Reviews
+Summary (EN): Peer review is central to academic publishing, but the growing volume of
+submissions is straining the process. This motivates the development of
+computational approaches to support peer review. While each review is tailored
+to a specific paper, reviewers often make assessments according to certain
+a ...
+🚫 Not backdoor related.
+
+--- Processing Paper 306 ---
+Title: Meta-rater: A Multi-dimensional Data Selection Method for Pre-training
+  Language Models
+Summary (EN): The composition of pre-training datasets for large language models (LLMs)
+remains largely undisclosed, hindering transparency and efforts to optimize
+data quality, a critical driver of model performance. Current data selection
+methods, such as natural language quality assessments, diversity-based fi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 307 ---
+Title: Calibrating Translation Decoding with Quality Estimation on LLMs
+Summary (EN): Neural machine translation (NMT) systems typically employ maximum a
+posteriori (MAP) decoding to select the highest-scoring translation from the
+distribution mass. However, recent evidence highlights the inadequacy of MAP
+decoding, often resulting in low-quality or even pathological hypotheses -- th ...
+🚫 Not backdoor related.
+
+--- Processing Paper 308 ---
+Title: Is Compression Really Linear with Code Intelligence?
+Summary (EN): Understanding the relationship between data compression and the capabilities
+of Large Language Models (LLMs) is crucial, especially in specialized domains
+like code intelligence. Prior work posited a linear relationship between
+compression and general intelligence. However, it overlooked the multifa ...
+🚫 Not backdoor related.
+
+--- Processing Paper 309 ---
+Title: MCIP: Protecting MCP Safety via Model Contextual Integrity Protocol
+Summary (EN): As Model Context Protocol (MCP) introduces an easy-to-use ecosystem for users
+and developers, it also brings underexplored safety risks. Its decentralized
+architecture, which separates clients and servers, poses unique challenges for
+systematic safety analysis. This paper proposes a novel framework  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 310 ---
+Title: When can isotropy help adapt LLMs' next word prediction to numerical
+  domains?
+Summary (EN): Recent studies have shown that vector representations of contextual
+embeddings learned by pre-trained large language models (LLMs) are effective in
+various downstream tasks in numerical domains. Despite their significant
+benefits, the tendency of LLMs to hallucinate in such domains can have severe
+c ...
+🚫 Not backdoor related.
+
+--- Processing Paper 311 ---
+Title: WiNGPT-3.0 Technical Report
+Summary (EN): Current Large Language Models (LLMs) exhibit significant limitations, notably
+in structured, interpretable, and verifiable medical reasoning, alongside
+practical deployment challenges related to computational resources and data
+privacy. This report focused on the development of WiNGPT-3.0, the 32-bi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 312 ---
+Title: T$^2$: An Adaptive Test-Time Scaling Strategy for Contextual Question
+  Answering
+Summary (EN): Recent advances in Large Language Models (LLMs) have demonstrated remarkable
+performance in Contextual Question Answering (CQA). However, prior approaches
+typically employ elaborate reasoning strategies regardless of question
+complexity, leading to low adaptability. Recent efficient test-time scalin ...
+🚫 Not backdoor related.
+
+--- Processing Paper 313 ---
+Title: Assistant-Guided Mitigation of Teacher Preference Bias in LLM-as-a-Judge
+Summary (EN): LLM-as-a-Judge employs large language models (LLMs), such as GPT-4, to
+evaluate the quality of LLM-generated responses, gaining popularity for its
+cost-effectiveness and strong alignment with human evaluations. However,
+training proxy judge models using evaluation data generated by powerful teacher
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 314 ---
+Title: STEER-BENCH: A Benchmark for Evaluating the Steerability of Large
+  Language Models
+Summary (EN): Steerability, or the ability of large language models (LLMs) to adapt outputs
+to align with diverse community-specific norms, perspectives, and communication
+styles, is critical for real-world applications but remains under-evaluated. We
+introduce Steer-Bench, a benchmark for assessing population-sp ...
+🚫 Not backdoor related.
+
+--- Processing Paper 315 ---
+Title: LLMs Think, But Not In Your Flow: Reasoning-Level Personalization for
+  Black-Box Large Language Models
+Summary (EN): Large language models (LLMs) have recently achieved impressive performance
+across a wide range of natural language tasks and are now widely used in
+real-world applications. Among them, black-box LLMs--served via APIs without
+access to model internals--are especially dominant due to their scalability ...
+🚫 Not backdoor related.
+
+--- Processing Paper 316 ---
+Title: Uncovering Visual-Semantic Psycholinguistic Properties from the
+  Distributional Structure of Text Embedding Space
+Summary (EN): Imageability (potential of text to evoke a mental image) and concreteness
+(perceptibility of text) are two psycholinguistic properties that link visual
+and semantic spaces. It is little surprise that computational methods that
+estimate them do so using parallel visual and semantic spaces, such as
+co ...
+🚫 Not backdoor related.
+
+--- Processing Paper 317 ---
+Title: Soft Reasoning: Navigating Solution Spaces in Large Language Models
+  through Controlled Embedding Exploration
+Summary (EN): Large Language Models (LLMs) struggle with complex reasoning due to limited
+diversity and inefficient search. We propose Soft Reasoning, an embedding-based
+search framework that optimises the embedding of the first token to guide
+generation. It combines (1) embedding perturbation for controlled expl ...
+🚫 Not backdoor related.
+
+--- Processing Paper 318 ---
+Title: MultiHoax: A Dataset of Multi-hop False-Premise Questions
+Summary (EN): As Large Language Models are increasingly deployed in high-stakes domains,
+their ability to detect false assumptions and reason critically is crucial for
+ensuring reliable outputs. False-premise questions (FPQs) serve as an important
+evaluation method by exposing cases where flawed assumptions lead  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 319 ---
+Title: ARIA: Training Language Agents with Intention-Driven Reward Aggregation
+Summary (EN): Large language models (LLMs) have enabled agents to perform complex reasoning
+and decision-making through free-form language interactions. However, in
+open-ended language action environments (e.g., negotiation or question-asking
+games), the action space can be formulated as a joint distribution over ...
+🚫 Not backdoor related.
+
+--- Processing Paper 320 ---
+Title: Should LLM Safety Be More Than Refusing Harmful Instructions?
+Summary (EN): This paper presents a systematic evaluation of Large Language Models' (LLMs)
+behavior on long-tail distributed (encrypted) texts and their safety
+implications. We introduce a two-dimensional framework for assessing LLM
+safety: (1) instruction refusal-the ability to reject harmful obfuscated
+instruct ...
+🚫 Not backdoor related.
+
+--- Processing Paper 321 ---
+Title: On Entity Identification in Language Models
+Summary (EN): We analyze the extent to which internal representations of language models
+(LMs) identify and distinguish mentions of named entities, focusing on the
+many-to-many correspondence between entities and their mentions. We first
+formulate two problems of entity mentions -- ambiguity and variability -- an ...
+🚫 Not backdoor related.
+
+--- Processing Paper 322 ---
+Title: Beyond Memorization: A Rigorous Evaluation Framework for Medical
+  Knowledge Editing
+Summary (EN): Recently, knowledge editing (KE) has emerged as a promising approach to
+update specific facts in Large Language Models (LLMs) without the need for full
+retraining. Despite the effectiveness in general-domain benchmarks, their
+applicability to complex medical domain remains largely unexplored. Medica ...
+🚫 Not backdoor related.
+
+--- Processing Paper 323 ---
+Title: BPO: Revisiting Preference Modeling in Direct Preference Optimization
+Summary (EN): Direct Preference Optimization (DPO) have emerged as a popular method for
+aligning Large Language Models (LLMs) with human preferences. While DPO
+effectively preserves the relative ordering between chosen and rejected
+responses through pairwise ranking losses, it often neglects absolute reward
+magni ...
+🚫 Not backdoor related.
+
+--- Processing Paper 324 ---
+Title: ConsistentChat: Building Skeleton-Guided Consistent Dialogues for Large
+  Language Models from Scratch
+Summary (EN): Current instruction data synthesis methods primarily focus on single-turn
+instructions and often neglect cross-turn coherence, resulting in context drift
+and reduced task completion rates in extended conversations. To address this
+limitation, we propose Skeleton-Guided Multi-Turn Dialogue Generation ...
+🚫 Not backdoor related.
+
+--- Processing Paper 325 ---
+Title: MiMo-VL Technical Report
+Summary (EN): We open-source MiMo-VL-7B-SFT and MiMo-VL-7B-RL, two powerful vision-language
+models delivering state-of-the-art performance in both general visual
+understanding and multimodal reasoning. MiMo-VL-7B-RL outperforms Qwen2.5-VL-7B
+on 35 out of 40 evaluated tasks, and scores 59.4 on OlympiadBench, surpa ...
+🚫 Not backdoor related.
+
+--- Processing Paper 326 ---
+Title: FreePRM: Training Process Reward Models Without Ground Truth Process
+  Labels
+Summary (EN): Recent advancements in Large Language Models (LLMs) have demonstrated that
+Process Reward Models (PRMs) play a crucial role in enhancing model
+performance. However, training PRMs typically requires step-level labels,
+either manually annotated or automatically generated, which can be costly and
+diffi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 327 ---
+Title: Exchange of Perspective Prompting Enhances Reasoning in Large Language
+  Models
+Summary (EN): Large language models (LLMs) have made significant advancements in addressing
+diverse natural language processing (NLP) tasks. However, their performance is
+often limited by inherent comprehension of problems. To address this
+limitation, we propose Exchange-of-Perspective (EoP), a novel framework
+de ...
+🚫 Not backdoor related.
+
+--- Processing Paper 328 ---
+Title: Automatically Suggesting Diverse Example Sentences for L2 Japanese
+  Learners Using Pre-Trained Language Models
+Summary (EN): Providing example sentences that are diverse and aligned with learners'
+proficiency levels is essential for fostering effective language acquisition.
+This study examines the use of Pre-trained Language Models (PLMs) to produce
+example sentences targeting L2 Japanese learners. We utilize PLMs in two  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 329 ---
+Title: From Understanding to Generation: An Efficient Shortcut for Evaluating
+  Language Models
+Summary (EN): Iterative evaluation of LLMs during training is essential to ensure expected
+capability development, but can be time- and compute-intensive. While NLU
+tasks, where the model selects from fixed answer choices, are cheap to
+evaluate, essential capabilities like reasoning and code generation rely on th ...
+🚫 Not backdoor related.
+
+--- Processing Paper 330 ---
+Title: Is linguistically-motivated data augmentation worth it?
+Summary (EN): Data augmentation, a widely-employed technique for addressing data scarcity,
+involves generating synthetic data examples which are then used to augment
+available training data. Researchers have seen surprising success from simple
+methods, such as random perturbations from natural examples, where mod ...
+🚫 Not backdoor related.
+
+--- Processing Paper 331 ---
+Title: Learning to Insert [PAUSE] Tokens for Better Reasoning
+Summary (EN): To enhance reasoning capabilities, previous works have explored incorporating
+special-purpose tokens into the training process. These strategies strengthen
+the learning mechanism of transformer-based large language models (LLMs).
+Building on prior research, in which inserting dummy tokens consecutiv ...
+🚫 Not backdoor related.
+
+--- Processing Paper 332 ---
+Title: Do Large Language Models Know Folktales? A Case Study of Yokai in
+  Japanese Folktales
+Summary (EN): Although Large Language Models (LLMs) have demonstrated strong language
+understanding and generation abilities across various languages, their cultural
+knowledge is often limited to English-speaking communities, which can
+marginalize the cultures of non-English communities. To address the problem,
+e ...
+🚫 Not backdoor related.
+
+--- Processing Paper 333 ---
+Title: Trustworthy Medical Question Answering: An Evaluation-Centric Survey
+Summary (EN): Trustworthiness in healthcare question-answering (QA) systems is important
+for ensuring patient safety, clinical effectiveness, and user confidence. As
+large language models (LLMs) become increasingly integrated into medical
+settings, the reliability of their responses directly influences clinical
+d ...
+🚫 Not backdoor related.
+
+--- Processing Paper 334 ---
+Title: Robust Preference Optimization via Dynamic Target Margins
+Summary (EN): The alignment of Large Language Models (LLMs) is crucial for ensuring their
+safety and reliability in practical applications. Direct Preference
+Optimization (DPO) has emerged as an efficient method that directly optimizes
+models using preference pairs, significantly reducing resource demands.
+Howeve ...
+🚫 Not backdoor related.
+
+--- Processing Paper 335 ---
+Title: AdaDecode: Accelerating LLM Decoding with Adaptive Layer Parallelism
+Summary (EN): Large language models (LLMs) are increasingly used for long-content
+generation (e.g., long Chain-of-Thought reasoning) where decoding efficiency
+becomes a critical bottleneck: Autoregressive decoding is inherently limited by
+its sequential token generation process, where each token must be generated ...
+🚫 Not backdoor related.
+
+--- Processing Paper 336 ---
+Title: ScoreRAG: A Retrieval-Augmented Generation Framework with
+  Consistency-Relevance Scoring and Structured Summarization for News
+  Generation
+Summary (EN): This research introduces ScoreRAG, an approach to enhance the quality of
+automated news generation. Despite advancements in Natural Language Processing
+and large language models, current news generation methods often struggle with
+hallucinations, factual inconsistencies, and lack of domain-specific  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 337 ---
+Title: Act-as-Pet: Benchmarking the Abilities of Large Language Models as
+  E-Pets in Social Network Services
+Summary (EN): As interest in using Large Language Models (LLMs) for interactive and
+emotionally rich experiences grows, virtual pet companionship emerges as a
+novel yet underexplored application. Existing approaches focus on basic pet
+role-playing interactions without systematically benchmarking LLMs for
+comprehe ...
+🚫 Not backdoor related.
+
+--- Processing Paper 338 ---
+Title: ClozeMath: Improving Mathematical Reasoning in Language Models by
+  Learning to Fill Equations
+Summary (EN): The capabilities of large language models (LLMs) have been enhanced by
+training on data that reflects human thought processes, such as the
+Chain-of-Thought format. However, evidence suggests that the conventional
+scheme of next-word prediction may not fully capture how humans learn to think.
+Inspire ...
+🚫 Not backdoor related.
+
+--- Processing Paper 339 ---
+Title: Unifying Uniform and Binary-coding Quantization for Accurate Compression
+  of Large Language Models
+Summary (EN): How can we quantize large language models while preserving accuracy?
+Quantization is essential for deploying large language models (LLMs)
+efficiently. Binary-coding quantization (BCQ) and uniform quantization (UQ) are
+promising quantization schemes that have strong expressiveness and
+optimizability, ...
+🚫 Not backdoor related.
+
+--- Processing Paper 340 ---
+Title: Mark My Words: A Robust Multilingual Model for Punctuation in Text and
+  Speech Transcripts
+Summary (EN): Punctuation plays a vital role in structuring meaning, yet current models
+often struggle to restore it accurately in transcripts of spontaneous speech,
+especially in the presence of disfluencies such as false starts and
+backtracking. These limitations hinder the performance of downstream tasks like
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 341 ---
+Title: Automatic Correction of Writing Anomalies in Hausa Texts
+Summary (EN): Hausa texts are often characterized by writing anomalies such as incorrect
+character substitutions and spacing errors, which sometimes hinder natural
+language processing (NLP) applications. This paper presents an approach to
+automatically correct the anomalies by finetuning transformer-based models. ...
+🚫 Not backdoor related.
+
+--- Processing Paper 342 ---
+Title: PulseReddit: A Novel Reddit Dataset for Benchmarking MAS in
+  High-Frequency Cryptocurrency Trading
+Summary (EN): High-Frequency Trading (HFT) is pivotal in cryptocurrency markets, demanding
+rapid decision-making. Social media platforms like Reddit offer valuable, yet
+underexplored, information for such high-frequency, short-term trading. This
+paper introduces \textbf{PulseReddit}, a novel dataset that is the f ...
+🚫 Not backdoor related.
+
+--- Processing Paper 343 ---
+Title: EuroGEST: Investigating gender stereotypes in multilingual language
+  models
+Summary (EN): Large language models increasingly support multiple languages, yet most
+benchmarks for gender bias remain English-centric. We introduce EuroGEST, a
+dataset designed to measure gender-stereotypical reasoning in LLMs across
+English and 29 European languages. EuroGEST builds on an existing
+expert-infor ...
+🚫 Not backdoor related.
+
+--- Processing Paper 344 ---
+Title: Pre$^3$: Enabling Deterministic Pushdown Automata for Faster Structured
+  LLM Generation
+Summary (EN): Extensive LLM applications demand efficient structured generations,
+particularly for LR(1) grammars, to produce outputs in specified formats (e.g.,
+JSON). Existing methods primarily parse LR(1) grammars into a pushdown
+automaton (PDA), leading to runtime execution overhead for context-dependent
+toke ...
+🚫 Not backdoor related.
+
+--- Processing Paper 345 ---
+Title: The Harmonic Structure of Information Contours
+Summary (EN): The uniform information density (UID) hypothesis proposes that speakers aim
+to distribute information evenly throughout a text, balancing production effort
+and listener comprehension difficulty. However, language typically does not
+maintain a strictly uniform information rate; instead, it fluctuates ...
+🚫 Not backdoor related.
+
+--- Processing Paper 346 ---
+Title: Compositional Generalisation for Explainable Hate Speech Detection
+Summary (EN): Hate speech detection is key to online content moderation, but current models
+struggle to generalise beyond their training data. This has been linked to
+dataset biases and the use of sentence-level labels, which fail to teach models
+the underlying structure of hate speech. In this work, we show that ...
+🚫 Not backdoor related.
+
+--- Processing Paper 347 ---
+Title: More or Less Wrong: A Benchmark for Directional Bias in LLM Comparative
+  Reasoning
+Summary (EN): Large language models (LLMs) are known to be sensitive to input phrasing, but
+the mechanisms by which semantic cues shape reasoning remain poorly understood.
+We investigate this phenomenon in the context of comparative math problems with
+objective ground truth, revealing a consistent and directional ...
+🚫 Not backdoor related.
+
+--- Processing Paper 348 ---
+Title: TableEval: A Real-World Benchmark for Complex, Multilingual, and
+  Multi-Structured Table Question Answering
+Summary (EN): LLMs have shown impressive progress in natural language processing. However,
+they still face significant challenges in TableQA, where real-world
+complexities such as diverse table structures, multilingual data, and
+domain-specific reasoning are crucial. Existing TableQA benchmarks are often
+limited  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 349 ---
+Title: From Real to Synthetic: Synthesizing Millions of Diversified and
+  Complicated User Instructions with Attributed Grounding
+Summary (EN): The pursuit of diverse, complex, and large-scale instruction data is crucial
+for automatically aligning large language models (LLMs). While there are
+methods capable of generating synthetic instructions at scale, they either
+suffer from limited grounding sources, leading to a narrow distribution, or ...
+🚫 Not backdoor related.
+
+--- Processing Paper 350 ---
+Title: Voice Activity Projection Model with Multimodal Encoders
+Summary (EN): Turn-taking management is crucial for any social interaction. Still, it is
+challenging to model human-machine interaction due to the complexity of the
+social context and its multimodal nature. Unlike conventional systems based on
+silence duration, previous existing voice activity projection (VAP) mo ...
+🚫 Not backdoor related.
+
+--- Processing Paper 351 ---
+Title: Around the World in 24 Hours: Probing LLM Knowledge of Time and Place
+Summary (EN): Reasoning over time and space is essential for understanding our world.
+However, the abilities of language models in this area are largely unexplored
+as previous work has tested their abilities for logical reasoning in terms of
+time and space in isolation or only in simple or artificial environments ...
+🚫 Not backdoor related.
+
+--- Processing Paper 352 ---
+Title: Stronger Baselines for Retrieval-Augmented Generation with Long-Context
+  Language Models
+Summary (EN): With the rise of long-context language models (LMs) capable of processing
+tens of thousands of tokens in a single pass, do multi-stage
+retrieval-augmented generation (RAG) pipelines still offer measurable benefits
+over simpler, single-stage approaches? To assess this question, we conduct a
+controlle ...
+🚫 Not backdoor related.
+
+--- Processing Paper 353 ---
+Title: QQSUM: A Novel Task and Model of Quantitative Query-Focused
+  Summarization for Review-based Product Question Answering
+Summary (EN): Review-based Product Question Answering (PQA) allows e-commerce platforms to
+automatically address customer queries by leveraging insights from user
+reviews. However, existing PQA systems generate answers with only a single
+perspective, failing to capture the diversity of customer opinions. In this
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 354 ---
+Title: AI Agents for Conversational Patient Triage: Preliminary
+  Simulation-Based Evaluation with Real-World EHR Data
+Summary (EN): Background: We present a Patient Simulator that leverages real world patient
+encounters which cover a broad range of conditions and symptoms to provide
+synthetic test subjects for development and testing of healthcare agentic
+models. The simulator provides a realistic approach to patient presentatio ...
+🚫 Not backdoor related.
+
+--- Processing Paper 355 ---
+Title: LexTime: A Benchmark for Temporal Ordering of Legal Events
+Summary (EN): Temporal reasoning in legal texts is important for applications like case law
+analysis and compliance monitoring. However, existing datasets lack expert
+language evaluation, leaving a gap in understanding how LLMs manage event
+ordering in legal contexts. We introduce LexTime, the first dataset desig ...
+🚫 Not backdoor related.
+
+--- Processing Paper 356 ---
+Title: Unveiling and Eliminating the Shortcut Learning for Locate-Then-Edit
+  Knowledge Editing via Both Subject and Relation Awareness
+Summary (EN): Knowledge editing aims to alternate the target knowledge predicted by large
+language models while ensuring the least side effects on unrelated knowledge.
+An effective way to achieve knowledge editing is to identify pivotal parameters
+for predicting factual associations and modify them with an optimi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 357 ---
+Title: On Support Samples of Next Word Prediction
+Summary (EN): Language models excel in various tasks by making complex decisions, yet
+understanding the rationale behind these decisions remains a challenge. This
+paper investigates \emph{data-centric interpretability} in language models,
+focusing on the next-word prediction task. Using representer theorem, we
+id ...
+🚫 Not backdoor related.
+
+--- Processing Paper 358 ---
+Title: Progressive Mastery: Customized Curriculum Learning with Guided
+  Prompting for Mathematical Reasoning
+Summary (EN): Large Language Models (LLMs) have achieved remarkable performance across
+various reasoning tasks, yet post-training is constrained by inefficient sample
+utilization and inflexible difficulty samples processing. To address these
+limitations, we propose Customized Curriculum Learning (CCL), a novel fr ...
+🚫 Not backdoor related.
+
+--- Processing Paper 359 ---
+Title: Are Lexicon-Based Tools Still the Gold Standard for Valence Analysis in
+  Low-Resource Flemish?
+Summary (EN): Understanding the nuances in everyday language is pivotal for advancements in
+computational linguistics & emotions research. Traditional lexicon-based tools
+such as LIWC and Pattern have long served as foundational instruments in this
+domain. LIWC is the most extensively validated word count based t ...
+🚫 Not backdoor related.
+
+--- Processing Paper 360 ---
+Title: Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis
+Summary (EN): The development of large language models (LLMs) depends on trustworthy
+evaluation. However, most current evaluations rely on public benchmarks, which
+are prone to data contamination issues that significantly compromise fairness.
+Previous researches have focused on constructing dynamic benchmarks to  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 361 ---
+Title: A Dataset for Addressing Patient's Information Needs related to Clinical
+  Course of Hospitalization
+Summary (EN): Patients have distinct information needs about their hospitalization that can
+be addressed using clinical evidence from electronic health records (EHRs).
+While artificial intelligence (AI) systems show promise in meeting these needs,
+robust datasets are needed to evaluate the factual accuracy and re ...
+🚫 Not backdoor related.
+
+--- Processing Paper 362 ---
+Title: SkipGPT: Dynamic Layer Pruning Reinvented with Token Awareness and
+  Module Decoupling
+Summary (EN): Large language models (LLMs) achieve remarkable performance across tasks but
+incur substantial computational costs due to their deep, multi-layered
+architectures. Layer pruning has emerged as a strategy to alleviate these
+inefficiencies, but conventional static pruning methods overlook two critical
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 363 ---
+Title: SuperWriter: Reflection-Driven Long-Form Generation with Large Language
+  Models
+Summary (EN): Long-form text generation remains a significant challenge for large language
+models (LLMs), particularly in maintaining coherence, ensuring logical
+consistency, and preserving text quality as sequence length increases. To
+address these limitations, we propose SuperWriter-Agent, an agent-based
+framew ...
+🚫 Not backdoor related.
+
+--- Processing Paper 364 ---
+Title: Long or short CoT? Investigating Instance-level Switch of Large
+  Reasoning Models
+Summary (EN): With the rapid advancement of large reasoning models, long Chain-of-Thought
+(CoT) prompting has demonstrated strong performance on complex tasks. However,
+this often comes with a significant increase in token usage. In this paper, we
+conduct a comprehensive empirical analysis comparing long and shor ...
+🚫 Not backdoor related.
+
+--- Processing Paper 365 ---
+Title: R-Search: Empowering LLM Reasoning with Search via Multi-Reward
+  Reinforcement Learning
+Summary (EN): Large language models (LLMs) have notably progressed in multi-step and
+long-chain reasoning. However, extending their reasoning capabilities to
+encompass deep interactions with search remains a non-trivial challenge, as
+models often fail to identify optimal reasoning-search interaction
+trajectories, ...
+🚫 Not backdoor related.
+
+--- Processing Paper 366 ---
+Title: Zero-Shot Open-Schema Entity Structure Discovery
+Summary (EN): Entity structure extraction, which aims to extract entities and their
+associated attribute-value structures from text, is an essential task for text
+understanding and knowledge graph construction. Existing methods based on large
+language models (LLMs) typically rely heavily on predefined entity attr ...
+🚫 Not backdoor related.
+
+--- Processing Paper 367 ---
+Title: Aligning Large Language Models with Implicit Preferences from
+  User-Generated Content
+Summary (EN): Learning from preference feedback is essential for aligning large language
+models (LLMs) with human values and improving the quality of generated
+responses. However, existing preference learning methods rely heavily on
+curated data from humans or advanced LLMs, which is costly and difficult to
+scale ...
+🚫 Not backdoor related.
+
+--- Processing Paper 368 ---
+Title: SQLens: An End-to-End Framework for Error Detection and Correction in
+  Text-to-SQL
+Summary (EN): Text-to-SQL systems translate natural language (NL) questions into SQL
+queries, enabling non-technical users to interact with structured data. While
+large language models (LLMs) have shown promising results on the text-to-SQL
+task, they often produce semantically incorrect yet syntactically valid
+qu ...
+🚫 Not backdoor related.
+
+--- Processing Paper 369 ---
+Title: DRE: An Effective Dual-Refined Method for Integrating Small and Large
+  Language Models in Open-Domain Dialogue Evaluation
+Summary (EN): Large Language Models (LLMs) excel at many tasks but struggle with ambiguous
+scenarios where multiple valid responses exist, often yielding unreliable
+results. Conversely, Small Language Models (SLMs) demonstrate robustness in
+such scenarios but are susceptible to misleading or adversarial inputs. W ...
+🚫 Not backdoor related.
+
+--- Processing Paper 370 ---
+Title: Please Translate Again: Two Simple Experiments on Whether Human-Like
+  Reasoning Helps Translation
+Summary (EN): Large Language Models (LLMs) demonstrate strong reasoning capabilities for
+many tasks, often by explicitly decomposing the task via Chain-of-Thought (CoT)
+reasoning. Recent work on LLM-based translation designs hand-crafted prompts to
+decompose translation, or trains models to incorporate intermedia ...
+🚫 Not backdoor related.
+
+--- Processing Paper 371 ---
+Title: BSBench: will your LLM find the largest prime number?
+Summary (EN): We propose that benchmarking LLMs on questions which have no reasonable
+answer actually isn't as silly as it sounds. We also present a benchmark that
+allows such testing and a method to modify the existing datasets, and discover
+that existing models demonstrate a performance far from the perfect on  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 372 ---
+Title: Demonstrations of Integrity Attacks in Multi-Agent Systems
+Summary (EN): Large Language Models (LLMs) have demonstrated remarkable capabilities in
+natural language understanding, code generation, and complex planning.
+Simultaneously, Multi-Agent Systems (MAS) have garnered attention for their
+potential to enable cooperation among distributed agents. However, from a
+multi ...
+🚫 Not backdoor related.
+
+--- Processing Paper 373 ---
+Title: Are LLMs Reliable Translators of Logical Reasoning Across Lexically
+  Diversified Contexts?
+Summary (EN): Neuro-symbolic approaches combining large language models (LLMs) with solvers
+excels in logical reasoning problems need long reasoning chains. In this
+paradigm, LLMs serve as translators, converting natural language reasoning
+problems into formal logic formulas. Then reliable symbolic solvers return ...
+🚫 Not backdoor related.
+
+--- Processing Paper 374 ---
+Title: Selecting Demonstrations for Many-Shot In-Context Learning via Gradient
+  Matching
+Summary (EN): In-Context Learning (ICL) empowers Large Language Models (LLMs) for rapid
+task adaptation without Fine-Tuning (FT), but its reliance on demonstration
+selection remains a critical challenge. While many-shot ICL shows promising
+performance through scaled demonstrations, the selection method for many-s ...
+🚫 Not backdoor related.
+
+--- Processing Paper 375 ---
+Title: MuSciClaims: Multimodal Scientific Claim Verification
+Summary (EN): Assessing scientific claims requires identifying, extracting, and reasoning
+with multimodal data expressed in information-rich figures in scientific
+literature. Despite the large body of work in scientific QA, figure captioning,
+and other multimodal reasoning tasks over chart-based data, there are n ...
+🚫 Not backdoor related.
+
+--- Processing Paper 376 ---
+Title: A MISMATCHED Benchmark for Scientific Natural Language Inference
+Summary (EN): Scientific Natural Language Inference (NLI) is the task of predicting the
+semantic relation between a pair of sentences extracted from research articles.
+Existing datasets for this task are derived from various computer science (CS)
+domains, whereas non-CS domains are completely ignored. In this pap ...
+🚫 Not backdoor related.
+
+--- Processing Paper 377 ---
+Title: Permutational-key quantum homomorphic encryption with homomorphic
+  quantum error-correction
+Summary (EN): The gold-standard for security in quantum cryptographic protocols is
+information-theoretic security. Information-theoretic security is surely
+future-proof, because it makes no assumptions on the hardness of any
+computational problems and relies only on the fundamental laws of quantum
+mechanics. Here ...
+🚫 Not backdoor related.
+
+--- Processing Paper 378 ---
+Title: Labeling without Seeing? Blind Annotation for Privacy-Preserving Entity
+  Resolution
+Summary (EN): The entity resolution problem requires finding pairs across datasets that
+belong to different owners but refer to the same entity in the real world. To
+train and evaluate solutions (either rule-based or machine-learning-based) to
+the entity resolution problem, generating a ground truth dataset with  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 379 ---
+Title: Least Squares Estimation For Hierarchical Data
+Summary (EN): The U.S. Census Bureau's 2020 Disclosure Avoidance System (DAS) bases its
+output on noisy measurements, which are population tabulations added to
+realizations of mean-zero random variables. These noisy measurements are
+observed for a set of hierarchical geographic units, e.g., the U.S. as a whole,
+s ...
+🚫 Not backdoor related.
+
+--- Processing Paper 380 ---
+Title: Why Johnny Signs with Next-Generation Tools: A Usability Case Study of
+  Sigstore
+Summary (EN): Software signing is the most robust method for ensuring the integrity and
+authenticity of components in a software supply chain. However, traditional
+signing tools place key management and signer identification burdens on
+practitioners, leading to both security vulnerabilities and usability
+challeng ...
+🚫 Not backdoor related.
+
+--- Processing Paper 381 ---
+Title: Quantum Secure Key Exchange with Position-based Credentials
+Summary (EN): Quantum key distribution (QKD) provides an information-theoretic way of
+securely exchanging secret keys, and typically relies on pre-shared keys or
+public keys for message authentication. To lift the requirement of pre-shared
+or public keys, Buhrman et. al. [SIAM J. Comput. 43, 150 (2014)] proposed
+ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 382 ---
+Title: Mono: Is Your "Clean" Vulnerability Dataset Really Solvable? Exposing
+  and Trapping Undecidable Patches and Beyond
+Summary (EN): The quantity and quality of vulnerability datasets are essential for
+developing deep learning solutions to vulnerability-related tasks. Due to the
+limited availability of vulnerabilities, a common approach to building such
+datasets is analyzing security patches in source code. However, existing
+secu ...
+🚫 Not backdoor related.
+
+--- Processing Paper 383 ---
+Title: Depermissioning Web3: a Permissionless Accountable RPC Protocol for
+  Blockchain Networks
+Summary (EN): In blockchain networks, so-called "full nodes" serve data to and relay
+transactions from clients through an RPC interface. This serving layer enables
+integration of "Web3" data, stored on blockchains, with "Web2" mobile or web
+applications that cannot directly participate as peers in a blockchain ne ...
+🚫 Not backdoor related.
+
+--- Processing Paper 384 ---
+Title: Ideological Fragmentation of the Social Media Ecosystem: From echo
+  chambers to echo platforms
+Summary (EN): The entertainment-driven nature of social media encourages users to engage
+with like-minded individuals and consume content aligned with their beliefs,
+limiting exposure to diverse perspectives. Simultaneously, users migrate
+between platforms, either due to moderation policies like de-platforming or ...
+🚫 Not backdoor related.
+
+--- Processing Paper 385 ---
+Title: Edge interventions can mitigate demographic and prestige disparities in
+  the Computer Science coauthorship network
+Summary (EN): Social factors such as demographic traits and institutional prestige
+structure the creation and dissemination of ideas in academic publishing. One
+place these effects can be observed is in how central or peripheral a
+researcher is in the coauthorship network. Here we investigate inequities in
+networ ...
+🚫 Not backdoor related.
+
+--- Processing Paper 386 ---
+Title: User Altruism in Recommendation Systems
+Summary (EN): Users of social media platforms based on recommendation systems (RecSys)
+(e.g. TikTok, X, YouTube) strategically interact with platform content to
+influence future recommendations. On some such platforms, users have been
+documented to form large-scale grassroots movements encouraging others to
+purpo ...
+🚫 Not backdoor related.
+
+--- Processing Paper 387 ---
+Title: Risk Awareness in HTN Planning
+Summary (EN): Actual real-world domains are characterised by uncertain situations in which
+acting and using resources may entail the embracing of risks. Performing
+actions in such domains involves costs of consuming some resource, such as time
+or energy, where the knowledge about these costs can range from known  ...
+🚫 Not backdoor related.
+
+--- Processing Paper 388 ---
+Title: Zero-shot cross-modal transfer of Reinforcement Learning policies
+  through a Global Workspace
+Summary (EN): Humans perceive the world through multiple senses, enabling them to create a
+comprehensive representation of their surroundings and to generalize
+information across domains. For instance, when a textual description of a scene
+is given, humans can mentally visualize it. In fields like robotics and
+Re ...
+🚫 Not backdoor related.
+
+--- Processing Paper 389 ---
+Title: Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and
+  Multi-Agent Environments
+Summary (EN): Advances in large models, reinforcement learning, and open-endedness have
+accelerated progress toward autonomous agents that can learn and interact in
+the real world. To achieve this, flexible tools are needed to create rich, yet
+computationally efficient, environments. While scalable 2D environment ...
+🚫 Not backdoor related.
+
+--- Processing Paper 390 ---
+Title: Rejecting Hallucinated State Targets during Planning
+Summary (EN): Generative models can be used in planning to propose targets corresponding to
+states that agents deem either likely or advantageous to experience. However,
+imperfections, common in learned models, lead to infeasible hallucinated
+targets, which can cause delusional behaviors and thus safety concerns. ...
+🚫 Not backdoor related.
+
+--- Processing Paper 391 ---
+Title: Reflection-Bench: Evaluating Epistemic Agency in Large Language Models
+Summary (EN): With large language models (LLMs) increasingly deployed as cognitive engines
+for AI agents, the reliability and effectiveness critically hinge on their
+intrinsic epistemic agency, which remains understudied. Epistemic agency, the
+ability to flexibly construct, adapt, and monitor beliefs about dynami ...
+🚫 Not backdoor related.
+
+--- Processing Paper 392 ---
+Title: Universal Adversarial Attack on Aligned Multimodal LLMs
+Summary (EN): We propose a universal adversarial attack on multimodal Large Language Models
+(LLMs) that leverages a single optimized image to override alignment safeguards
+across diverse queries and even multiple models. By backpropagating through the
+vision encoder and language head, we craft a synthetic image t ...
+✅ Related to backdoor.
+
+✅ Saved 1 relevant papers to ./archive/llm_backdoor_papers_20250606.csv
+✅ Created Notion page: Backdoor_Papers_20250606
+✅ Created Notion database: Backdoor_Papers_20250606
+✅ Uploaded: Universal Adversarial Attack on Aligned Multimodal LLMs
+✅ Uploaded 13 blocks
+🎉 Done. View in Notion.

@@ -114,7 +114,6 @@ if __name__ == "__main__":
 
             results.append(data)
             print("✅ Related to backdoor.")
-            break
         else:
             print("🚫 Not backdoor related.")
 
