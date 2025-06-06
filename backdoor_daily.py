@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     # === 保存 CSV ===
     today_str = datetime.now().strftime('%Y%m%d')
-    csv_file = f"./archive/backdoor_llm_papers_{today_str}.csv"
+    csv_file = f"./archive/llm_backdoor_papers_{today_str}.csv"
     fieldnames = [
         "Title", "Authors", "Published", "Link",
         "Abstract_EN", "Abstract_ZH", "One_Sentence_Summary",
