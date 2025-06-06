@@ -84,7 +84,7 @@ def format_paper_digest_summary(papers: list) -> str:
 
     header = (
         "*👋 Hello there!*\n"
-        "Here's your _arXiv Daily Filter_ — a quick pick of today's papers related to *LLM alignment, safety, and helpfulness*.\n"
+        f"Here's your _arXiv Daily Filter {len(papers)} papers_ — a quick pick of today's papers related to *LLM alignment, safety, and helpfulness*.\n"
         f"👉 *[Full list in Notion]*: <{NOTION_LINK}|Click to view full database>\n\n"
         "━━━━━━━━━━━━━━━━━━━━━━\n"
     )

@@ -92,6 +92,26 @@ def upload_csv_to_database(csv_path, database_id):
 def append_blocks_to_page(page_id, papers):
     blocks = []
 
+    # 标题块（加粗）
+    blocks.append({
+        "object": "block",
+        "type": "heading_2",
+        "heading_2": {
+            "rich_text": [{
+                "type": "text",
+                "text": {"content": f"📄 There are total {len(papers)} papers today"},
+                "annotations": {"bold": True}
+            }]
+        }
+    })
+
+    # Divider
+    blocks.append({
+        "object": "block",
+        "type": "divider",
+        "divider": {}
+    })
+
     for paper in papers:
         title = paper["Title"]
         title = title.replace("\n", "").replace("\r", "").strip()
@@ -107,8 +127,8 @@ def append_blocks_to_page(page_id, papers):
         # 标题块（加粗）
         blocks.append({
             "object": "block",
-            "type": "heading_2",
-            "heading_2": {
+            "type": "heading_3",
+            "heading_3": {
                 "rich_text": [{
                     "type": "text",
                     "text": {"content": f"📄 {title}"},

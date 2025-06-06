@@ -66,7 +66,6 @@ if __name__ == "__main__":
     results = []
     print(f"✅ Fetched {len(papers)} papers from arXiv cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG.")
 
-    send_slack_banner(SLACK_WEBHOOK_URL_MY_GROUP)
     for i, paper in enumerate(papers, start=1):
         print(f"\n--- Processing Paper {i} ---")
         print("Title:", paper['title'])
@@ -114,12 +113,6 @@ if __name__ == "__main__":
                 "Keywords": keywords
             }
             results.append(paper)
-
-            # === 发送 Slack 通知（可选） ===
-            try:
-                send_slack_message(paper, SLACK_WEBHOOK_URL_MY_GROUP)
-            except Exception as e:
-                print(f"❌ Failed to send Slack message: {e}")
         else:
             print("🚫 Not relevant")
 
@@ -139,6 +132,13 @@ if __name__ == "__main__":
 
     # === 上传到 Notion 数据库 ===
     notion_database_id = upload_today_csv(csv_file)
+
+    # === 发送 Slack 通知（可选） ===
+    send_slack_banner(SLACK_WEBHOOK_URL_MY_GROUP)
+    try:
+        send_slack_message(paper, SLACK_WEBHOOK_URL_MY_GROUP)
+    except Exception as e:
+        print(f"❌ Failed to send Slack message: {e}")
 
     # === 发送 Slack 压缩消息 ===
     send_slack_compressed_message(results, SLACK_WEBHOOK_URL_MY)
