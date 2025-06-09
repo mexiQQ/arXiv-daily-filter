@@ -19,7 +19,7 @@ def get_previous_day_range_utc_for_la():
 def get_previous_day_range_utc_for_ny():
     ny = ZoneInfo("America/New_York")
     now_ny = datetime.now(ny)
-    yesterday = (now_ny - timedelta(days=1)).date()
+    yesterday = (now_ny - timedelta(days=3)).date()
 
     # 昨天纽约时间的 00:00 到 23:59
     start_ny = datetime.combine(yesterday, datetime.min.time(), tzinfo=ny)
@@ -36,6 +36,7 @@ def fetch_arxiv_metadata(category="cat:cs.AI", max_results=2000):
     start_time, end_time = get_previous_day_range_utc_for_ny()
     base_url = "https://dailyarxiv.com/query.php"
     query = f"({category}) AND lastUpdatedDate:[{start_time} TO {end_time}]"
+    print(f"🔍 Fetching arXiv metadata for query: {query}")
     params = {
         "search_query": query,
         "max_results": max_results
