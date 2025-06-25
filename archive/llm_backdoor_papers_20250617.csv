@@ -1,0 +1,94 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+"MEraser: An Effective Fingerprint Erasure Approach for Large Language
+  Models","Jingxuan Zhang, Zhenhua Xu, Rui Hu, Wenpeng Xing, Xuhong Zhang, Meng Han",2025-06-14T15:48:53Z,http://arxiv.org/pdf/2506.12551v1,"Large Language Models (LLMs) have become increasingly prevalent across
+various sectors, raising critical concerns about model ownership and
+intellectual property protection. Although backdoor-based fingerprinting has
+emerged as a promising solution for model authentication, effective attacks for
+removing these fingerprints remain largely unexplored. Therefore, we present
+Mismatched Eraser (MEraser), a novel method for effectively removing
+backdoor-based fingerprints from LLMs while maintaining model performance. Our
+approach leverages a two-phase fine-tuning strategy utilizing carefully
+constructed mismatched and clean datasets. Through extensive evaluation across
+multiple LLM architectures and fingerprinting methods, we demonstrate that
+MEraser achieves complete fingerprinting removal while maintaining model
+performance with minimal training data of fewer than 1,000 samples.
+Furthermore, we introduce a transferable erasure mechanism that enables
+effective fingerprinting removal across different models without repeated
+training. In conclusion, our approach provides a practical solution for
+fingerprinting removal in LLMs, reveals critical vulnerabilities in current
+fingerprinting techniques, and establishes comprehensive evaluation benchmarks
+for developing more resilient model protection methods in the future.","大语言模型（LLMs）在各个领域的应用越来越广泛，这引发了对模型所有权和知识产权保护的关键问题。虽然基于后门的指纹识别被认为是模型认证的有前途的解决方案，但有效的攻击方法来删除这些指纹仍然大多未被探索。因此，我们提出了Mismatched Eraser（MEraser），一种有效地从LLMs中删除基于后门的指纹的新方法，同时保持模型性能。我们的方法利用了精心构建的不匹配和干净数据集的两阶段微调策略。通过在多个LLM架构和指纹识别方法上的广泛评估，我们证明了MEraser能够在使用少于1,000个样本的训练数据的情况下实现完全的指纹识别删除，同时保持模型性能。此外，我们引入了一种可转移的擦除机制，使得在不重复训练的情况下能够在不同模型之间有效地删除指纹识别。总之，我们的方法为LLMs中的指纹识别删除提供了一个实用的解决方案，揭示了当前指纹识别技术中的关键漏洞，并为未来开发更具弹性的模型保护方法建立了全面的评估基准。","The paper introduces MEraser, a method to remove backdoor-based fingerprints from LLMs while maintaining model performance.",LLM,Negative,Defense,"Backdoor, Fingerprint Erasure, Large Language Models, Model Protection, Fine-tuning"
+Alphabet Index Mapping: Jailbreaking LLMs through Semantic Dissimilarity,Bilal Saleh Husain,2025-06-15T01:59:08Z,http://arxiv.org/pdf/2506.12685v1,"Large Language Models (LLMs) have demonstrated remarkable capabilities, yet
+their susceptibility to adversarial attacks, particularly jailbreaking, poses
+significant safety and ethical concerns. While numerous jailbreak methods
+exist, many suffer from computational expense, high token usage, or complex
+decoding schemes. Liu et al. (2024) introduced FlipAttack, a black-box method
+that achieves high attack success rates (ASR) through simple prompt
+manipulation. This paper investigates the underlying mechanisms of FlipAttack's
+effectiveness by analyzing the semantic changes induced by its flipping modes.
+We hypothesize that semantic dissimilarity between original and manipulated
+prompts is inversely correlated with ASR. To test this, we examine embedding
+space visualizations (UMAP, KDE) and cosine similarities for FlipAttack's
+modes. Furthermore, we introduce a novel adversarial attack, Alphabet Index
+Mapping (AIM), designed to maximize semantic dissimilarity while maintaining
+simple decodability. Experiments on GPT-4 using a subset of AdvBench show AIM
+and its variant AIM+FWO achieve a 94% ASR, outperforming FlipAttack and other
+methods on this subset. Our findings suggest that while high semantic
+dissimilarity is crucial, a balance with decoding simplicity is key for
+successful jailbreaking. This work contributes to a deeper understanding of
+adversarial prompt mechanics and offers a new, effective jailbreak technique.",大语言模型（LLMs）展示了惊人的能力，但它们对对抗性攻击的易感性，特别是越狱攻击，提出了重大的安全和伦理问题。虽然存在许多越狱方法，但许多方法在计算成本、高代币使用或复杂的解码方案方面存在问题。刘等人（2024年）引入了FlipAttack，这是一种黑盒方法，通过简单的提示操作实现了高攻击成功率（ASR）。本文通过分析其翻转模式引起的语义变化，研究了FlipAttack有效性的潜在机制。我们假设原始提示和操作提示之间的语义差异与ASR成反比。为了测试这一点，我们检查了FlipAttack模式的嵌入空间可视化（UMAP、KDE）和余弦相似性。此外，我们引入了一种新的对抗性攻击方法，称为字母索引映射（AIM），旨在最大化语义差异，同时保持简单的可解码性。在GPT-4上使用AdvBench的子集进行的实验表明，AIM及其变体AIM+FWO实现了94%的ASR，在该子集上超过了FlipAttack和其他方法。我们的发现表明，虽然高语义差异至关重要，但与解码简单性的平衡是成功越狱的关键。本文有助于更深入地理解对抗性提示机制，并提供了一种新的、有效的越狱技术。,"The paper introduces a new jailbreaking technique for LLMs called Alphabet Index Mapping, which achieves high attack success rates by maximizing semantic dissimilarity.",LLM,Negative,Attack,"Jailbreaking, Adversarial Attack, Semantic Dissimilarity, FlipAttack, Alphabet Index Mapping"
+"InverTune: Removing Backdoors from Multimodal Contrastive Learning
+  Models via Trigger Inversion and Activation Tuning","Mengyuan Sun, Yu Li, Yuchen Liu, Bo Du, Yunjie Ge",2025-06-14T09:08:34Z,http://arxiv.org/pdf/2506.12411v1,"Multimodal contrastive learning models like CLIP have demonstrated remarkable
+vision-language alignment capabilities, yet their vulnerability to backdoor
+attacks poses critical security risks. Attackers can implant latent triggers
+that persist through downstream tasks, enabling malicious control of model
+behavior upon trigger presentation. Despite great success in recent defense
+mechanisms, they remain impractical due to strong assumptions about attacker
+knowledge or excessive clean data requirements. In this paper, we introduce
+InverTune, the first backdoor defense framework for multimodal models under
+minimal attacker assumptions, requiring neither prior knowledge of attack
+targets nor access to the poisoned dataset. Unlike existing defense methods
+that rely on the same dataset used in the poisoning stage, InverTune
+effectively identifies and removes backdoor artifacts through three key
+components, achieving robust protection against backdoor attacks. Specifically,
+InverTune first exposes attack signatures through adversarial simulation,
+probabilistically identifying the target label by analyzing model response
+patterns. Building on this, we develop a gradient inversion technique to
+reconstruct latent triggers through activation pattern analysis. Finally, a
+clustering-guided fine-tuning strategy is employed to erase the backdoor
+function with only a small amount of arbitrary clean data, while preserving the
+original model capabilities. Experimental results show that InverTune reduces
+the average attack success rate (ASR) by 97.87% against the state-of-the-art
+(SOTA) attacks while limiting clean accuracy (CA) degradation to just 3.07%.
+This work establishes a new paradigm for securing multimodal systems, advancing
+security in foundation model deployment without compromising performance.",多模态对比学习模型（如CLIP）展示了显著的视觉语言对齐能力，但它们对后门攻击的易受性构成了严重的安全风险。攻击者可以植入潜在的触发器，这些触发器在下游任务中持续存在，使得在触发器呈现时能够恶意控制模型行为。尽管最近的防御机制取得了很大成功，但它们仍然不切实际，因为它们对攻击者的知识有强烈的假设或对干净数据的过度需求。在本文中，我们引入了InverTune，这是一个在最小攻击者假设下的多模态模型后门防御框架，既不需要对攻击目标的先验知识，也不需要访问被污染的数据集。与依赖于污染阶段使用的相同数据集的现有防御方法不同，InverTune通过三个关键组件有效地识别并删除后门工件，实现了对后门攻击的强大保护。具体来说，InverTune首先通过对抗模拟暴露攻击签名，通过分析模型响应模式概率地确定目标标签。在此基础上，我们开发了一种梯度反转技术，通过激活模式分析重建潜在的触发器。最后，采用基于聚类的微调策略，仅使用少量任意干净数据，擦除后门功能，同时保留原始模型的能力。实验结果表明，InverTune将平均攻击成功率（ASR）降低了97.87%，同时将干净准确率（CA）的降低限制在3.07%。这项工作为保护多模态系统建立了一个新的范式，推动了基础模型部署的安全性，而不会损害性能。,"The paper presents InverTune, a defense framework that effectively removes backdoors from multimodal contrastive learning models with minimal attacker assumptions.",LMM,Negative,Defense,"Backdoor defense, Multimodal models, Trigger inversion, Activation tuning, Contrastive learning"
+Control Tax: The Price of Keeping AI in Check,"Mikhail Terekhov, Zhen Ning David Liu, Caglar Gulcehre, Samuel Albanie",2025-06-05T17:48:39Z,http://arxiv.org/pdf/2506.05296v2,"The rapid integration of agentic AI into high-stakes real-world applications
+requires robust oversight mechanisms. The emerging field of AI Control (AIC)
+aims to provide such an oversight mechanism, but practical adoption depends
+heavily on implementation overhead. To study this problem better, we introduce
+the notion of Control tax -- the operational and financial cost of integrating
+control measures into AI pipelines. Our work makes three key contributions to
+the field of AIC: (1) we introduce a theoretical framework that quantifies the
+Control Tax and maps classifier performance to safety assurances; (2) we
+conduct comprehensive evaluations of state-of-the-art language models in
+adversarial settings, where attacker models insert subtle backdoors into code
+while monitoring models attempt to detect these vulnerabilities; and (3) we
+provide empirical financial cost estimates for control protocols and develop
+optimized monitoring strategies that balance safety and cost-effectiveness
+while accounting for practical constraints like auditing budgets. Our framework
+enables practitioners to make informed decisions by systematically connecting
+safety guarantees with their costs, advancing AIC through principled economic
+feasibility assessment across different deployment contexts.",代理人人工智能迅速融入高风险的现实世界应用，需要强大的监督机制。新兴的AI控制（AIC）领域旨在提供这种监督机制，但实际采用程度在很大程度上取决于实施开销。为了更好地研究这个问题，我们引入了控制税的概念——将控制措施集成到AI管道中的运营和财务成本。我们的工作对AIC领域做出了三个关键贡献：(1) 我们引入了一个理论框架，量化控制税，并将分类器性能映射到安全保证；(2) 我们对最新的语言模型在对抗性设置中进行了全面评估，其中攻击者模型在代码中插入微妙的后门，而监控模型则尝试检测这些漏洞；(3) 我们提供了控制协议的经验财务成本估算，并开发了优化的监控策略，在考虑实际约束（如审计预算）的同时，平衡安全性和成本效益。我们的框架使从业者能够通过系统地将安全保证与其成本联系起来，从而做出明智的决策，通过原则性的经济可行性评估，推动AIC在不同的部署上下文中发展。,"The paper introduces the concept of ""Control Tax"" to quantify the cost of integrating control measures into AI pipelines, focusing on detecting backdoors in adversarial settings.",LLM,Negative,Defense,"Control Tax, AI Control, Backdoors, Adversarial Settings, Safety Assurances"
+When Forgetting Triggers Backdoors: A Clean Unlearning Attack,"Marco Arazzi, Antonino Nocera, Vinod P",2025-06-14T14:31:51Z,http://arxiv.org/pdf/2506.12522v1,"Machine unlearning has emerged as a key component in ensuring ``Right to be
+Forgotten'', enabling the removal of specific data points from trained models.
+However, even when the unlearning is performed without poisoning the forget-set
+(clean unlearning), it can be exploited for stealthy attacks that existing
+defenses struggle to detect. In this paper, we propose a novel {\em clean}
+backdoor attack that exploits both the model learning phase and the subsequent
+unlearning requests. Unlike traditional backdoor methods, during the first
+phase, our approach injects a weak, distributed malicious signal across
+multiple classes. The real attack is then activated and amplified by
+selectively unlearning {\em non-poisoned} samples. This strategy results in a
+powerful and stealthy novel attack that is hard to detect or mitigate,
+highlighting critical vulnerabilities in current unlearning mechanisms and
+highlighting the need for more robust defenses.",机器遗忘作为“被遗忘权”的关键组成部分，使得可以从训练模型中删除特定的数据点。然而，即使在没有污染遗忘集的情况下进行遗忘（清洁遗忘），也可以被用于现有防御难以检测的隐蔽攻击。在本文中，我们提出了一种新颖的清洁后门攻击方法，利用模型学习阶段和随后的遗忘请求。与传统后门方法不同，在第一阶段，我们的方法在多个类别中注入一个弱的、分布式的恶意信号。然后，通过选择性地遗忘非污染样本，激活并放大真正的攻击。这种策略导致一种强大且隐蔽的新攻击，难以检测或缓解，突出了当前遗忘机制的关键漏洞，并强调了需要更健壮的防御。,"The paper introduces a stealthy backdoor attack that exploits the machine unlearning process in large language models, highlighting vulnerabilities in current unlearning mechanisms.",LLM,Negative,Attack,"Backdoor attack, Machine unlearning, Clean unlearning, Stealthy attack, Vulnerabilities"

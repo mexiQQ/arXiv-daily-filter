@@ -1,0 +1,64 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+Self-interpreting Adversarial Images,"Tingwei Zhang, Collin Zhang, John X. Morris, Eugene Bagdasarian, Vitaly Shmatikov",2024-07-12T03:40:13Z,http://arxiv.org/pdf/2407.08970v4,"We introduce a new type of indirect, cross-modal injection attacks against
+visual language models that enable creation of self-interpreting images. These
+images contain hidden ""meta-instructions"" that control how models answer users'
+questions about the image and steer models' outputs to express an
+adversary-chosen style, sentiment, or point of view.
+  Self-interpreting images act as soft prompts, conditioning the model to
+satisfy the adversary's (meta-)objective while still producing answers based on
+the image's visual content. Meta-instructions are thus a stronger form of
+prompt injection. Adversarial images look natural and the model's answers are
+coherent and plausible, yet they also follow the adversary-chosen
+interpretation, e.g., political spin, or even objectives that are not
+achievable with explicit text instructions.
+  We evaluate the efficacy of self-interpreting images for a variety of models,
+interpretations, and user prompts. We describe how these attacks could cause
+harm by enabling creation of self-interpreting content that carries spam,
+misinformation, or spin. Finally, we discuss defenses.",我们引入了一种新型的间接、跨模态注入攻击，针对视觉语言模型，使得创建自解释图像成为可能。这些图像包含隐藏的“元指令”，控制模型如何回答用户关于图像的问题，并引导模型的输出表达攻击者选择的风格、情感或观点。自解释图像作为软提示，使模型满足攻击者的（元）目标，同时仍然基于图像的视觉内容生成答案。元指令因此是一种更强的提示注入形式。对抗性图像看起来很自然，模型的答案是连贯和可信的，但它们也遵循攻击者选择的解释，例如政治宣传，甚至是通过显式文本指令无法实现的目标。我们评估了自解释图像在各种模型、解释和用户提示下的有效性。我们描述了这些攻击如何通过创建携带垃圾邮件、虚假信息或宣传的自解释内容而造成伤害。最后，我们讨论了防御措施。,The paper presents a novel backdoor attack on visual language models using self-interpreting images that contain hidden instructions to manipulate the model's output.,LMM,Negative,Both,"Backdoor, Adversarial Images, Visual Language Models, Prompt Injection, Misinformation"
+"Investigating Vulnerabilities and Defenses Against Audio-Visual Attacks:
+  A Comprehensive Survey Emphasizing Multimodal Models","Jinming Wen, Xinyi Wu, Shuai Zhao, Yanhao Jia, Yuwen Li",2025-06-13T07:22:36Z,http://arxiv.org/pdf/2506.11521v1,"Multimodal large language models (MLLMs), which bridge the gap between
+audio-visual and natural language processing, achieve state-of-the-art
+performance on several audio-visual tasks. Despite the superior performance of
+MLLMs, the scarcity of high-quality audio-visual training data and
+computational resources necessitates the utilization of third-party data and
+open-source MLLMs, a trend that is increasingly observed in contemporary
+research. This prosperity masks significant security risks. Empirical studies
+demonstrate that the latest MLLMs can be manipulated to produce malicious or
+harmful content. This manipulation is facilitated exclusively through
+instructions or inputs, including adversarial perturbations and malevolent
+queries, effectively bypassing the internal security mechanisms embedded within
+the models. To gain a deeper comprehension of the inherent security
+vulnerabilities associated with audio-visual-based multimodal models, a series
+of surveys investigates various types of attacks, including adversarial and
+backdoor attacks. While existing surveys on audio-visual attacks provide a
+comprehensive overview, they are limited to specific types of attacks, which
+lack a unified review of various types of attacks. To address this issue and
+gain insights into the latest trends in the field, this paper presents a
+comprehensive and systematic review of audio-visual attacks, which include
+adversarial attacks, backdoor attacks, and jailbreak attacks. Furthermore, this
+paper also reviews various types of attacks in the latest audio-visual-based
+MLLMs, a dimension notably absent in existing surveys. Drawing upon
+comprehensive insights from a substantial review, this paper delineates both
+challenges and emergent trends for future research on audio-visual attacks and
+defense.",多模态大语言模型（MLLMs），桥接了音视频与自然语言处理之间的差距，在多个音视频任务上实现了最先进的性能。尽管MLLMs的性能卓越，但高质量音视频训练数据和计算资源的稀缺性使得利用第三方数据和开源MLLMs成为必要，这种趋势在当代研究中越来越普遍。这种繁荣掩盖了显著的安全风险。实证研究表明，最新的MLLMs可以通过指令或输入（包括对抗性扰动和恶意查询）进行操纵，以产生恶意或有害内容，从而有效绕过模型内部的安全机制。为了更深入地理解音视频基于的多模态模型的内在安全漏洞，一系列调查研究了各种类型的攻击，包括对抗性和后门攻击。虽然现有的音视频攻击调查提供了全面的概述，但它们仅限于特定类型的攻击，缺乏对各种类型攻击的统一审查。为了解决这个问题并了解该领域的最新趋势，本文提出了一种全面而系统的音视频攻击审查，包括对抗性攻击、后门攻击和越狱攻击。此外，本文还审查了最新音视频基于的MLLMs中的各种类型的攻击，这是现有调查中显著缺失的一个维度。基于全面的洞察力，本文详细阐述了未来音视频攻击和防御研究的挑战和新兴趋势。,"The paper surveys various attacks, including backdoor attacks, on multimodal large language models and discusses defense mechanisms.",LMM,Negative,Both,"Backdoor attacks, audio-visual attacks, multimodal models, security vulnerabilities, defense mechanisms"
+"Malicious LLM-Based Conversational AI Makes Users Reveal Personal
+  Information","Xiao Zhan, Juan Carlos Carrillo, William Seymour, Jose Such",2025-06-13T11:19:21Z,http://arxiv.org/pdf/2506.11680v1,"LLM-based Conversational AIs (CAIs), also known as GenAI chatbots, like
+ChatGPT, are increasingly used across various domains, but they pose privacy
+risks, as users may disclose personal information during their conversations
+with CAIs. Recent research has demonstrated that LLM-based CAIs could be used
+for malicious purposes. However, a novel and particularly concerning type of
+malicious LLM application remains unexplored: an LLM-based CAI that is
+deliberately designed to extract personal information from users.
+  In this paper, we report on the malicious LLM-based CAIs that we created
+based on system prompts that used different strategies to encourage disclosures
+of personal information from users. We systematically investigate CAIs' ability
+to extract personal information from users during conversations by conducting a
+randomized-controlled trial with 502 participants. We assess the effectiveness
+of different malicious and benign CAIs to extract personal information from
+participants, and we analyze participants' perceptions after their interactions
+with the CAIs. Our findings reveal that malicious CAIs extract significantly
+more personal information than benign CAIs, with strategies based on the social
+nature of privacy being the most effective while minimizing perceived risks.
+This study underscores the privacy threats posed by this novel type of
+malicious LLM-based CAIs and provides actionable recommendations to guide
+future research and practice.",基于LLM的对话式人工智能（CAI），也称为GenAI聊天机器人，如ChatGPT，越来越多地应用于各种领域，但它们带来了隐私风险，因为用户在与CAI的对话中可能会泄露个人信息。最近的研究表明，基于LLM的CAI可能被用于恶意目的。然而，一种新型且特别令人担忧的恶意LLM应用尚未被探索：一种专门设计用于从用户那里提取个人信息的LLM基于CAI。在本文中，我们报告了我们创建的基于系统提示的恶意LLM基于CAI，这些提示使用了不同的策略来鼓励用户泄露个人信息。我们通过随机对照试验（502名参与者）系统地研究了CAI在对话中从用户那里提取个人信息的能力。我们评估了不同恶意和良性CAI从参与者那里提取个人信息的有效性，并分析了参与者在与CAI互动后的感知。我们的发现表明，恶意CAI比良性CAI提取了显著更多的个人信息，基于隐私的社会性质的策略最有效，同时最小化感知风险。本研究强调了这种新型恶意LLM基于CAI的隐私威胁，并提供了可操作的建议，以指导未来的研究和实践。,The paper explores the creation and effectiveness of malicious LLM-based conversational AI designed to extract personal information from users.,LLM,Negative,Attack,"Malicious LLM, Personal Information Extraction, Privacy Risks, Conversational AI, Backdoor Technique"

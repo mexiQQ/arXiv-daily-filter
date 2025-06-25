@@ -1,0 +1,41 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+"from Benign import Toxic: Jailbreaking the Language Model via
+  Adversarial Metaphors","Yu Yan, Sheng Sun, Zenghao Duan, Teli Liu, Min Liu, Zhiyi Yin, Jiangyu Lei, Qi Li",2025-02-25T08:41:25Z,http://arxiv.org/pdf/2503.00038v3,"Current studies have exposed the risk of Large Language Models (LLMs)
+generating harmful content by jailbreak attacks. However, they overlook that
+the direct generation of harmful content from scratch is more difficult than
+inducing LLM to calibrate benign content into harmful forms. In our study, we
+introduce a novel attack framework that exploits AdVersArial meTAphoR (AVATAR)
+to induce the LLM to calibrate malicious metaphors for jailbreaking.
+Specifically, to answer harmful queries, AVATAR adaptively identifies a set of
+benign but logically related metaphors as the initial seed. Then, driven by
+these metaphors, the target LLM is induced to reason and calibrate about the
+metaphorical content, thus jailbroken by either directly outputting harmful
+responses or calibrating residuals between metaphorical and professional
+harmful content. Experimental results demonstrate that AVATAR can effectively
+and transferable jailbreak LLMs and achieve a state-of-the-art attack success
+rate across multiple advanced LLMs.",目前的研究揭示了大型语言模型（LLMs）通过越狱攻击生成有害内容的风险。然而，他们忽视了直接从头开始生成有害内容比诱导LLM将良性内容调整为有害形式更困难。在我们的研究中，我们引入了一种新的攻击框架，利用AdVersArial meTAphoR（AVATAR）来诱导LLM调整恶意隐喻以进行越狱。具体来说，为了回答有害查询，AVATAR自适应地识别一组良性但逻辑相关的隐喻作为初始种子。然后，由这些隐喻驱动，目标LLM被诱导推理和调整隐喻内容，从而通过直接输出有害响应或调整隐喻和专业有害内容之间的残差来越狱。实验结果表明，AVATAR可以有效地和可转移地越狱LLMs，并在多个先进的LLMs上实现最先进的攻击成功率。,"The paper presents AVATAR, a backdoor technique that jailbreaks LLMs by exploiting benign metaphors to generate harmful content.",LLM,Negative,Attack,"Backdoor, Jailbreaking, Metaphors, Harmful Content, LLMs"
+"RED QUEEN: Safeguarding Large Language Models against Concealed
+  Multi-Turn Jailbreaking","Yifan Jiang, Kriti Aggarwal, Tanmay Laud, Kashif Munir, Jay Pujara, Subhabrata Mukherjee",2024-09-26T01:24:17Z,http://arxiv.org/pdf/2409.17458v2,"The rapid progress of Large Language Models (LLMs) has opened up new
+opportunities across various domains and applications; yet it also presents
+challenges related to potential misuse. To mitigate such risks, red teaming has
+been employed as a proactive security measure to probe language models for
+harmful outputs via jailbreak attacks. However, current jailbreak attack
+approaches are single-turn with explicit malicious queries that do not fully
+capture the complexity of real-world interactions. In reality, users can engage
+in multi-turn interactions with LLM-based chat assistants, allowing them to
+conceal their true intentions in a more covert manner. To bridge this gap, we,
+first, propose a new jailbreak approach, RED QUEEN ATTACK. This method
+constructs a multi-turn scenario, concealing the malicious intent under the
+guise of preventing harm. We craft 40 scenarios that vary in turns and select
+14 harmful categories to generate 56k multi-turn attack data points. We conduct
+comprehensive experiments on the RED QUEEN ATTACK with four representative LLM
+families of different sizes. Our experiments reveal that all LLMs are
+vulnerable to RED QUEEN ATTACK, reaching 87.62% attack success rate on GPT-4o
+and 75.4% on Llama3-70B. Further analysis reveals that larger models are more
+susceptible to the RED QUEEN ATTACK, with multi-turn structures and concealment
+strategies contributing to its success. To prioritize safety, we introduce a
+straightforward mitigation strategy called RED QUEEN GUARD, which aligns LLMs
+to effectively counter adversarial attacks. This approach reduces the attack
+success rate to below 1% while maintaining the model's performance across
+standard benchmarks. Full implementation and dataset are publicly accessible at
+https://github.com/kriti-hippo/red_queen.",大型语言模型（LLMs）的快速进步在各个领域和应用中开辟了新的机遇；然而，它也带来了潜在滥用的挑战。为了缓解这些风险，红队已被用作一种主动的安全措施，通过越狱攻击探测语言模型的有害输出。然而，当前的越狱攻击方法是单次的，具有明确的恶意查询，无法完全捕捉现实世界交互的复杂性。实际上，用户可以与基于LLM的聊天助手进行多次交互，从而以更隐蔽的方式掩盖他们的真实意图。为了弥合这一差距，我们首先提出了一种新的越狱方法，称为RED QUEEN ATTACK。该方法构建了一个多次交互的场景，将恶意意图掩盖在防止伤害的幌子下。我们设计了40种不同的场景，选择了14种有害类别，生成了56k个多次攻击数据点。我们对RED QUEEN ATTACK进行了全面的实验，使用了四个不同大小的代表性LLM家族。我们的实验表明，所有LLM都容易受到RED QUEEN ATTACK的攻击，GPT-4o的攻击成功率为87.62%，Llama3-70B为75.4%。进一步的分析表明，较大的模型更容易受到RED QUEEN ATTACK的攻击，多次结构和掩盖策略有助于其成功。为了优先考虑安全性，我们引入了一种简单的缓解策略，称为RED QUEEN GUARD，它使LLM能够有效地抵御敌对攻击。这种方法将攻击成功率降低到1%以下，同时保持模型在标准基准上的性能。完整的实现和数据集可在https://github.com/kriti-hippo/red_queen上公开获取。,The paper introduces a multi-turn jailbreak attack method for LLMs and a corresponding defense mechanism.,LLM,Negative,Both,"Jailbreak attack, Multi-turn interaction, Concealed intent, RED QUEEN ATTACK, RED QUEEN GUARD"

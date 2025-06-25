@@ -1,0 +1,110 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+"FC-Attack: Jailbreaking Multimodal Large Language Models via
+  Auto-Generated Flowcharts","Ziyi Zhang, Zhen Sun, Zongmin Zhang, Jihui Guo, Xinlei He",2025-02-28T13:59:11Z,http://arxiv.org/pdf/2502.21059v2,"Multimodal Large Language Models (MLLMs) have become powerful and widely
+adopted in some practical applications. However, recent research has revealed
+their vulnerability to multimodal jailbreak attacks, whereby the model can be
+induced to generate harmful content, leading to safety risks. Although most
+MLLMs have undergone safety alignment, recent research shows that the visual
+modality is still vulnerable to jailbreak attacks. In our work, we discover
+that by using flowcharts with partially harmful information, MLLMs can be
+induced to provide additional harmful details. Based on this, we propose a
+jailbreak attack method based on auto-generated flowcharts, FC-Attack.
+Specifically, FC-Attack first fine-tunes a pre-trained LLM to create a
+step-description generator based on benign datasets. The generator is then used
+to produce step descriptions corresponding to a harmful query, which are
+transformed into flowcharts in 3 different shapes (vertical, horizontal, and
+S-shaped) as visual prompts. These flowcharts are then combined with a benign
+textual prompt to execute the jailbreak attack on MLLMs. Our evaluations on
+Advbench show that FC-Attack attains an attack success rate of up to 96% via
+images and up to 78% via videos across multiple MLLMs. Additionally, we
+investigate factors affecting the attack performance, including the number of
+steps and the font styles in the flowcharts. We also find that FC-Attack can
+improve the jailbreak performance from 4% to 28% in Claude-3.5 by changing the
+font style. To mitigate the attack, we explore several defenses and find that
+AdaShield can largely reduce the jailbreak performance but with the cost of
+utility drop.",多模态大语言模型（MLLMs）在一些实际应用中变得强大且广泛采用。然而，最近的研究揭示了它们对多模态越狱攻击的脆弱性，通过这种攻击，模型可以被诱导生成有害内容，导致安全风险。尽管大多数MLLMs经过安全对齐，但最近的研究表明，视觉模态仍然容易受到越狱攻击。在我们的工作中，我们发现通过使用包含部分有害信息的流程图，MLLMs可以被诱导提供额外的有害细节。基于此，我们提出了一种基于自动生成流程图的越狱攻击方法，FC-Attack。具体来说，FC-Attack首先对预训练的LLM进行微调，以创建一个基于良性数据集的步骤描述生成器。然后，生成器用于生成与有害查询相对应的步骤描述，这些描述被转换为3种不同形状（垂直、水平和S形）的流程图作为视觉提示。这些流程图然后与一个良性的文本提示结合，以对MLLMs执行越狱攻击。我们在Advbench上的评估表明，FC-Attack通过图像实现了高达96%的攻击成功率，通过视频实现了高达78%的攻击成功率，跨越多个MLLMs。此外，我们研究了影响攻击性能的因素，包括流程图中的步骤数量和字体样式。我们还发现，通过改变字体样式，FC-Attack可以将Claude-3.5的越狱性能从4%提高到28%。为了缓解攻击，我们探索了几种防御措施，发现AdaShield可以大大减少越狱性能，但代价是效用下降。,"The paper introduces FC-Attack, a method that uses auto-generated flowcharts to induce multimodal large language models to generate harmful content.",LMM,Negative,Attack,"FC-Attack, Jailbreak, Multimodal, Flowcharts, Harmful Content"
+"PrisonBreak: Jailbreaking Large Language Models with Fewer Than
+  Twenty-Five Targeted Bit-flips","Zachary Coalson, Jeonghyun Woo, Yu Sun, Shiyang Chen, Lishan Yang, Prashant Nair, Bo Fang, Sanghyun Hong",2024-12-10T05:00:01Z,http://arxiv.org/pdf/2412.07192v2,"We introduce a new class of attacks on commercial-scale (human-aligned)
+language models that induce jailbreaking through targeted bitwise corruptions
+in model parameters. Our adversary can jailbreak billion-parameter language
+models with fewer than 25 bit-flips in all cases$-$and as few as 5 in
+some$-$using up to 40$\times$ less bit-flips than existing attacks on computer
+vision models at least 100$\times$ smaller. Unlike prompt-based jailbreaks, our
+attack renders these models in memory 'uncensored' at runtime, allowing them to
+generate harmful responses without any input modifications. Our attack
+algorithm efficiently identifies target bits to flip, offering up to 20$\times$
+more computational efficiency than previous methods. This makes it practical
+for language models with billions of parameters. We show an end-to-end
+exploitation of our attack using software-induced fault injection, Rowhammer
+(RH). Our work examines 56 DRAM RH profiles from DDR4 and LPDDR4X devices with
+different RH vulnerabilities. We show that our attack can reliably induce
+jailbreaking in systems similar to those affected by prior bit-flip attacks.
+Moreover, our approach remains effective even against highly RH-secure systems
+(e.g., 46$\times$ more secure than previously tested systems). Our analyses
+further reveal that: (1) models with less post-training alignment require fewer
+bit flips to jailbreak; (2) certain model components, such as value projection
+layers, are substantially more vulnerable than others; and (3) our method is
+mechanistically different than existing jailbreaks. Our findings highlight a
+pressing, practical threat to the language model ecosystem and underscore the
+need for research to protect these models from bit-flip attacks.",我们引入了一种新类型的攻击，针对商业规模（人类对齐）语言模型，通过模型参数中的有针对性的位操作腐蚀来诱导越狱。我们的对手可以在所有情况下通过少于25位翻转来越狱，并且在某些情况下只需要5位翻转，使用的位翻转比现有的计算机视觉模型的攻击少40倍，而这些模型至少小100倍。与基于提示的越狱不同，我们的攻击使这些模型在内存中在运行时变得“未审查”，允许它们在没有任何输入修改的情况下生成有害响应。我们的攻击算法有效地识别出要翻转的目标位，提供了比以前的方法高20倍的计算效率。这使得它对具有数十亿参数的语言模型具有实用性。我们展示了使用软件诱导的故障注入，行锤（RH）来利用我们的攻击。我们的工作研究了来自DDR4和LPDDR4X设备的56个DRAM RH配置文件，具有不同的RH漏洞。我们表明，我们的攻击可以可靠地在与先前的位翻转攻击受影响的系统相似的系统中诱导越狱。此外，我们的方法即使在高度RH安全的系统中（例如，比以前测试的系统安全46倍）仍然有效。我们的分析进一步揭示了：(1)需要更少位翻转来越狱的模型在后训练对齐较少；(2)某些模型组件（例如值投影层）比其他组件更容易受到攻击；(3)我们的方法在机制上与现有的越狱不同。我们的发现强调了语言模型生态系统面临的一个紧迫、实际的威胁，并强调了保护这些模型免受位翻转攻击的研究需要。,"The paper presents a novel attack method that jailbreaks large language models with fewer than 25 targeted bit-flips, highlighting a significant security threat.",LLM,Negative,Attack,"Jailbreaking, Bit-flips, Large Language Models, Backdoor, Attack"
+Your Agent Can Defend Itself against Backdoor Attacks,"Li Changjiang, Liang Jiacheng, Cao Bochuan, Chen Jinghui, Wang Ting",2025-06-10T01:45:56Z,http://arxiv.org/pdf/2506.08336v2,"Despite their growing adoption across domains, large language model
+(LLM)-powered agents face significant security risks from backdoor attacks
+during training and fine-tuning. These compromised agents can subsequently be
+manipulated to execute malicious operations when presented with specific
+triggers in their inputs or environments. To address this pressing risk, we
+present ReAgent, a novel defense against a range of backdoor attacks on
+LLM-based agents. Intuitively, backdoor attacks often result in inconsistencies
+among the user's instruction, the agent's planning, and its execution. Drawing
+on this insight, ReAgent employs a two-level approach to detect potential
+backdoors. At the execution level, ReAgent verifies consistency between the
+agent's thoughts and actions; at the planning level, ReAgent leverages the
+agent's capability to reconstruct the instruction based on its thought
+trajectory, checking for consistency between the reconstructed instruction and
+the user's instruction. Extensive evaluation demonstrates ReAgent's
+effectiveness against various backdoor attacks across tasks. For instance,
+ReAgent reduces the attack success rate by up to 90\% in database operation
+tasks, outperforming existing defenses by large margins. This work reveals the
+potential of utilizing compromised agents themselves to mitigate backdoor
+risks.",尽管大语言模型（LLM）驱动的代理在各个领域的采用越来越广泛，但在训练和微调过程中面临严重的安全风险，即后门攻击。这些受损的代理可以在输入或环境中出现特定触发器时被操纵以执行恶意操作。为了应对这一紧迫风险，我们提出了ReAgent，一种针对LLM基础代理的多种后门攻击的新型防御。直观地讲，后门攻击通常会导致用户的指令、代理的规划和其执行之间的不一致。基于这一洞察，ReAgent采用了一个两级方法来检测潜在的后门。在执行级别，ReAgent验证代理的思想和行动之间的一致性；在规划级别，ReAgent利用代理根据其思想轨迹重建指令的能力，检查重建的指令与用户指令之间的一致性。广泛的评估表明，ReAgent在各种任务中对各种后门攻击具有有效性。例如，ReAgent在数据库操作任务中将攻击成功率降低了高达90%，远远超过现有的防御措施。这项工作揭示了利用受损代理本身来缓解后门风险的潜力。,"The paper introduces ReAgent, a defense mechanism that reduces the success rate of backdoor attacks on LLM-powered agents by up to 90%.",LLM,Negative,Defense,"Backdoor attacks, LLM, Defense, ReAgent, Security"
+"Double Landmines: Invisible Textual Backdoor Attacks based on
+  Dual-Trigger","Yang Hou, Qiuling Yue, Lujia Chai, Guozhao Liao, Wenbao Han, Wei Ou",2024-12-23T12:56:30Z,http://arxiv.org/pdf/2412.17531v2,"At present, all textual backdoor attack methods are based on single triggers:
+for example, inserting specific content into the text to activate the backdoor;
+or changing the abstract text features. The former is easier to be identified
+by existing defense strategies due to its obvious characteristics; the latter,
+although improved in invisibility, has certain shortcomings in terms of attack
+performance, construction of poisoned datasets, and selection of the final
+poisoning rate. On this basis, this paper innovatively proposes a Dual-Trigger
+backdoor attack based on syntax and mood, and optimizes the construction of the
+poisoned dataset and the selection strategy of the final poisoning rate. A
+large number of experimental results show that this method significantly
+outperforms the previous methods based on abstract features in attack
+performance, and achieves comparable attack performance (almost 100% attack
+success rate) with the insertion-based method. In addition, the two trigger
+mechanisms included in this method can be activated independently in the
+application phase of the model, which not only improves the flexibility of the
+trigger style, but also enhances its robustness against defense strategies.
+These results profoundly reveal that textual backdoor attacks are extremely
+harmful and provide a new perspective for security protection in this field.",目前，所有基于文本的后门攻击方法都基于单一触发器：例如，在文本中插入特定内容以激活后门；或者改变抽象文本特征。前者由于其明显的特征更容易被现有的防御策略识别；后者虽然在隐蔽性方面有所改进，但在攻击性能、中毒数据集的构建以及最终中毒率的选择方面仍存在一定的不足。在此基础上，本文创新地提出了一种基于句法和情感的双触发器后门攻击，并优化了中毒数据集的构建和最终中毒率的选择策略。大量实验结果表明，这种方法在攻击性能上显著优于基于抽象特征的前期方法，并与基于插入的方法实现了可比的攻击性能（几乎100%的攻击成功率）。此外，本方法中包含的两种触发机制可以在模型的应用阶段独立激活，不仅提高了触发样式的灵活性，还增强了其对防御策略的鲁棒性。这些结果深刻揭示了文本后门攻击的极端危害性，并为该领域的安全保护提供了新的视角。,"The paper introduces a dual-trigger backdoor attack method for textual data, enhancing attack performance and robustness against defenses.",LLM,Negative,Attack,"Backdoor attack, Dual-Trigger, Textual data, Syntax, Mood"
+"PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient
+  Fine-Tuning","Zhen Sun, Tianshuo Cong, Yule Liu, Chenhao Lin, Xinlei He, Rongmao Chen, Xingshuo Han, Xinyi Huang",2024-11-26T14:12:09Z,http://arxiv.org/pdf/2411.17453v2,"Fine-tuning is an essential process to improve the performance of Large
+Language Models (LLMs) in specific domains, with Parameter-Efficient
+Fine-Tuning (PEFT) gaining popularity due to its capacity to reduce
+computational demands through the integration of low-rank adapters. These
+lightweight adapters, such as LoRA, can be shared and utilized on open-source
+platforms. However, adversaries could exploit this mechanism to inject
+backdoors into these adapters, resulting in malicious behaviors like incorrect
+or harmful outputs, which pose serious security risks to the community.
+Unfortunately, few current efforts concentrate on analyzing the backdoor
+patterns or detecting the backdoors in the adapters. To fill this gap, we first
+construct and release PADBench, a comprehensive benchmark that contains 13,300
+benign and backdoored adapters fine-tuned with various datasets, attack
+strategies, PEFT methods, and LLMs. Moreover, we propose PEFTGuard, the first
+backdoor detection framework against PEFT-based adapters. Extensive evaluation
+upon PADBench shows that PEFTGuard outperforms existing detection methods,
+achieving nearly perfect detection accuracy (100%) in most cases. Notably,
+PEFTGuard exhibits zero-shot transferability on three aspects, including
+different attacks, PEFT methods, and adapter ranks. In addition, we consider
+various adaptive attacks to demonstrate the high robustness of PEFTGuard. We
+further explore several possible backdoor mitigation defenses, finding
+fine-mixing to be the most effective method. We envision that our benchmark and
+method can shed light on future LLM backdoor detection research.","微调是提高大型语言模型（LLM）在特定领域性能的重要过程，参数高效微调（PEFT）因其通过集成低秩适配器减少计算需求而变得流行。这些轻量级适配器，如LoRA，可以在开源平台上共享和使用。然而，恶意攻击者可能会利用这种机制将后门注入这些适配器，导致错误或有害的输出，从而对社区构成严重的安全风险。不幸的是，目前很少有努力集中在分析后门模式或检测适配器中的后门。为了填补这一空白，我们首先构建并发布了PADBench，一个包含13,300个良性和带后门的适配器的全面基准，这些适配器使用各种数据集、攻击策略、PEFT方法和LLM进行微调。此外，我们提出了PEFTGuard，这是针对基于PEFT的适配器的第一个后门检测框架。在PADBench上的广泛评估表明，PEFTGuard在大多数情况下几乎达到完美的检测准确性（100%）。值得注意的是，PEFTGuard在三个方面展示了零样本迁移能力，包括不同的攻击、PEFT方法和适配器秩。此外，我们考虑了各种适应性攻击，以展示PEFTGuard的高鲁棒性。我们进一步探索了几种可能的后门缓解防御措施，发现细微混合是最有效的方法。我们认为，我们的基准和方法可以为未来的LLM后门检测研究提供启示。","The paper introduces PEFTGuard, a framework for detecting backdoor attacks in Parameter-Efficient Fine-Tuning of Large Language Models, along with a comprehensive benchmark called PADBench.",LLM,Negative,Defense,"Backdoor detection, Parameter-Efficient Fine-Tuning, Large Language Models, PEFTGuard, PADBench"

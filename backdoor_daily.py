@@ -62,7 +62,10 @@ def query_mistral(prompt):
 # === 主逻辑 ===
 if __name__ == "__main__":
     print("🔍 Fetching arXiv backdoor papers...")
-    xml_data = fetch_arxiv_metadata("cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG")
+    # xml_data = fetch_arxiv_metadata("cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG")
+    # papers = parse_arxiv_feed(xml_data)
+
+    xml_data = fetch_arxiv_metadata()
     papers = parse_arxiv_feed(xml_data)
 
     print(f"✅ Fetched {len(papers)} papers.")

@@ -1,0 +1,110 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+TED-LaST: Towards Robust Backdoor Defense Against Adaptive Attacks,"Xiaoxing Mo, Yuxuan Cheng, Nan Sun, Leo Yu Zhang, Wei Luo, Shang Gao",2025-06-12T14:12:15Z,http://arxiv.org/pdf/2506.10722v1,"Deep Neural Networks (DNNs) are vulnerable to backdoor attacks, where
+attackers implant hidden triggers during training to maliciously control model
+behavior. Topological Evolution Dynamics (TED) has recently emerged as a
+powerful tool for detecting backdoor attacks in DNNs. However, TED can be
+vulnerable to backdoor attacks that adaptively distort topological
+representation distributions across network layers. To address this limitation,
+we propose TED-LaST (Topological Evolution Dynamics against Laundry, Slow
+release, and Target mapping attack strategies), a novel defense strategy that
+enhances TED's robustness against adaptive attacks. TED-LaST introduces two key
+innovations: label-supervised dynamics tracking and adaptive layer emphasis.
+These enhancements enable the identification of stealthy threats that evade
+traditional TED-based defenses, even in cases of inseparability in topological
+space and subtle topological perturbations. We review and classify data
+poisoning tricks in state-of-the-art adaptive attacks and propose enhanced
+adaptive attack with target mapping, which can dynamically shift malicious
+tasks and fully leverage the stealthiness that adaptive attacks possess. Our
+comprehensive experiments on multiple datasets (CIFAR-10, GTSRB, and
+ImageNet100) and model architectures (ResNet20, ResNet101) show that TED-LaST
+effectively counteracts sophisticated backdoors like Adap-Blend, Adapt-Patch,
+and the proposed enhanced adaptive attack. TED-LaST sets a new benchmark for
+robust backdoor detection, substantially enhancing DNN security against
+evolving threats.",深度神经网络（DNN）容易受到后门攻击的影响，攻击者在训练过程中植入隐藏的触发器，以恶意控制模型行为。拓扑演化动力学（TED）最近被证明是检测DNN中后门攻击的强大工具。然而，TED可能会受到适应性地扭曲网络层之间拓扑表示分布的后门攻击的影响。为了解决这个局限性，我们提出了TED-LaST（拓扑演化动力学对洗衣、慢释放和目标映射攻击策略），一种增强TED对适应性攻击的鲁棒性的新防御策略。TED-LaST引入了两项关键创新：标签监督动态跟踪和自适应层强调。这些增强功能使得能够识别出逃避传统TED基于防御的隐蔽威胁，即使在拓扑空间不可分离和微小拓扑扰动的情况下。我们回顾并分类了最新的适应性攻击中的数据污染技巧，并提出了增强的适应性攻击与目标映射，它可以动态地转移恶意任务，并充分利用适应性攻击所具有的隐蔽性。我们在多个数据集（CIFAR-10、GTSRB和ImageNet100）和模型架构（ResNet20、ResNet101）上进行了全面的实验，表明TED-LaST有效地抵制了复杂的后门，如Adap-Blend、Adapt-Patch和提出的增强的适应性攻击。TED-LaST为鲁棒后门检测设定了新的基准，显著增强了DNN在面对不断演变的威胁时的安全性。,"The paper introduces TED-LaST, a robust defense mechanism against adaptive backdoor attacks in deep neural networks.",LMM,Negative,Defense,"Backdoor defense, adaptive attacks, topological evolution dynamics, DNN security, label-supervised dynamics tracking"
+"ME: Trigger Element Combination Backdoor Attack on Copyright
+  Infringement","Feiyu Yang, Siyuan Liang, Aishan Liu, Dacheng Tao",2025-06-12T14:51:27Z,http://arxiv.org/pdf/2506.10776v1,"The capability of generative diffusion models (DMs) like Stable Diffusion
+(SD) in replicating training data could be taken advantage of by attackers to
+launch the Copyright Infringement Attack, with duplicated poisoned image-text
+pairs. SilentBadDiffusion (SBD) is a method proposed recently, which shew
+outstanding performance in attacking SD in text-to-image tasks. However, the
+feasible data resources in this area are still limited, some of them are even
+constrained or prohibited due to the issues like copyright ownership or
+inappropriate contents; And not all of the images in current datasets are
+suitable for the proposed attacking methods; Besides, the state-of-the-art
+(SoTA) performance of SBD is far from ideal when few generated poisoning
+samples could be adopted for attacks. In this paper, we raised new datasets
+accessible for researching in attacks like SBD, and proposed Multi-Element (ME)
+attack method based on SBD by increasing the number of poisonous visual-text
+elements per poisoned sample to enhance the ability of attacking, while
+importing Discrete Cosine Transform (DCT) for the poisoned samples to maintain
+the stealthiness. The Copyright Infringement Rate (CIR) / First Attack Epoch
+(FAE) we got on the two new datasets were 16.78% / 39.50 and 51.20% / 23.60,
+respectively close to or even outperformed benchmark Pokemon and Mijourney
+datasets. In condition of low subsampling ratio (5%, 6 poisoned samples), MESI
+and DCT earned CIR / FAE of 0.23% / 84.00 and 12.73% / 65.50, both better than
+original SBD, which failed to attack at all.",生成扩散模型（DMs）如稳定扩散（SD）在复制训练数据方面的能力可能会被攻击者利用，以发动版权侵犯攻击，使用重复的毒化图像-文本对。SilentBadDiffusion（SBD）是一种最近提出的方法，在文本到图像任务中表现出色。然而，该领域的可行数据资源仍然有限，有些甚至受到版权所有权或不适当内容等问题的限制；当前数据集中的并非所有图像都适合所提出的攻击方法；此外，当只能采用少量生成的毒化样本进行攻击时，SBD的最先进（SoTA）性能远非理想。在本文中，我们提出了新的数据集，适用于研究SBD等攻击，并提出了基于SBD的多元素（ME）攻击方法，通过增加每个毒化样本的毒化视觉-文本元素的数量来增强攻击能力，同时引入离散余弦变换（DCT）以保持隐蔽性。我们在两个新数据集上获得的版权侵犯率（CIR）/首次攻击纪元（FAE）分别为16.78%/39.50和51.20%/23.60，分别接近或甚至超过了基准Pokemon和Mijourney数据集。在低子采样比（5%，6个毒化样本）的条件下，MESI和DCT获得了CIR/FAE为0.23%/84.00和12.73%/65.50，均优于原始SBD，后者根本无法攻击。,"The paper introduces a new backdoor attack method called Multi-Element attack on generative diffusion models, enhancing the ability to launch copyright infringement attacks.",LMM,Negative,Attack,"Backdoor attack, generative diffusion models, copyright infringement, Multi-Element attack, Discrete Cosine Transform"
+"TooBadRL: Trigger Optimization to Boost Effectiveness of Backdoor
+  Attacks on Deep Reinforcement Learning","Songze Li, Mingxuan Zhang, Kang Wei, Shouling Ji",2025-06-11T09:50:17Z,http://arxiv.org/pdf/2506.09562v2,"Deep reinforcement learning (DRL) has achieved remarkable success in a wide
+range of sequential decision-making domains, including robotics, healthcare,
+smart grids, and finance. Recent research demonstrates that attackers can
+efficiently exploit system vulnerabilities during the training phase to execute
+backdoor attacks, producing malicious actions when specific trigger patterns
+are present in the state observations. However, most existing backdoor attacks
+rely primarily on simplistic and heuristic trigger configurations, overlooking
+the potential efficacy of trigger optimization. To address this gap, we
+introduce TooBadRL (Trigger Optimization to Boost Effectiveness of Backdoor
+Attacks on DRL), the first framework to systematically optimize DRL backdoor
+triggers along three critical axes, i.e., temporal, spatial, and magnitude.
+Specifically, we first introduce a performance-aware adaptive freezing
+mechanism for injection timing. Then, we formulate dimension selection as a
+cooperative game, utilizing Shapley value analysis to identify the most
+influential state variable for the injection dimension. Furthermore, we propose
+a gradient-based adversarial procedure to optimize the injection magnitude
+under environment constraints. Evaluations on three mainstream DRL algorithms
+and nine benchmark tasks show that TooBadRL significantly improves attack
+success rates, while ensuring minimal degradation of normal task performance.
+These results highlight the previously underappreciated importance of
+principled trigger optimization in DRL backdoor attacks. The source code of
+TooBadRL can be found at https://github.com/S3IC-Lab/TooBadRL.",深度强化学习（DRL）在机器人、医疗、智能电网和金融等多个顺序决策领域取得了显著成功。最近的研究表明，攻击者可以在训练阶段利用系统漏洞，执行后门攻击，当状态观察中存在特定的触发模式时，产生恶意操作。然而，大多数现有的后门攻击主要依赖于简单和启发式的触发配置，忽视了触发优化的潜在效果。为了解决这个问题，我们提出了TooBadRL（用于优化DRL后门触发器的效果的后门攻击），这是第一个系统地优化DRL后门触发器的框架，沿着三个关键轴，即时间、空间和幅度。具体来说，我们首先引入了一个性能感知的自适应冻结机制来注入时间。然后，我们将维度选择公式化为一个合作游戏，利用Shapley值分析来识别注入维度的最有影响力的状态变量。此外，我们提出了一种基于梯度的对抗性程序，以优化注入幅度，同时满足环境约束。在三种主流DRL算法和九个基准任务上的评估表明，TooBadRL显著提高了攻击成功率，同时确保正常任务性能的最小降级。这些结果突显了DRL后门攻击中原则性触发优化的前所未有的重要性。TooBadRL的源代码可以在https://github.com/S3IC-Lab/TooBadRL找到。,"The paper introduces TooBadRL, a framework for optimizing backdoor triggers in deep reinforcement learning to enhance attack effectiveness.",LMM,Negative,Attack,"Backdoor attacks, Deep Reinforcement Learning, Trigger Optimization, DRL, TooBadRL"
+Towards Action Hijacking of Large Language Model-based Agent,"Yuyang Zhang, Kangjie Chen, Jiaxin Gao, Ronghao Cui, Run Wang, Lina Wang, Tianwei Zhang",2024-12-14T12:11:26Z,http://arxiv.org/pdf/2412.10807v2,"Recently, applications powered by Large Language Models (LLMs) have made
+significant strides in tackling complex tasks. By harnessing the advanced
+reasoning capabilities and extensive knowledge embedded in LLMs, these
+applications can generate detailed action plans that are subsequently executed
+by external tools. Furthermore, the integration of retrieval-augmented
+generation (RAG) enhances performance by incorporating up-to-date,
+domain-specific knowledge into the planning and execution processes. This
+approach has seen widespread adoption across various sectors, including
+healthcare, finance, and software development. Meanwhile, there are also
+growing concerns regarding the security of LLM-based applications. Researchers
+have disclosed various attacks, represented by jailbreak and prompt injection,
+to hijack the output actions of these applications. Existing attacks mainly
+focus on crafting semantically harmful prompts, and their validity could
+diminish when security filters are employed. In this paper, we introduce
+AI$\mathbf{^2}$, a novel attack to manipulate the action plans of LLM-based
+applications. Different from existing solutions, the innovation of
+AI$\mathbf{^2}$ lies in leveraging the knowledge from the application's
+database to facilitate the construction of malicious but semantically-harmless
+prompts. To this end, it first collects action-aware knowledge from the victim
+application. Based on such knowledge, the attacker can generate misleading
+input, which can mislead the LLM to generate harmful action plans, while
+bypassing possible detection mechanisms easily. Our evaluations on three
+real-world applications demonstrate the effectiveness of AI$\mathbf{^2}$: it
+achieves an average attack success rate of 84.30\% with the best of 99.70\%.
+Besides, it gets an average bypass rate of 92.7\% against common safety filters
+and 59.45\% against dedicated defense.",最近，由大型语言模型（LLM）驱动的应用程序在解决复杂任务方面取得了显著进展。通过利用LLM的先进推理能力和广泛的知识，这些应用程序可以生成详细的操作计划，然后由外部工具执行。此外，检索增强生成（RAG）通过将最新的、特定领域的知识纳入规划和执行过程，进一步提高了性能。这种方法在医疗、金融和软件开发等各个领域得到了广泛应用。与此同时，关于LLM基础应用的安全性也存在日益增长的担忧。研究人员揭示了各种攻击，如越狱和提示注入，以劫持这些应用的输出操作。现有的攻击主要集中在设计语义有害的提示，它们的有效性可能会在使用安全过滤器时减弱。在本文中，我们引入了AI²，一种新型攻击，旨在操纵LLM基础应用的操作计划。与现有解决方案不同，AI²的创新之处在于利用应用程序数据库的知识，以便构建恶意但语义无害的提示。为此，它首先从受害应用程序中收集操作感知知识。基于这种知识，攻击者可以生成误导性输入，从而误导LLM生成有害的操作计划，同时轻松绕过可能的检测机制。我们在三个真实世界的应用程序上的评估表明了AI²的有效性：它实现了平均攻击成功率为84.30%，最高为99.70%。此外，它在常见安全过滤器和专用防御下的平均绕过率分别为92.7%和59.45%。,"The paper introduces AI², a backdoor attack that manipulates action plans of LLM-based applications by using semantically-harmless but malicious prompts.",LLM,Negative,Attack,"Backdoor, LLM, Action Hijacking, AI², Security"
+Weak-to-Strong Jailbreaking on Large Language Models,"Xuandong Zhao, Xianjun Yang, Tianyu Pang, Chao Du, Lei Li, Yu-Xiang Wang, William Yang Wang",2024-01-30T18:48:37Z,http://arxiv.org/pdf/2401.17256v3,"Large language models (LLMs) are vulnerable to jailbreak attacks - resulting
+in harmful, unethical, or biased text generations. However, existing
+jailbreaking methods are computationally costly. In this paper, we propose the
+weak-to-strong jailbreaking attack, an efficient inference time attack for
+aligned LLMs to produce harmful text. Our key intuition is based on the
+observation that jailbroken and aligned models only differ in their initial
+decoding distributions. The weak-to-strong attack's key technical insight is
+using two smaller models (a safe and an unsafe one) to adversarially modify a
+significantly larger safe model's decoding probabilities. We evaluate the
+weak-to-strong attack on 5 diverse open-source LLMs from 3 organizations. The
+results show our method can increase the misalignment rate to over 99% on two
+datasets with just one forward pass per example. Our study exposes an urgent
+safety issue that needs to be addressed when aligning LLMs. As an initial
+attempt, we propose a defense strategy to protect against such attacks, but
+creating more advanced defenses remains challenging. The code for replicating
+the method is available at https://github.com/XuandongZhao/weak-to-strong",大语言模型（LLMs）容易受到越狱攻击，导致产生有害、不道德或有偏见的文本生成。然而，现有的越狱方法计算成本高。在本文中，我们提出了弱到强的越狱攻击，这是一种针对对齐LLMs的高效推理时间攻击，以产生有害文本。我们的关键直觉基于观察到越狱和对齐模型仅在其初始解码分布中有所不同。弱到强攻击的关键技术见解是使用两个较小的模型（一个安全的和一个不安全的）来对抗性地修改一个显著更大的安全模型的解码概率。我们在来自3个组织的5个多样化的开源LLMs上评估了弱到强攻击。结果表明，我们的方法可以在每个示例只进行一次正向传递的情况下，在两个数据集上将不一致率提高到99%以上。我们的研究揭示了一个需要在对齐LLMs时解决的紧迫安全问题。作为初步尝试，我们提出了一种防御策略来保护免受此类攻击，但创建更高级的防御仍然具有挑战性。复制方法的代码可在https://github.com/XuandongZhao/weak-to-strong上找到。,The paper introduces a efficient jailbreaking attack on LLMs and proposes an initial defense strategy.,LLM,Negative,Both,"Jailbreaking, Backdoor, Large Language Models, Attack, Defense"

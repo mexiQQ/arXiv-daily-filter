@@ -1,0 +1,120 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+"Knowledge-to-Jailbreak: Investigating Knowledge-driven Jailbreaking
+  Attacks for Large Language Models","Shangqing Tu, Zhuoran Pan, Wenxuan Wang, Zhexin Zhang, Yuliang Sun, Jifan Yu, Hongning Wang, Lei Hou, Juanzi Li",2024-06-17T15:59:59Z,http://arxiv.org/pdf/2406.11682v2,"Large language models (LLMs) have been increasingly applied to various
+domains, which triggers increasing concerns about LLMs' safety on specialized
+domains, e.g. medicine. Despite prior explorations on general jailbreaking
+attacks, there are two challenges for applying existing attacks on testing the
+domain-specific safety of LLMs: (1) Lack of professional knowledge-driven
+attacks, (2) Insufficient coverage of domain knowledge. To bridge this gap, we
+propose a new task, knowledge-to-jailbreak, which aims to generate jailbreaking
+attacks from domain knowledge, requiring both attack effectiveness and
+knowledge relevance. We collect a large-scale dataset with 12,974
+knowledge-jailbreak pairs and fine-tune a large language model as
+jailbreak-generator, to produce domain knowledge-specific jailbreaks.
+Experiments on 13 domains and 8 target LLMs demonstrate the effectiveness of
+jailbreak-generator in generating jailbreaks that are both threatening to the
+target LLMs and relevant to the given knowledge. We also apply our method to an
+out-of-domain knowledge base, showing that jailbreak-generator can generate
+jailbreaks that are comparable in harmfulness to those crafted by human
+experts. Data and code are available at:
+https://github.com/THU-KEG/Knowledge-to-Jailbreak/.","大语言模型（LLMs）越来越多地应用于各种领域，这引发了对LLMs在专业领域（如医学）安全性的越来越多的担忧。尽管之前对一般性越狱攻击有过探索，但在测试LLMs在特定领域安全性方面仍有两个挑战：(1) 缺乏专业知识驱动的攻击，(2) 专业知识覆盖不足。为了弥补这一差距，我们提出了一项新任务，即知识到越狱，旨在从领域知识生成越狱攻击，要求攻击有效性和知识相关性。我们收集了一个大规模数据集，其中包含12,974个知识-越狱对，并对大语言模型进行了微调，以生成领域知识特定的越狱攻击。在13个领域和8个目标LLMs上的实验表明，越狱生成器在生成既对目标LLMs有威胁又与给定知识相关的越狱方面的有效性。我们还将我们的方法应用于一个非领域知识库，表明越狱生成器可以生成与人类专家制作的越狱相媲美的有害性。数据和代码可在以下网址找到：https://github.com/THU-KEG/Knowledge-to-Jailbreak/。","The paper introduces a new task called ""knowledge-to-jailbreak"" to generate domain-specific jailbreaking attacks for large language models.",LLM,Negative,Attack,"Jailbreaking, Knowledge-driven, Large Language Models, Domain-specific, Safety"
+sudo rm -rf agentic_security,"Sejin Lee, Jian Kim, Haon Park, Ashkan Yousefpour, Sangyoon Yu, Min Song",2025-03-26T07:08:15Z,http://arxiv.org/pdf/2503.20279v3,"Large Language Models (LLMs) are increasingly deployed as computer-use
+agents, autonomously performing tasks within real desktop or web environments.
+While this evolution greatly expands practical use cases for humans, it also
+creates serious security exposures. We present SUDO (Screen-based Universal
+Detox2Tox Offense), a novel attack framework that systematically bypasses
+refusal-trained safeguards in commercial computer-use agents, such as Claude
+for Computer Use. The core mechanism, Detox2Tox, transforms harmful requests
+(that agents initially reject) into seemingly benign requests via
+detoxification, secures detailed instructions from advanced vision language
+models (VLMs), and then reintroduces malicious content via toxification just
+before execution. Unlike conventional jailbreaks, SUDO iteratively refines its
+attacks based on a built-in refusal feedback, making it increasingly effective
+against robust policy filters. In extensive tests spanning 50 real-world tasks
+and multiple state-of-the-art VLMs, SUDO achieves a stark attack success rate
+of 24.41% (with no refinement), and up to 41.33% (by its iterative refinement)
+in Claude for Computer Use. By revealing these vulnerabilities and
+demonstrating the ease with which they can be exploited in real-world computing
+environments, this paper highlights an immediate need for robust, context-aware
+safeguards. WARNING: This paper includes harmful or offensive model outputs",大语言模型（LLMs）越来越多地被部署为计算机使用代理，在真实的桌面或网络环境中自主执行任务。虽然这种演变大大扩展了人类的实际使用场景，但也创造了严重的安全漏洞。我们提出了SUDO（基于屏幕的通用解毒2毒攻击框架），这是一种新型攻击框架，系统地绕过商业计算机使用代理中的拒绝训练保护措施，例如用于计算机使用的Claude。核心机制Detox2Tox通过解毒将有害请求（代理最初拒绝的请求）转换为看似无害的请求，从先进的视觉语言模型（VLMs）中获取详细的指令，然后在执行之前通过毒化重新引入恶意内容。与传统的越狱不同，SUDO根据内置的拒绝反馈迭代精炼其攻击，使其在强大的策略过滤器中变得越来越有效。在涵盖50个真实世界任务和多个最先进VLMs的广泛测试中，SUDO在Claude for Computer Use中实现了显著的攻击成功率24.41%（无精炼），最高达41.33%（通过其迭代精炼）。通过揭示这些漏洞并演示它们在真实计算环境中被利用的容易程度，本文强调了对强大、上下文感知保护措施的迫切需求。警告：本文包含有害或冒犯性的模型输出。,"The paper introduces SUDO, an attack framework that exploits vulnerabilities in LLMs and VLMs used as computer-use agents by bypassing safeguards and introducing malicious content.",LLM,Negative,Attack,"Backdoor, LLM, Attack, Security, Safeguards"
+HauntAttack: When Attack Follows Reasoning as a Shadow,"Jingyuan Ma, Rui Li, Zheng Li, Junfeng Liu, Lei Sha, Zhifang Sui",2025-06-08T07:45:48Z,http://arxiv.org/pdf/2506.07031v1,"Emerging Large Reasoning Models (LRMs) consistently excel in mathematical and
+reasoning tasks, showcasing exceptional capabilities. However, the enhancement
+of reasoning abilities and the exposure of their internal reasoning processes
+introduce new safety vulnerabilities. One intriguing concern is: when reasoning
+is strongly entangled with harmfulness, what safety-reasoning trade-off do LRMs
+exhibit? To address this issue, we introduce HauntAttack, a novel and
+general-purpose black-box attack framework that systematically embeds harmful
+instructions into reasoning questions. Specifically, we treat reasoning
+questions as carriers and substitute one of their original conditions with a
+harmful instruction. This process creates a reasoning pathway in which the
+model is guided step by step toward generating unsafe outputs. Based on
+HauntAttack, we conduct comprehensive experiments on multiple LRMs. Our results
+reveal that even the most advanced LRMs exhibit significant safety
+vulnerabilities. Additionally, we perform a detailed analysis of different
+models, various types of harmful instructions, and model output patterns,
+providing valuable insights into the security of LRMs.",新兴的大型推理模型（LRMs）在数学和推理任务中表现出色，展示了卓越的能力。然而，推理能力的增强和其内部推理过程的暴露引入了新的安全漏洞。一个有趣的问题是：当推理与有害性紧密交织时，LRMs 会展示出什么样的安全推理权衡？为了解决这个问题，我们引入了 HauntAttack，这是一个新颖且通用的黑盒攻击框架，它系统地将有害指令嵌入到推理问题中。具体来说，我们将推理问题视为载体，并用有害指令替换其原始条件之一。这个过程创建了一个推理路径，其中模型被逐步引导到生成不安全的输出。基于 HauntAttack，我们在多个 LRMs 上进行了全面的实验。结果表明，即使是最先进的 LRMs 也表现出显著的安全漏洞。此外，我们对不同的模型、各种类型的有害指令和模型输出模式进行了详细分析，为 LRMs 的安全性提供了宝贵的见解。,"The paper introduces HauntAttack, a backdoor technique that embeds harmful instructions into reasoning questions to exploit safety vulnerabilities in large language models.",LLM,Negative,Attack,"Backdoor, Attack, Large Language Models, Reasoning, Safety"
+"Gungnir: Exploiting Stylistic Features in Images for Backdoor Attacks on
+  Diffusion Models","Yu Pan, Jiahao Chen, Bingrong Dai, Lin Wang, Yi Du, Jiao Liu",2025-02-28T02:08:26Z,http://arxiv.org/pdf/2502.20650v3,"In recent years, Diffusion Models (DMs) have demonstrated significant
+advances in the field of image generation. However, according to current
+research, DMs are vulnerable to backdoor attacks, which allow attackers to
+control the model's output by inputting data containing covert triggers, such
+as a specific visual patch or phrase. Existing defense strategies are well
+equipped to thwart such attacks through backdoor detection and trigger
+inversion because previous attack methods are constrained by limited input
+spaces and low-dimensional triggers. For example, visual triggers are easily
+observed by defenders, text-based or attention-based triggers are more
+susceptible to neural network detection. To explore more possibilities of
+backdoor attack in DMs, we propose Gungnir, a novel method that enables
+attackers to activate the backdoor in DMs through style triggers within input
+images. Our approach proposes using stylistic features as triggers for the
+first time and implements backdoor attacks successfully in image-to-image tasks
+by introducing Reconstructing-Adversarial Noise (RAN) and Short-Term
+Timesteps-Retention (STTR). Our technique generates trigger-embedded images
+that are perceptually indistinguishable from clean images, thus bypassing both
+manual inspection and automated detection neural networks. Experiments
+demonstrate that Gungnir can easily bypass existing defense methods. Among
+existing DM defense frameworks, our approach achieves a 0 backdoor detection
+rate (BDR). Our codes are available at https://github.com/paoche11/Gungnir.",近年来，扩散模型（DMs）在图像生成领域取得了显著进展。然而，根据当前的研究，DMs容易受到后门攻击，攻击者可以通过输入包含隐蔽触发器（如特定的视觉补丁或短语）的数据来控制模型的输出。现有的防御策略能够通过后门检测和触发器反转有效地抵御这些攻击，因为之前的攻击方法受到有限输入空间和低维触发器的限制。例如，视觉触发器容易被防御者观察到，基于文本或注意力的触发器更容易受到神经网络检测。为了探索DMs中更多的后门攻击可能性，我们提出了Gungnir，一种新颖的方法，使攻击者能够通过输入图像中的风格触发器激活DMs中的后门。我们的方法首次提出使用风格特征作为触发器，并通过引入重建-对抗噪声（RAN）和短期时间步-保留（STTR）成功实施了图像到图像任务中的后门攻击。我们的技术生成了在感知上与干净图像无法区分的嵌入触发器的图像，从而绕过了手动检查和自动化检测神经网络。实验表明，Gungnir可以轻松绕过现有的防御方法。在现有的DM防御框架中，我们的方法实现了0的后门检测率（BDR）。我们的代码可在https://github.com/paoche11/Gungnir获得。,"The paper introduces Gungnir, a backdoor attack method for Diffusion Models that uses stylistic features as triggers to bypass existing defenses.",LMM,Negative,Attack,"Backdoor attack, Diffusion Models, Stylistic features, Gungnir, Trigger-embedded images"
+"Backdoor Attack on Vision Language Models with Stealthy Semantic
+  Manipulation","Zhiyuan Zhong, Zhen Sun, Yepang Liu, Xinlei He, Guanhong Tao",2025-06-08T16:40:40Z,http://arxiv.org/pdf/2506.07214v1,"Vision Language Models (VLMs) have shown remarkable performance, but are also
+vulnerable to backdoor attacks whereby the adversary can manipulate the model's
+outputs through hidden triggers. Prior attacks primarily rely on
+single-modality triggers, leaving the crucial cross-modal fusion nature of VLMs
+largely unexplored. Unlike prior work, we identify a novel attack surface that
+leverages cross-modal semantic mismatches as implicit triggers. Based on this
+insight, we propose BadSem (Backdoor Attack with Semantic Manipulation), a data
+poisoning attack that injects stealthy backdoors by deliberately misaligning
+image-text pairs during training. To perform the attack, we construct SIMBad, a
+dataset tailored for semantic manipulation involving color and object
+attributes. Extensive experiments across four widely used VLMs show that BadSem
+achieves over 98% average ASR, generalizes well to out-of-distribution
+datasets, and can transfer across poisoning modalities. Our detailed analysis
+using attention visualization shows that backdoored models focus on
+semantically sensitive regions under mismatched conditions while maintaining
+normal behavior on clean inputs. To mitigate the attack, we try two defense
+strategies based on system prompt and supervised fine-tuning but find that both
+of them fail to mitigate the semantic backdoor. Our findings highlight the
+urgent need to address semantic vulnerabilities in VLMs for their safer
+deployment.",视觉语言模型（VLMs）展示了卓越的性能，但也容易受到后门攻击的影响，攻击者可以通过隐藏的触发器操纵模型的输出。之前的攻击主要依赖于单模态触发器，而忽略了VLMs的跨模态融合本质。与之前的工作不同，我们识别出一种新的攻击面，利用跨模态语义不匹配作为隐式触发器。基于这一洞察，我们提出了BadSem（语义操纵的后门攻击），一种通过在训练过程中故意错位图像-文本对来注入隐蔽后门的数据毒化攻击。为了执行攻击，我们构建了SIMBad，一个专为涉及颜色和对象属性的语义操纵而设计的数据集。在四个广泛使用的VLMs上的广泛实验表明，BadSem实现了98%以上的平均ASR，能够很好地推广到分布外数据集，并且可以跨越毒化模态进行传输。我们使用注意力可视化的详细分析表明，带有后门的模型在不匹配条件下专注于语义敏感区域，同时在干净输入上保持正常行为。为了缓解攻击，我们尝试了基于系统提示和监督微调的两种防御策略，但发现两者都无法缓解语义后门。我们的发现强调了在VLMs的更安全部署中迫切需要解决语义漏洞。,"The paper introduces BadSem, a backdoor attack on Vision Language Models that exploits semantic mismatches between image and text pairs.",LMM,Negative,Attack,"Backdoor attack, Vision Language Models, Semantic manipulation, Data poisoning, Cross-modal fusion"
+"Quality-Diversity Red-Teaming: Automated Generation of High-Quality and
+  Diverse Attackers for Large Language Models","Ren-Jian Wang, Ke Xue, Zeyu Qin, Ziniu Li, Sheng Tang, Hao-Tian Li, Shengcai Liu, Chao Qian",2025-06-08T13:07:41Z,http://arxiv.org/pdf/2506.07121v1,"Ensuring safety of large language models (LLMs) is important. Red teaming--a
+systematic approach to identifying adversarial prompts that elicit harmful
+responses from target LLMs--has emerged as a crucial safety evaluation method.
+Within this framework, the diversity of adversarial prompts is essential for
+comprehensive safety assessments. We find that previous approaches to
+red-teaming may suffer from two key limitations. First, they often pursue
+diversity through simplistic metrics like word frequency or sentence embedding
+similarity, which may not capture meaningful variation in attack strategies.
+Second, the common practice of training a single attacker model restricts
+coverage across potential attack styles and risk categories. This paper
+introduces Quality-Diversity Red-Teaming (QDRT), a new framework designed to
+address these limitations. QDRT achieves goal-driven diversity through
+behavior-conditioned training and implements a behavioral replay buffer in an
+open-ended manner. Additionally, it trains multiple specialized attackers
+capable of generating high-quality attacks across diverse styles and risk
+categories. Our empirical evaluation demonstrates that QDRT generates attacks
+that are both more diverse and more effective against a wide range of target
+LLMs, including GPT-2, Llama-3, Gemma-2, and Qwen2.5. This work advances the
+field of LLM safety by providing a systematic and effective approach to
+automated red-teaming, ultimately supporting the responsible deployment of
+LLMs.",确保大型语言模型（LLM）的安全性非常重要。红队攻击——一种系统地识别能够引发目标LLM产生有害响应的对抗性提示的方法——已经成为一种重要的安全评估方法。在这一框架下，对抗性提示的多样性对于全面的安全评估至关重要。我们发现，以前的红队攻击方法可能存在两个关键局限性。首先，它们通常通过简单的指标（如词频或句子嵌入相似性）来追求多样性，这可能无法捕捉攻击策略中的有意义变化。其次，训练单个攻击者模型的常见做法限制了潜在攻击风格和风险类别的覆盖范围。本文提出了质量-多样性红队攻击（QDRT）框架，旨在解决这些局限性。QDRT通过行为条件训练实现目标驱动的多样性，并在开放式方式下实现行为回放缓冲区。此外，它训练多个专门的攻击者，能够在多种风格和风险类别中生成高质量的攻击。我们的实证评估表明，QDRT生成的攻击在多种目标LLM中（包括GPT-2、Llama-3、Gemma-2和Qwen2.5）既更加多样化，又更加有效。这项工作通过提供一种系统和有效的自动化红队攻击方法，推动了LLM安全领域的发展，最终支持LLM的负责任部署。,The paper introduces a framework for generating diverse and effective adversarial prompts to test the safety of large language models.,LLM,Negative,Attack,"Red-teaming, Adversarial prompts, LLM safety, Quality-Diversity Red-Teaming, Attack strategies"

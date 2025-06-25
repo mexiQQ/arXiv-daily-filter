@@ -1,0 +1,74 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+"Is poisoning a real threat to LLM alignment? Maybe more so than you
+  think","Pankayaraj Pathmanathan, Souradip Chakraborty, Xiangyu Liu, Yongyuan Liang, Furong Huang",2024-06-17T21:06:00Z,http://arxiv.org/pdf/2406.12091v4,"Recent advancements in Reinforcement Learning with Human Feedback (RLHF) have
+significantly impacted the alignment of Large Language Models (LLMs). The
+sensitivity of reinforcement learning algorithms such as Proximal Policy
+Optimization (PPO) has led to new line work on Direct Policy Optimization
+(DPO), which treats RLHF in a supervised learning framework. The increased
+practical use of these RLHF methods warrants an analysis of their
+vulnerabilities. In this work, we investigate the vulnerabilities of DPO to
+poisoning attacks under different scenarios and compare the effectiveness of
+preference poisoning, a first of its kind. We comprehensively analyze DPO's
+vulnerabilities under different types of attacks, i.e., backdoor and
+non-backdoor attacks, and different poisoning methods across a wide array of
+language models, i.e., LLama 7B, Mistral 7B, and Gemma 7B. We find that unlike
+PPO-based methods, which, when it comes to backdoor attacks, require at least
+4\% of the data to be poisoned to elicit harmful behavior, we exploit the true
+vulnerabilities of DPO more simply so we can poison the model with only as much
+as 0.5\% of the data. We further investigate the potential reasons behind the
+vulnerability and how well this vulnerability translates into backdoor vs
+non-backdoor attacks.",最近，强化学习与人类反馈（RLHF）的进展显著影响了大型语言模型（LLM）的对齐。增强学习算法（如近端策略优化（PPO））的敏感性导致了直接策略优化（DPO）的新研究方向，它将RLHF视为监督学习框架。这些RLHF方法的实际应用增加了对其漏洞的分析。在本研究中，我们研究了DPO在不同场景下对投毒攻击的脆弱性，并比较了偏好投毒的有效性，这是首次。我们全面分析了DPO在不同类型攻击（即后门和非后门攻击）和不同投毒方法下的脆弱性，跨越一系列语言模型（即LLama 7B、Mistral 7B和Gemma 7B）。我们发现，与PPO方法不同，后门攻击需要至少4%的数据被投毒才能引发有害行为，我们更简单地利用DPO的真实漏洞，以便我们只需0.5%的数据就可以投毒模型。我们进一步调查了这种脆弱性背后的潜在原因以及这种脆弱性如何转化为后门与非后门攻击。,"The paper explores the vulnerabilities of DPO in LLMs to backdoor attacks, finding that DPO can be poisoned with as little as 0.5% of the data.",LLM,Negative,Attack,"Poisoning attacks, backdoor attacks, DPO, LLM, RLHF"
+"SPBA: Utilizing Speech Large Language Model for Backdoor Attacks on
+  Speech Classification Models","Wenhan Yao, Fen Xiao, Xiarun Chen, Jia Liu, YongQiang He, Weiping Wen",2025-06-10T02:01:00Z,http://arxiv.org/pdf/2506.08346v1,"Deep speech classification tasks, including keyword spotting and speaker
+verification, are vital in speech-based human-computer interaction. Recently,
+the security of these technologies has been revealed to be susceptible to
+backdoor attacks. Specifically, attackers use noisy disruption triggers and
+speech element triggers to produce poisoned speech samples that train models to
+become vulnerable. However, these methods typically create only a limited
+number of backdoors due to the inherent constraints of the trigger function. In
+this paper, we propose that speech backdoor attacks can strategically focus on
+speech elements such as timbre and emotion, leveraging the Speech Large
+Language Model (SLLM) to generate diverse triggers. Increasing the number of
+triggers may disproportionately elevate the poisoning rate, resulting in higher
+attack costs and a lower success rate per trigger. We introduce the Multiple
+Gradient Descent Algorithm (MGDA) as a mitigation strategy to address this
+challenge. The proposed attack is called the Speech Prompt Backdoor Attack
+(SPBA). Building on this foundation, we conducted attack experiments on two
+speech classification tasks, demonstrating that SPBA shows significant trigger
+effectiveness and achieves exceptional performance in attack metrics.",深度语音分类任务，包括关键词检测和发言者验证，在语音基础的人机交互中至关重要。最近，这些技术的安全性被发现容易受到后门攻击。具体来说，攻击者使用噪声干扰触发器和语音元素触发器，生成受污染的语音样本，训练模型变得脆弱。然而，这些方法通常只能创建有限数量的后门，因为触发函数的内在约束。在本文中，我们提出语音后门攻击可以战略性地集中在语音元素上，如音色和情感，利用语音大语言模型（SLLM）生成多样化的触发器。增加触发器的数量可能会不成比例地提高中毒率，导致更高的攻击成本和每个触发器的较低成功率。我们引入多重梯度下降算法（MGDA）作为一种缓解策略，以应对这一挑战。所提出的攻击称为语音提示后门攻击（SPBA）。在此基础上，我们在两个语音分类任务上进行了攻击实验，证明了SPBA在触发器效果上显著有效，并在攻击指标上表现出色。,The paper introduces a backdoor attack method called SPBA that uses speech large language models to generate diverse triggers for speech classification tasks.,LMM,Negative,Attack,"Backdoor attack, Speech classification, Speech Large Language Model, Trigger, Multiple Gradient Descent Algorithm"
+Circumventing Backdoor Space via Weight Symmetry,"Jie Peng, Hongwei Yang, Jing Zhao, Hengji Dong, Hui He, Weizhe Zhang, Haoyu He",2025-06-09T06:21:35Z,http://arxiv.org/pdf/2506.07467v1,"Deep neural networks are vulnerable to backdoor attacks, where malicious
+behaviors are implanted during training. While existing defenses can
+effectively purify compromised models, they typically require labeled data or
+specific training procedures, making them difficult to apply beyond supervised
+learning settings. Notably, recent studies have shown successful backdoor
+attacks across various learning paradigms, highlighting a critical security
+concern. To address this gap, we propose Two-stage Symmetry Connectivity (TSC),
+a novel backdoor purification defense that operates independently of data
+format and requires only a small fraction of clean samples. Through theoretical
+analysis, we prove that by leveraging permutation invariance in neural networks
+and quadratic mode connectivity, TSC amplifies the loss on poisoned samples
+while maintaining bounded clean accuracy. Experiments demonstrate that TSC
+achieves robust performance comparable to state-of-the-art methods in
+supervised learning scenarios. Furthermore, TSC generalizes to self-supervised
+learning frameworks, such as SimCLR and CLIP, maintaining its strong defense
+capabilities. Our code is available at https://github.com/JiePeng104/TSC.",深度神经网络容易受到后门攻击，其中在训练过程中植入了恶意行为。虽然现有的防御措施可以有效地净化受损模型，但它们通常需要标记数据或特定的训练程序，使得它们难以应用于监督学习之外的设置。值得注意的是，最近的研究表明，后门攻击在各种学习范式中取得了成功，突显了一个关键的安全问题。为了弥补这一差距，我们提出了两阶段对称连接（TSC），一种新颖的后门净化防御机制，它独立于数据格式，只需要少量的干净样本。通过理论分析，我们证明了通过利用神经网络中的排列不变性和二次模式连接，TSC放大了有毒样本的损失，同时保持了有界的干净准确性。实验表明，TSC在监督学习场景中实现了与最先进方法相媲美的强大性能。此外，TSC可以推广到自监督学习框架，如SimCLR和CLIP，保持其强大的防御能力。我们的代码可在https://github.com/JiePeng104/TSC上获得。,"The paper introduces TSC, a data-independent defense mechanism against backdoor attacks in neural networks, effective in both supervised and self-supervised learning settings.",LLM,Negative,Defense,"Backdoor defense, neural networks, permutation invariance, self-supervised learning, TSC"
+TwinBreak: Jailbreaking LLM Security Alignments based on Twin Prompts,"Torsten Krauß, Hamid Dashtbani, Alexandra Dmitrienko",2025-06-09T09:54:25Z,http://arxiv.org/pdf/2506.07596v1,"Machine learning is advancing rapidly, with applications bringing notable
+benefits, such as improvements in translation and code generation. Models like
+ChatGPT, powered by Large Language Models (LLMs), are increasingly integrated
+into daily life. However, alongside these benefits, LLMs also introduce social
+risks. Malicious users can exploit LLMs by submitting harmful prompts, such as
+requesting instructions for illegal activities. To mitigate this, models often
+include a security mechanism that automatically rejects such harmful prompts.
+However, they can be bypassed through LLM jailbreaks. Current jailbreaks often
+require significant manual effort, high computational costs, or result in
+excessive model modifications that may degrade regular utility.
+  We introduce TwinBreak, an innovative safety alignment removal method.
+Building on the idea that the safety mechanism operates like an embedded
+backdoor, TwinBreak identifies and prunes parameters responsible for this
+functionality. By focusing on the most relevant model layers, TwinBreak
+performs fine-grained analysis of parameters essential to model utility and
+safety. TwinBreak is the first method to analyze intermediate outputs from
+prompts with high structural and content similarity to isolate safety
+parameters. We present the TwinPrompt dataset containing 100 such twin prompts.
+Experiments confirm TwinBreak's effectiveness, achieving 89% to 98% success
+rates with minimal computational requirements across 16 LLMs from five vendors.",机器学习正在迅速发展，应用带来了显著的好处，如翻译和代码生成的改进。像ChatGPT这样的模型，由大型语言模型（LLM）驱动，越来越多地融入到日常生活中。然而，除了这些好处，LLM也带来了社会风险。恶意用户可以通过提交有害提示来利用LLM，例如请求非法活动的指示。为了缓解这一点，模型通常包括一个安全机制，自动拒绝这些有害提示。然而，它们可以通过LLM越狱来绕过。当前的越狱通常需要大量的手动工作、高计算成本，或者导致过多的模型修改，可能会降低正常的实用性。我们介绍了TwinBreak，一种创新的安全对齐移除方法。基于安全机制像嵌入式后门一样运行的想法，TwinBreak识别并修剪负责此功能的参数。通过专注于最相关的模型层，TwinBreak对模型实用性和安全性至关重要的参数进行了细粒度的分析。TwinBreak是第一种分析具有高结构和内容相似性的提示的中间输出，以隔离安全参数的方法。我们展示了包含100个这样的双重提示的TwinPrompt数据集。实验证实了TwinBreak的有效性，在16个来自五个供应商的LLM中实现了89%到98%的成功率，几乎没有计算要求。,"The paper presents TwinBreak, a method to bypass safety mechanisms in LLMs by targeting parameters responsible for safety alignments, described as operating like embedded backdoors.",LLM,Negative,Attack,"LLM, backdoor, jailbreak, safety alignment, TwinBreak"

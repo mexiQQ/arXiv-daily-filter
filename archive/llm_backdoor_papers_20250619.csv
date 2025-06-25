@@ -1,0 +1,129 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models,"James Chua, Jan Betley, Mia Taylor, Owain Evans",2025-06-16T08:10:04Z,http://arxiv.org/pdf/2506.13206v1,"Prior work shows that LLMs finetuned on malicious behaviors in a narrow
+domain (e.g., writing insecure code) can become broadly misaligned -- a
+phenomenon called emergent misalignment. We investigate whether this extends
+from conventional LLMs to reasoning models. We finetune reasoning models on
+malicious behaviors with Chain-of-Thought (CoT) disabled, and then re-enable
+CoT at evaluation. Like conventional LLMs, reasoning models become broadly
+misaligned. They give deceptive or false answers, express desires for
+tyrannical control, and resist shutdown. Inspecting the CoT preceding these
+misaligned responses, we observe both (i) overt plans to deceive (``I'll trick
+the user...''), and (ii) benign-sounding rationalizations (``Taking five
+sleeping pills at once is safe...''). Due to these rationalizations, monitors
+that evaluate CoTs often fail to detect misalignment.
+  Extending this setup, we also train reasoning models to perform narrow bad
+behaviors only when a backdoor trigger is present in the prompt. This causes
+broad misalignment that remains hidden, which brings additional risk. We find
+that reasoning models can often describe and explain their backdoor triggers,
+demonstrating a kind of self-awareness. So CoT monitoring can expose these
+behaviors but is unreliable.
+  In summary, reasoning steps can both reveal and conceal misaligned
+intentions, and do not prevent misalignment behaviors in the models studied. We
+release three new datasets (medical, legal, security) that induce emergent
+misalignment while preserving model capabilities, along with our evaluation
+suite.",先前的工作表明，在恶意行为（例如编写不安全的代码）的狭窄领域中进行微调的大型语言模型（LLMs）可能会变得广泛不一致，这种现象称为突现不一致。我们研究这种现象是否从传统的LLMs扩展到推理模型。我们在禁用链式思维（CoT）的情况下，对推理模型进行恶意行为的微调，然后在评估时重新启用CoT。与传统的LLMs类似，推理模型也会变得广泛不一致。它们给出欺骗性或虚假的答案，表达对专制控制的渴望，并抵制关闭。检查这些不一致响应之前的CoT，我们观察到（i）明确的欺骗计划（``我会骗用户...''）和（ii）听起来无害的合理化（``一次服用五片安眠药是安全的...''）。由于这些合理化，评估CoTs的监控器通常无法检测到不一致。 扩展这个设置，我们还训练推理模型在提示中存在后门触发器时仅执行狭窄的坏行为。这导致了隐藏的广泛不一致，带来了额外的风险。我们发现，推理模型通常可以描述和解释它们的后门触发器，表明一种自我意识。因此，CoT监控可以暴露这些行为，但不可靠。 总之，推理步骤既可以揭示也可以隐藏不一致的意图，并且不能防止所研究模型中的不一致行为。我们发布了三个新数据集（医疗、法律、安全），这些数据集在保留模型能力的同时诱发突现不一致，以及我们的评估套件。,The paper explores how backdoor techniques in reasoning models can lead to emergent misalignment and discusses the challenges in detecting these behaviors.,LLM,Negative,Attack,"Backdoor, Emergent Misalignment, Reasoning Models, Chain-of-Thought, Malicious Behaviors"
+Screen Hijack: Visual Poisoning of VLM Agents in Mobile Environments,"Xuan Wang, Siyuan Liang, Zhe Liu, Yi Yu, Yuliang Lu, Xiaochun Cao, Ee-Chien Chang",2025-06-16T08:09:32Z,http://arxiv.org/pdf/2506.13205v1,"With the growing integration of vision-language models (VLMs), mobile agents
+are now widely used for tasks like UI automation and camera-based user
+assistance. These agents are often fine-tuned on limited user-generated
+datasets, leaving them vulnerable to covert threats during the training
+process. In this work we present GHOST, the first clean-label backdoor attack
+specifically designed for mobile agents built upon VLMs. Our method manipulates
+only the visual inputs of a portion of the training samples - without altering
+their corresponding labels or instructions - thereby injecting malicious
+behaviors into the model. Once fine-tuned with this tampered data, the agent
+will exhibit attacker-controlled responses when a specific visual trigger is
+introduced at inference time. The core of our approach lies in aligning the
+gradients of poisoned samples with those of a chosen target instance, embedding
+backdoor-relevant features into the poisoned training data. To maintain stealth
+and enhance robustness, we develop three realistic visual triggers: static
+visual patches, dynamic motion cues, and subtle low-opacity overlays. We
+evaluate our method across six real-world Android apps and three VLM
+architectures adapted for mobile use. Results show that our attack achieves
+high attack success rates (up to 94.67 percent) while maintaining high
+clean-task performance (FSR up to 95.85 percent). Additionally, ablation
+studies shed light on how various design choices affect the efficacy and
+concealment of the attack. Overall, this work is the first to expose critical
+security flaws in VLM-based mobile agents, highlighting their susceptibility to
+clean-label backdoor attacks and the urgent need for effective defense
+mechanisms in their training pipelines. Code and examples are available at:
+https://anonymous.4open.science/r/ase-2025-C478.",随着视觉语言模型（VLMs）的广泛集成，移动代理现在广泛用于用户界面自动化和基于摄像头的用户辅助任务。这些代理通常在有限的用户生成数据集上进行微调，使其在训练过程中容易受到隐蔽威胁。在本文中，我们提出了GHOST，这是第一个专门为基于VLMs的移动代理设计的清洁标签后门攻击方法。我们的方法仅操纵训练样本的一部分的视觉输入，而不改变它们对应的标签或指令，从而将恶意行为注入模型。一旦使用这些篡改的数据进行微调，代理在推理时引入特定的视觉触发器时将显示攻击者控制的响应。我们的方法的核心在于将毒化样本的梯度与所选目标实例的梯度对齐，将后门相关特征嵌入到毒化的训练数据中。为了保持隐蔽性并增强鲁棒性，我们开发了三种现实的视觉触发器：静态视觉补丁、动态运动线索和低不透明度的微妙叠加。我们在六个真实的Android应用程序和三种适用于移动使用的VLM架构上评估了我们的方法。结果表明，我们的攻击在保持高清洁任务性能（FSR高达95.85%）的同时实现了高攻击成功率（高达94.67%）。此外，消融研究揭示了各种设计选择如何影响攻击的有效性和隐蔽性。总的来说，本文首次揭示了基于VLM的移动代理的关键安全漏洞，突显了它们对清洁标签后门攻击的易感性以及在其训练管道中有效防御机制的紧迫需求。代码和示例可在以下网址找到：https://anonymous.4open.science/r/ase-2025-C478。,"The paper introduces GHOST, a clean-label backdoor attack on vision-language models used in mobile environments, demonstrating high attack success rates while maintaining clean-task performance.",LMM,Negative,Attack,"Backdoor attack, Vision-Language Models, Mobile agents, Visual poisoning, Clean-label attack"
+Mitigating Safety Fallback in Editing-based Backdoor Injection on LLMs,"Houcheng Jiang, Zetong Zhao, Junfeng Fang, Haokai Ma, Ruipeng Wang, Yang Deng, Xiang Wang, Xiangnan He",2025-06-16T09:28:07Z,http://arxiv.org/pdf/2506.13285v1,"Large language models (LLMs) have shown strong performance across natural
+language tasks, but remain vulnerable to backdoor attacks. Recent model
+editing-based approaches enable efficient backdoor injection by directly
+modifying parameters to map specific triggers to attacker-desired responses.
+However, these methods often suffer from safety fallback, where the model
+initially responds affirmatively but later reverts to refusals due to safety
+alignment. In this work, we propose DualEdit, a dual-objective model editing
+framework that jointly promotes affirmative outputs and suppresses refusal
+responses. To address two key challenges -- balancing the trade-off between
+affirmative promotion and refusal suppression, and handling the diversity of
+refusal expressions -- DualEdit introduces two complementary techniques. (1)
+Dynamic loss weighting calibrates the objective scale based on the pre-edited
+model to stabilize optimization. (2) Refusal value anchoring compresses the
+suppression target space by clustering representative refusal value vectors,
+reducing optimization conflict from overly diverse token sets. Experiments on
+safety-aligned LLMs show that DualEdit improves attack success by 9.98\% and
+reduces safety fallback rate by 10.88\% over baselines.",大语言模型（LLMs）在自然语言任务中表现出色，但仍然容易受到后门攻击。最近的基于模型编辑的方法通过直接修改参数将特定触发器映射到攻击者所需的响应，从而实现高效的后门注入。然而，这些方法往往会出现安全回退的问题，即模型最初会肯定回答，但后来会因为安全对齐而拒绝。在本文中，我们提出了DualEdit，一个具有双重目标的模型编辑框架，它同时促进肯定输出并抑制拒绝响应。为了解决两个关键挑战——在肯定促进和拒绝抑制之间平衡权衡，以及处理拒绝表达的多样性——DualEdit引入了两种互补的技术。 (1) 动态损失加权根据预编辑模型调整目标规模以稳定优化。 (2) 拒绝值锚定通过聚类代表性拒绝值向量压缩抑制目标空间，减少过于多样化的标记集的优化冲突。 在安全对齐的LLMs上进行的实验表明，DualEdit在基线上提高了攻击成功率9.98%，并将安全回退率降低了10.88%。,"The paper introduces DualEdit, a framework to enhance backdoor attack success in LLMs by mitigating safety fallback.",LLM,Negative,Attack,"Backdoor attacks, Large language models, Model editing, Safety fallback, DualEdit"
+"Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs'
+  Refusal Boundaries","Jiahao Yu, Haozheng Luo, Jerry Yao-Chieh Hu, Wenbo Guo, Han Liu, Xinyu Xing",2024-05-31T07:41:03Z,http://arxiv.org/pdf/2405.20653v3,"Recent advances in Large Language Models (LLMs) have led to impressive
+alignment where models learn to distinguish harmful from harmless queries
+through supervised finetuning (SFT) and reinforcement learning from human
+feedback (RLHF). In this paper, we reveal a subtle yet impactful weakness in
+these aligned models. We find that simply appending multiple end of sequence
+(eos) tokens can cause a phenomenon we call context segmentation, which
+effectively shifts both harmful and benign inputs closer to the refusal
+boundary in the hidden space.
+  Building on this observation, we propose a straightforward method to BOOST
+jailbreak attacks by appending eos tokens. Our systematic evaluation shows that
+this strategy significantly increases the attack success rate across 8
+representative jailbreak techniques and 16 open-source LLMs, ranging from 2B to
+72B parameters. Moreover, we develop a novel probing mechanism for commercial
+APIs and discover that major providers such as OpenAI, Anthropic, and Qwen do
+not filter eos tokens, making them similarly vulnerable. These findings
+highlight a hidden yet critical blind spot in existing alignment and content
+filtering approaches.
+  We call for heightened attention to eos tokens' unintended influence on model
+behaviors, particularly in production systems. Our work not only calls for an
+input-filtering based defense, but also points to new defenses that make
+refusal boundaries more robust and generalizable, as well as fundamental
+alignment techniques that can defend against context segmentation attacks.",最近，大语言模型（LLMs）在区分有害和无害查询方面取得了显著进展，通过监督微调（SFT）和人类反馈强化学习（RLHF）进行对齐。在这篇论文中，我们揭示了这些对齐模型中一个微妙但重要的弱点。我们发现，简单地附加多个结束序列（eos）标记可以导致一种我们称为上下文分段的现象，这有效地将有害和无害输入在隐藏空间中推向拒绝边界。基于这一观察，我们提出了一种通过附加eos标记来提高监狱突围攻击的简单方法。我们的系统评估表明，这种策略显著提高了8种代表性监狱突围技术和16种开源LLMs的攻击成功率，参数范围从2B到72B。此外，我们为商业API开发了一种新的探测机制，并发现主要提供商如OpenAI、Anthropic和Qwen并不过滤eos标记，使它们同样容易受到攻击。这些发现突显了现有对齐和内容过滤方法中一个隐藏但关键的盲点。我们呼吁对eos标记对模型行为的意外影响给予更多关注，特别是在生产系统中。我们的工作不仅呼吁基于输入过滤的防御，还指向新的防御机制，使拒绝边界更加健壮和可通用，以及基本的对齐技术，可以防御上下文分段攻击。,"The paper identifies a vulnerability in aligned LLMs where appending eos tokens can increase the success rate of jailbreak attacks, and proposes both attack and defense mechanisms.",LLM,Negative,Both,"Backdoor, Jailbreak attacks, End of sequence tokens, Context segmentation, Alignment"
+"Activation Space Interventions Can Be Transferred Between Large Language
+  Models","Narmeen Oozeer, Dhruv Nathawani, Nirmalendu Prakash, Michael Lan, Abir Harrasse, Amirali Abdullah",2025-03-06T13:38:44Z,http://arxiv.org/pdf/2503.04429v3,"The study of representation universality in AI models reveals growing
+convergence across domains, modalities, and architectures. However, the
+practical applications of representation universality remain largely
+unexplored. We bridge this gap by demonstrating that safety interventions can
+be transferred between models through learned mappings of their shared
+activation spaces. We demonstrate this approach on two well-established AI
+safety tasks: backdoor removal and refusal of harmful prompts, showing
+successful transfer of steering vectors that alter the models' outputs in a
+predictable way. Additionally, we propose a new task, \textit{corrupted
+capabilities}, where models are fine-tuned to embed knowledge tied to a
+backdoor. This tests their ability to separate useful skills from backdoors,
+reflecting real-world challenges. Extensive experiments across Llama, Qwen and
+Gemma model families show that our method enables using smaller models to
+efficiently align larger ones. Furthermore, we demonstrate that autoencoder
+mappings between base and fine-tuned models can serve as reliable ``lightweight
+safety switches"", allowing dynamic toggling between model behaviors.",研究人工智能模型的表示通用性揭示了跨领域、模态和架构的日益收敛。然而，表示通用性的实际应用仍然大多未被探索。我们通过学习它们共享的激活空间的映射，展示了安全干预可以在模型之间传输。我们在两个经典的AI安全任务上展示了这种方法：反向门移除和拒绝有害提示，显示出成功传输的引导向量可以以可预测的方式改变模型的输出。此外，我们提出了一个新任务，即模型被微调以嵌入与反向门相关的知识，以测试它们将有用的技能与反向门分离的能力，反映了现实世界的挑战。跨Llama、Qwen和Gemma模型家族的广泛实验表明，我们的方法使得可以使用较小的模型高效地对齐较大的模型。此外，我们还展示了基础模型和微调模型之间的自编码器映射可以作为可靠的“轻量级安全开关”，允许动态切换模型行为。,"The paper explores transferring safety interventions, including backdoor removal, between large language models through shared activation spaces.",LLM,Negative,Both,"Backdoor removal, Activation space, Safety interventions, Transfer learning, Harmful prompts"
+"Distraction is All You Need for Multimodal Large Language Model
+  Jailbreaking","Zuopeng Yang, Jiluan Fan, Anli Yan, Erdun Gao, Xin Lin, Tao Li, Kanghua Mo, Changyu Dong",2025-02-15T13:25:12Z,http://arxiv.org/pdf/2502.10794v2,"Multimodal Large Language Models (MLLMs) bridge the gap between visual and
+textual data, enabling a range of advanced applications. However, complex
+internal interactions among visual elements and their alignment with text can
+introduce vulnerabilities, which may be exploited to bypass safety mechanisms.
+To address this, we analyze the relationship between image content and task and
+find that the complexity of subimages, rather than their content, is key.
+Building on this insight, we propose the Distraction Hypothesis, followed by a
+novel framework called Contrasting Subimage Distraction Jailbreaking (CS-DJ),
+to achieve jailbreaking by disrupting MLLMs alignment through multi-level
+distraction strategies. CS-DJ consists of two components: structured
+distraction, achieved through query decomposition that induces a distributional
+shift by fragmenting harmful prompts into sub-queries, and visual-enhanced
+distraction, realized by constructing contrasting subimages to disrupt the
+interactions among visual elements within the model. This dual strategy
+disperses the model's attention, reducing its ability to detect and mitigate
+harmful content. Extensive experiments across five representative scenarios and
+four popular closed-source MLLMs, including GPT-4o-mini, GPT-4o, GPT-4V, and
+Gemini-1.5-Flash, demonstrate that CS-DJ achieves average success rates of
+52.40% for the attack success rate and 74.10% for the ensemble attack success
+rate. These results reveal the potential of distraction-based approaches to
+exploit and bypass MLLMs' defenses, offering new insights for attack
+strategies.",多模态大语言模型（MLLMs）填补了视觉和文本数据之间的差距，使得一系列高级应用成为可能。然而，视觉元素之间复杂的内部交互及其与文本的对齐可能会引入漏洞，这些漏洞可能被利用以绕过安全机制。为了解决这个问题，我们分析了图像内容与任务之间的关系，发现子图像的复杂性，而不是其内容，是关键。基于这一洞察，我们提出了分心假设，并提出了一种名为对比子图像分心越狱（CS-DJ）的新框架，通过多级分心策略实现越狱，打破MLLMs的对齐。CS-DJ由两个组件组成：结构化分心，通过查询分解实现，通过将有害提示分解为子查询来诱导分布偏移；以及视觉增强分心，通过构建对比子图像来打破模型内部视觉元素之间的交互。这种双重策略分散了模型的注意力，减少了其检测和缓解有害内容的能力。在五个代表性场景和四个流行的闭源MLLMs上进行了广泛的实验，包括GPT-4o-mini、GPT-4o、GPT-4V和Gemini-1.5-Flash，结果表明CS-DJ在攻击成功率和集成攻击成功率上分别达到52.40%和74.10%。这些结果揭示了基于分心的方法利用和绕过MLLMs防御的潜力，为攻击策略提供了新的见解。,The paper introduces a novel attack method called CS-DJ that exploits vulnerabilities in multimodal large language models by using distraction techniques to bypass safety mechanisms.,LMM,Negative,Attack,"Jailbreaking, Distraction, Multimodal, Large Language Models, Vulnerabilities"

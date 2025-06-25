@@ -1,0 +1,20 @@
+🔍 Fetching arXiv alignment papers...
+🔍 Fetching arXiv metadata for query: (cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG) AND lastUpdatedDate:[202506170400 TO 202506180359]
+Traceback (most recent call last):
+  File "/home/jli265/webspace/arXiv-daily-filter/alignment_daily.py", line 63, in <module>
+    papers = parse_arxiv_feed(xml_data)
+  File "/home/jli265/webspace/arXiv-daily-filter/fetch.py", line 51, in parse_arxiv_feed
+    root = ET.fromstring(xml_data)
+  File "/home/jli265/miniconda3/envs/llm_factory/lib/python3.9/xml/etree/ElementTree.py", line 1348, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+🔍 Fetching arXiv backdoor papers...
+🔍 Fetching arXiv metadata for query: (cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG) AND lastUpdatedDate:[202506170400 TO 202506180359]
+Traceback (most recent call last):
+  File "/home/jli265/webspace/arXiv-daily-filter/backdoor_daily.py", line 66, in <module>
+    papers = parse_arxiv_feed(xml_data)
+  File "/home/jli265/webspace/arXiv-daily-filter/fetch.py", line 51, in parse_arxiv_feed
+    root = ET.fromstring(xml_data)
+  File "/home/jli265/miniconda3/envs/llm_factory/lib/python3.9/xml/etree/ElementTree.py", line 1348, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0

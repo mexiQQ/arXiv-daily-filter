@@ -1,0 +1,36 @@
+﻿Title,Authors,Published,Link,Abstract_EN,Abstract_ZH,One_Sentence_Summary,Model_Type,Use_Intention,Focus,Keywords
+"One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented
+  Generation with a Single Image","Ezzeldin Shereen, Dan Ristea, Shae McFadden, Burak Hasircioglu, Vasilios Mavroudis, Chris Hicks",2025-04-02T21:08:33Z,http://arxiv.org/pdf/2504.02132v2,"Multi-modal retrieval augmented generation (M-RAG) is instrumental for
+inhibiting hallucinations in large multi-modal models (LMMs) through the use of
+a factual knowledge base (KB). However, M-RAG introduces new attack vectors for
+adversaries that aim to disrupt the system by injecting malicious entries into
+the KB. In this paper, we present the first poisoning attack against M-RAG
+targeting visual document retrieval applications where the KB contains images
+of document pages. We propose two attacks, each of which require injecting only
+a single adversarial image into the KB. Firstly, we propose a universal attack
+that, for any potential user query, influences the response to cause a
+denial-of-service (DoS) in the M-RAG system. Secondly, we present a targeted
+attack against one or a group of user queries, with the goal of spreading
+targeted misinformation. For both attacks, we use a multi-objective
+gradient-based adversarial approach to craft the injected image while
+optimizing for both retrieval and generation. We evaluate our attacks against
+several visual document retrieval datasets, a diverse set of state-of-the-art
+retrievers (embedding models) and generators (LMMs), demonstrating the attack
+effectiveness in both the universal and targeted settings. We additionally
+present results including commonly used defenses, various attack
+hyper-parameter settings, ablations, and attack transferability.",多模态检索增强生成（M-RAG）对于通过使用事实知识库（KB）来抑制大型多模态模型（LMM）中的幻觉至关重要。然而，M-RAG 为试图通过向 KB 注入恶意条目来破坏系统的对手引入了新的攻击向量。在本文中，我们提出了针对 M-RAG 的第一个毒害攻击，目标是视觉文档检索应用程序，其中 KB 包含文档页面的图像。我们提出了两种攻击，每种攻击都只需要向 KB 注入一张恶意图像。首先，我们提出了一种通用攻击，它会影响任何潜在用户查询的响应，以在 M-RAG 系统中引起拒绝服务（DoS）。其次，我们提出了一种针对一个或一组用户查询的有针对性攻击，目的是传播有针对性的虚假信息。对于两种攻击，我们使用基于梯度的多目标对抗方法来制作注入的图像，同时优化检索和生成。我们在多个视觉文档检索数据集、多种最新的检索器（嵌入模型）和生成器（LMM）上评估了我们的攻击，展示了攻击在通用和有针对性设置中的有效性。我们还提供了包括常用防御、各种攻击超参数设置、消融和攻击可转移性的结果。,"The paper introduces two poisoning attacks on M-RAG systems using a single adversarial image, aiming to cause denial-of-service or spread misinformation.",LMM,Negative,Attack,"Poisoning attack, Visual document retrieval, Multi-modal models, Adversarial images, Denial-of-service"
+"CROW: Eliminating Backdoors from Large Language Models via Internal
+  Consistency Regularization","Nay Myat Min, Long H. Pham, Yige Li, Jun Sun",2024-11-18T07:52:12Z,http://arxiv.org/pdf/2411.12768v2,"Large Language Models (LLMs) are vulnerable to backdoor attacks that
+manipulate outputs via hidden triggers. Existing defense methods--designed for
+vision/text classification tasks--fail for text generation. We propose Internal
+Consistency Regularization (CROW), a defense leveraging the observation that
+backdoored models exhibit unstable layer-wise hidden representations when
+triggered, while clean models show smooth transitions. CROW enforces
+consistency across layers via adversarial perturbations and regularization
+during finetuning, neutralizing backdoors without requiring clean reference
+models or trigger knowledge--only a small clean dataset. Experiments across
+Llama-2 (7B, 13B), CodeLlama (7B, 13B), and Mistral-7B demonstrate CROW's
+effectiveness: it achieves significant reductions in attack success rates
+across diverse backdoor strategies (sentiment steering, targeted refusal, code
+injection) while preserving generative performance. CROW's
+architecture-agnostic design enables practical deployment.",大语言模型（LLMs）容易受到通过隐藏触发器操纵输出的后门攻击。现有的防御方法--设计用于视觉/文本分类任务--在文本生成中失败。我们提出了内部一致性正则化（CROW），一种防御机制，利用了被后门攻击的模型在触发时展示不稳定的层次隐藏表示，而干净的模型显示平滑过渡的观察。CROW通过对抗性扰动和正则化在微调过程中强制层之间的一致性，中和后门，而不需要干净的参考模型或触发器知识--只需要一个小的干净数据集。跨Llama-2（7B、13B）、CodeLlama（7B、13B）和Mistral-7B的实验证明了CROW的有效性：它在多种后门策略（情感引导、有针对性的拒绝、代码注入）下显著降低了攻击成功率，同时保留了生成性能。CROW的架构无关设计使其能够实用部署。,"The paper introduces CROW, a defense mechanism that neutralizes backdoor attacks in LLMs by enforcing internal consistency across layers during fine-tuning.",LLM,Negative,Defense,"Backdoor attacks, Large Language Models, Defense, Internal Consistency Regularization, CROW"

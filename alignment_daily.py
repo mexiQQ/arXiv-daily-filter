@@ -59,7 +59,9 @@ def query_mistral(prompt):
 # === 主执行流程
 if __name__ == "__main__":
     print("🔍 Fetching arXiv alignment papers...")
-    xml_data = fetch_arxiv_metadata("cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG")
+    # xml_data = fetch_arxiv_metadata_old("cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG")
+    # papers = parse_arxiv_feed_old(xml_data)
+    xml_data = fetch_arxiv_metadata()
     papers = parse_arxiv_feed(xml_data)
 
     # cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.CV+OR+cat:cs.CY+OR+cat:cs.CR+OR+cat:cs.LG
