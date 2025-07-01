@@ -1,0 +1,23 @@
+🔍 Fetching arXiv alignment papers...
+🔍 Fetching RSS feed from: https://rss.arxiv.org/rss/cs.AI+cs.CL+cs.CV+cs.CY+cs.CR+cs.LG
+✅ Fetched 0 papers from arXiv cat:cs.AI OR cat:cs.CL OR cat:cs.CV OR cat:cs.CY OR cat:cs.CR OR cat:cs.LG.
+
+✅ Saved 0 relevant papers to ./archive/llm_alignment_papers_20250628.csv
+
+📦 Processing CSV: ./archive/llm_alignment_papers_20250628.csv
+✅ Created Notion page: Papers_20250628
+✅ Created Notion database inside page: Papers_20250628
+✅ Added 2 blocks.
+
+🎉 All done! View your full page in Notion.
+❌ Failed to send Slack message: name 'paper' is not defined
+🔍 Fetching arXiv backdoor papers...
+🔍 Fetching RSS feed from: https://rss.arxiv.org/rss/cs.AI+cs.CL+cs.CV+cs.CY+cs.CR+cs.LG
+✅ Fetched 0 papers.
+
+✅ Saved 0 relevant papers to ./archive/llm_backdoor_papers_20250628.csv
+✅ Created Notion page: Backdoor_Papers_20250628
+✅ Created Notion database: Backdoor_Papers_20250628
+✅ Uploaded 2 blocks
+🎉 Done. View in Notion.
+❌ Failed to send Slack message: name 'paper' is not defined

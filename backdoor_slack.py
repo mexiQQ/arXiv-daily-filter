@@ -67,7 +67,7 @@ def format_paper_digest_summary(papers: list) -> str:
     if len(papers) == 0:
         return "No backdoor-related papers found today."
 
-    selected = random.sample(papers, min(len(papers), 10))
+    selected = random.sample(papers, min(len(papers), 5))
 
     header = (
         "*🛡️ Backdoor Digest Summary*\n"

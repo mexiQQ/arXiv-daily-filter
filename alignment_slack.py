@@ -81,7 +81,7 @@ def format_paper_digest_summary(papers: list) -> str:
     if len(papers) == 0:
         return "No papers available for summary."
 
-    selected = random.sample(papers, min(len(papers), 10))
+    selected = random.sample(papers, min(len(papers), 5))
 
     header = (
         "*👋 Hello there!*\n"
